@@ -29,5 +29,9 @@
     "sha256": "f41ea8d712130a7c49a479dab079fb90530bf10307f4ff712fdb630bd9e819a5",
     "summary": "results/confirmation/QSC_BENCH_V1_SUMMARY.json"
   },
-  "submission_state": "benchmark proposed upstream; result ingestion awaits benchmark and provider-path acceptance"
+  "submission_state": "benchmark proposed upstream; result ingestion awaits benchmark and provider-path acceptance",
+  "upstream_review": {
+    "metriq_data_issue": "https://github.com/unitaryfoundation/metriq-data/issues/530",
+    "metriq_gym_issue": "https://github.com/unitaryfoundation/metriq-gym/issues/803"
+  }
 }

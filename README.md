@@ -155,6 +155,10 @@ The repository contains a QSC benchmark schema, a local Aer adapter, 17
 hardware candidate result envelopes, and every underlying result package. The
 local adapter completed dispatch/poll smoke tests.
 
+Public review is open in
+[Metriq Gym issue 803](https://github.com/unitaryfoundation/metriq-gym/issues/803)
+and [Metriq Data issue 530](https://github.com/unitaryfoundation/metriq-data/issues/530).
+
 QSC-Bench is adaptive: measurement result `p_t` is required before command
 `u_(t+1)` can be constructed. Metriq's current remote execution paths are
 batch-oriented, so hardware ingestion requires an upstream adaptive state-machine

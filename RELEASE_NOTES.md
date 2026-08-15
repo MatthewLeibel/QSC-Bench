@@ -36,6 +36,9 @@ Metriq Data ingestion awaits acceptance of the new benchmark and an auditable
 adaptive remote execution path. The public records must not be described as
 Metriq-hosted until that upstream review is complete.
 
+Review threads: [Metriq Gym #803](https://github.com/unitaryfoundation/metriq-gym/issues/803)
+and [Metriq Data #530](https://github.com/unitaryfoundation/metriq-data/issues/530).
+
 ## Claim boundary
 
 “Flat” means bounded sequential acquisition depth over the tested simulator
