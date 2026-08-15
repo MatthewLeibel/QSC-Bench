@@ -1,0 +1,2906 @@
+{
+  "analysis_git_commit": "d3e41288277926ca548858a3046e27414e2734ae",
+  "analysis_git_worktree_dirty": false,
+  "artifact": "QSC-Bench architecture projection",
+  "created_at_utc": "2026-08-14T09:22:13.458272+00:00",
+  "duration_sensitivity": [
+    {
+      "acquisition_latency_seconds": 1e-06,
+      "minimum_width_for_dense_fd_best_case": 863999999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_days",
+      "target_seconds": 864000.0
+    },
+    {
+      "acquisition_latency_seconds": 1e-06,
+      "minimum_width_for_dense_fd_best_case": 1727999999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "20_days",
+      "target_seconds": 1728000.0
+    },
+    {
+      "acquisition_latency_seconds": 1e-06,
+      "minimum_width_for_dense_fd_best_case": 315575999999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_years",
+      "target_seconds": 315576000.0
+    },
+    {
+      "acquisition_latency_seconds": 1e-06,
+      "minimum_width_for_dense_fd_best_case": 6311519999999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "200_years",
+      "target_seconds": 6311520000.0
+    },
+    {
+      "acquisition_latency_seconds": 1e-05,
+      "minimum_width_for_dense_fd_best_case": 86399999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_days",
+      "target_seconds": 864000.0
+    },
+    {
+      "acquisition_latency_seconds": 1e-05,
+      "minimum_width_for_dense_fd_best_case": 172799999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "20_days",
+      "target_seconds": 1728000.0
+    },
+    {
+      "acquisition_latency_seconds": 1e-05,
+      "minimum_width_for_dense_fd_best_case": 31557599999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_years",
+      "target_seconds": 315576000.0
+    },
+    {
+      "acquisition_latency_seconds": 1e-05,
+      "minimum_width_for_dense_fd_best_case": 631151999999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "200_years",
+      "target_seconds": 6311520000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.0001,
+      "minimum_width_for_dense_fd_best_case": 8639999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_days",
+      "target_seconds": 864000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.0001,
+      "minimum_width_for_dense_fd_best_case": 17279999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "20_days",
+      "target_seconds": 1728000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.0001,
+      "minimum_width_for_dense_fd_best_case": 3155759999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_years",
+      "target_seconds": 315576000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.0001,
+      "minimum_width_for_dense_fd_best_case": 63115199999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "200_years",
+      "target_seconds": 6311520000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.001,
+      "minimum_width_for_dense_fd_best_case": 863999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_days",
+      "target_seconds": 864000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.001,
+      "minimum_width_for_dense_fd_best_case": 1727999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "20_days",
+      "target_seconds": 1728000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.001,
+      "minimum_width_for_dense_fd_best_case": 315575999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_years",
+      "target_seconds": 315576000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.001,
+      "minimum_width_for_dense_fd_best_case": 6311519999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "200_years",
+      "target_seconds": 6311520000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.1,
+      "minimum_width_for_dense_fd_best_case": 8639996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_days",
+      "target_seconds": 864000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.1,
+      "minimum_width_for_dense_fd_best_case": 17279996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "20_days",
+      "target_seconds": 1728000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.1,
+      "minimum_width_for_dense_fd_best_case": 3155759996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_years",
+      "target_seconds": 315576000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.1,
+      "minimum_width_for_dense_fd_best_case": 63115199996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "200_years",
+      "target_seconds": 6311520000.0
+    }
+  ],
+  "interface_bandwidth_scenarios_bytes_per_second": [
+    1000000000.0,
+    10000000000.0,
+    100000000000.0,
+    1000000000000.0
+  ],
+  "measured_anchor_summary": [
+    {
+      "anchor_rule": "worst successful measured run; no failed run is imputed",
+      "controller": "anderson_residual",
+      "failures": 0,
+      "largest_measured_width": 65536,
+      "largest_width_host_seconds_per_channel_p95": 2.7248976488536397e-06,
+      "largest_width_state_bytes_per_channel": 128.0,
+      "observed_acquisition_max": 33,
+      "observed_acquisition_median": 11.0,
+      "observed_acquisition_min": 9,
+      "observed_widths": [
+        16,
+        64,
+        256,
+        1024,
+        4096,
+        16384,
+        65536
+      ],
+      "projection_anchor_acquisitions": 33,
+      "projection_condition": "Hypothetical no-growth continuation of the measured acquisition-depth envelope. It is not evidence at unmeasured widths.",
+      "runs": 210,
+      "success_rate": 1.0,
+      "successes": 210
+    },
+    {
+      "anchor_rule": "worst successful measured run; no failed run is imputed",
+      "controller": "retained_residual",
+      "failures": 0,
+      "largest_measured_width": 65536,
+      "largest_width_host_seconds_per_channel_p95": 1.665175038523258e-06,
+      "largest_width_state_bytes_per_channel": 48.0,
+      "observed_acquisition_max": 20,
+      "observed_acquisition_median": 12.0,
+      "observed_acquisition_min": 8,
+      "observed_widths": [
+        16,
+        64,
+        256,
+        1024,
+        4096,
+        16384,
+        65536
+      ],
+      "projection_anchor_acquisitions": 20,
+      "projection_condition": "Hypothetical no-growth continuation of the measured acquisition-depth envelope. It is not evidence at unmeasured widths.",
+      "runs": 210,
+      "success_rate": 1.0,
+      "successes": 210
+    }
+  ],
+  "projection_anchor_policy": "Structurally qualifying cold-start candidates are projected only when every source-bundle record succeeded. A controller with any observed timeout is not extrapolated, even if some of its runs succeeded.",
+  "projection_rows": [
+    {
+      "methods": [
+        {
+          "evidence_kind": "projection anchored to measured benchmark runs",
+          "full_vector_values_per_acquisition": 65536,
+          "host_arithmetic": "O(n)",
+          "host_projection_rule": "linear continuation of the 95th percentile measured total host time per channel at the largest executed width; cache and bandwidth regime changes can make this optimistic",
+          "host_state": "O(n) total; O(1) per channel",
+          "local_monitor_plus_actuation_bytes_per_cycle": 262144,
+          "method": "anderson_residual",
+          "projected_host_seconds": 0.17857889231527213,
+          "resource_class": "minimal-sufficient cold-start candidate",
+          "sequential_acquisitions": 33,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "33 us",
+              "acquisition_only_seconds": 3.2999999999999996e-05,
+              "acquisition_plus_projected_host_seconds": 0.17861189231527214,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 0.18726264431527212,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.008650752
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.17947696751527212,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.0008650752
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.17869839983527214,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 8.650752e-05
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.17862054306727213,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 8.650752e-06
+                }
+              ],
+              "interface_total_bytes": 8650752,
+              "projected_host_seconds": 0.17857889231527213,
+              "sequential_acquisitions": 33
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "330 us",
+              "acquisition_only_seconds": 0.00033000000000000005,
+              "acquisition_plus_projected_host_seconds": 0.17890889231527213,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 0.18755964431527214,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.008650752
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.17977396751527214,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.0008650752
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.17899539983527213,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 8.650752e-05
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.17891754306727214,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 8.650752e-06
+                }
+              ],
+              "interface_total_bytes": 8650752,
+              "projected_host_seconds": 0.17857889231527213,
+              "sequential_acquisitions": 33
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "3.3 ms",
+              "acquisition_only_seconds": 0.0033,
+              "acquisition_plus_projected_host_seconds": 0.18187889231527213,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 0.19052964431527214,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.008650752
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.18274396751527214,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.0008650752
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.18196539983527213,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 8.650752e-05
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.18188754306727212,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 8.650752e-06
+                }
+              ],
+              "interface_total_bytes": 8650752,
+              "projected_host_seconds": 0.17857889231527213,
+              "sequential_acquisitions": 33
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "33 ms",
+              "acquisition_only_seconds": 0.033,
+              "acquisition_plus_projected_host_seconds": 0.21157889231527213,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 0.22022964431527214,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.008650752
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.21244396751527214,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.0008650752
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.21166539983527213,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 8.650752e-05
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.21158754306727212,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 8.650752e-06
+                }
+              ],
+              "interface_total_bytes": 8650752,
+              "projected_host_seconds": 0.17857889231527213,
+              "sequential_acquisitions": 33
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "3.3 s",
+              "acquisition_only_seconds": 3.3000000000000003,
+              "acquisition_plus_projected_host_seconds": 3.4785788923152725,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 3.4872296443152724,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.008650752
+                },
+                {
+                  "acquisition_interface_host_seconds": 3.4794439675152726,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.0008650752
+                },
+                {
+                  "acquisition_interface_host_seconds": 3.4786653998352723,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 8.650752e-05
+                },
+                {
+                  "acquisition_interface_host_seconds": 3.4785875430672726,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 8.650752e-06
+                }
+              ],
+              "interface_total_bytes": 8650752,
+              "projected_host_seconds": 0.17857889231527213,
+              "sequential_acquisitions": 33
+            }
+          ]
+        },
+        {
+          "evidence_kind": "projection anchored to measured benchmark runs",
+          "full_vector_values_per_acquisition": 65536,
+          "host_arithmetic": "O(n)",
+          "host_projection_rule": "linear continuation of the 95th percentile measured total host time per channel at the largest executed width; cache and bandwidth regime changes can make this optimistic",
+          "host_state": "O(n) total; O(1) per channel",
+          "local_monitor_plus_actuation_bytes_per_cycle": 262144,
+          "method": "retained_residual",
+          "projected_host_seconds": 0.10912891132466024,
+          "resource_class": "minimal-sufficient cold-start candidate",
+          "sequential_acquisitions": 20,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "20 us",
+              "acquisition_only_seconds": 1.9999999999999998e-05,
+              "acquisition_plus_projected_host_seconds": 0.10914891132466024,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 0.11439179132466024,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.00524288
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.10967319932466024,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.000524288
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.10920134012466023,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 5.24288e-05
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.10915415420466024,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 5.24288e-06
+                }
+              ],
+              "interface_total_bytes": 5242880,
+              "projected_host_seconds": 0.10912891132466024,
+              "sequential_acquisitions": 20
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "200 us",
+              "acquisition_only_seconds": 0.0002,
+              "acquisition_plus_projected_host_seconds": 0.10932891132466024,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 0.11457179132466024,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.00524288
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.10985319932466024,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.000524288
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.10938134012466023,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 5.24288e-05
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.10933415420466024,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 5.24288e-06
+                }
+              ],
+              "interface_total_bytes": 5242880,
+              "projected_host_seconds": 0.10912891132466024,
+              "sequential_acquisitions": 20
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "2 ms",
+              "acquisition_only_seconds": 0.002,
+              "acquisition_plus_projected_host_seconds": 0.11112891132466024,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 0.11637179132466025,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.00524288
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.11165319932466024,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.000524288
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.11118134012466024,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 5.24288e-05
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.11113415420466023,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 5.24288e-06
+                }
+              ],
+              "interface_total_bytes": 5242880,
+              "projected_host_seconds": 0.10912891132466024,
+              "sequential_acquisitions": 20
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "20 ms",
+              "acquisition_only_seconds": 0.02,
+              "acquisition_plus_projected_host_seconds": 0.12912891132466023,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 0.13437179132466023,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.00524288
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.12965319932466024,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.000524288
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.12918134012466023,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 5.24288e-05
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.12913415420466023,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 5.24288e-06
+                }
+              ],
+              "interface_total_bytes": 5242880,
+              "projected_host_seconds": 0.10912891132466024,
+              "sequential_acquisitions": 20
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "2 s",
+              "acquisition_only_seconds": 2.0,
+              "acquisition_plus_projected_host_seconds": 2.1091289113246603,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 2.1143717913246602,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.00524288
+                },
+                {
+                  "acquisition_interface_host_seconds": 2.10965319932466,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.000524288
+                },
+                {
+                  "acquisition_interface_host_seconds": 2.1091813401246604,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 5.24288e-05
+                },
+                {
+                  "acquisition_interface_host_seconds": 2.10913415420466,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 5.24288e-06
+                }
+              ],
+              "interface_total_bytes": 5242880,
+              "projected_host_seconds": 0.10912891132466024,
+              "sequential_acquisitions": 20
+            }
+          ]
+        },
+        {
+          "commissioning_acquisitions": 65537,
+          "confirmation_acquisitions": 3,
+          "dense_float64_jacobian_bytes": 34359738368,
+          "evidence_kind": "structural lower bound, not an executed large-width run",
+          "full_vector_values_per_acquisition": 65536,
+          "host_arithmetic": "at least O(n^2) to form a dense update; O(n^3) direct solve here",
+          "host_state": "O(n^2)",
+          "method": "dense_finite_difference_best_case_verified",
+          "resource_class": "out of class",
+          "sequential_acquisitions": 65540,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "65.5 ms",
+              "acquisition_only_seconds": 0.06554,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 17.24645776,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 17.18091776
+                },
+                {
+                  "acquisition_interface_host_seconds": 1.783631776,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 1.718091776
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.23734917760000002,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.1718091776
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.08272091776,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.01718091776
+                }
+              ],
+              "interface_total_bytes": 17180917760,
+              "sequential_acquisitions": 65540
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "655 ms",
+              "acquisition_only_seconds": 0.6554000000000001,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 17.83631776,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 17.18091776
+                },
+                {
+                  "acquisition_interface_host_seconds": 2.3734917760000003,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 1.718091776
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.8272091776000001,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.1718091776
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.6725809177600001,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.01718091776
+                }
+              ],
+              "interface_total_bytes": 17180917760,
+              "sequential_acquisitions": 65540
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "6.55 s",
+              "acquisition_only_seconds": 6.554,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 23.734917760000002,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 17.18091776
+                },
+                {
+                  "acquisition_interface_host_seconds": 8.272091776,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 1.718091776
+                },
+                {
+                  "acquisition_interface_host_seconds": 6.7258091776,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.1718091776
+                },
+                {
+                  "acquisition_interface_host_seconds": 6.5711809177600005,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.01718091776
+                }
+              ],
+              "interface_total_bytes": 17180917760,
+              "sequential_acquisitions": 65540
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "65.5 s",
+              "acquisition_only_seconds": 65.54,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 82.72091776,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 17.18091776
+                },
+                {
+                  "acquisition_interface_host_seconds": 67.258091776,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 1.718091776
+                },
+                {
+                  "acquisition_interface_host_seconds": 65.7118091776,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.1718091776
+                },
+                {
+                  "acquisition_interface_host_seconds": 65.55718091776001,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.01718091776
+                }
+              ],
+              "interface_total_bytes": 17180917760,
+              "sequential_acquisitions": 65540
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "6.55e+03 s",
+              "acquisition_only_seconds": 6554.0,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 6571.18091776,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 17.18091776
+                },
+                {
+                  "acquisition_interface_host_seconds": 6555.718091776,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 1.718091776
+                },
+                {
+                  "acquisition_interface_host_seconds": 6554.1718091776,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.1718091776
+                },
+                {
+                  "acquisition_interface_host_seconds": 6554.01718091776,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.01718091776
+                }
+              ],
+              "interface_total_bytes": 17180917760,
+              "sequential_acquisitions": 65540
+            }
+          ]
+        },
+        {
+          "confirmation_acquisitions": 3,
+          "evidence_kind": "structural acquisition count, not an executed large-width run",
+          "full_vector_values_per_acquisition": 65536,
+          "host_arithmetic": "O(n)",
+          "host_state": "O(n)",
+          "method": "scheduled_sweep_1024_channels_per_acquisition_best_case",
+          "resource_class": "out of class when sweep width grows",
+          "sequential_acquisitions": 67,
+          "sweep_acquisitions": 64,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "67 us",
+              "acquisition_only_seconds": 6.7e-05,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 0.017630648000000002,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.017563648
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.0018233648,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.0017563648
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.00024263648,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.00017563648
+                },
+                {
+                  "acquisition_interface_host_seconds": 8.4563648e-05,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 1.7563648e-05
+                }
+              ],
+              "interface_total_bytes": 17563648,
+              "sequential_acquisitions": 67
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "670 us",
+              "acquisition_only_seconds": 0.00067,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 0.018233648,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.017563648
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.0024263647999999997,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.0017563648
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.00084563648,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.00017563648
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.000687563648,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 1.7563648e-05
+                }
+              ],
+              "interface_total_bytes": 17563648,
+              "sequential_acquisitions": 67
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "6.7 ms",
+              "acquisition_only_seconds": 0.0067,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 0.024263648000000002,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.017563648
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.0084563648,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.0017563648
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.00687563648,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.00017563648
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.006717563648,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 1.7563648e-05
+                }
+              ],
+              "interface_total_bytes": 17563648,
+              "sequential_acquisitions": 67
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "67 ms",
+              "acquisition_only_seconds": 0.067,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 0.084563648,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.017563648
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.0687563648,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.0017563648
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.06717563648000001,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.00017563648
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.067017563648,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 1.7563648e-05
+                }
+              ],
+              "interface_total_bytes": 17563648,
+              "sequential_acquisitions": 67
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "6.7 s",
+              "acquisition_only_seconds": 6.7,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 6.7175636480000005,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.017563648
+                },
+                {
+                  "acquisition_interface_host_seconds": 6.7017563648000005,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.0017563648
+                },
+                {
+                  "acquisition_interface_host_seconds": 6.70017563648,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.00017563648
+                },
+                {
+                  "acquisition_interface_host_seconds": 6.700017563648,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 1.7563648e-05
+                }
+              ],
+              "interface_total_bytes": 17563648,
+              "sequential_acquisitions": 67
+            }
+          ]
+        }
+      ],
+      "width": 65536
+    },
+    {
+      "methods": [
+        {
+          "evidence_kind": "projection anchored to measured benchmark runs",
+          "full_vector_values_per_acquisition": 1000000,
+          "host_arithmetic": "O(n)",
+          "host_projection_rule": "linear continuation of the 95th percentile measured total host time per channel at the largest executed width; cache and bandwidth regime changes can make this optimistic",
+          "host_state": "O(n) total; O(1) per channel",
+          "local_monitor_plus_actuation_bytes_per_cycle": 4000000,
+          "method": "anderson_residual",
+          "projected_host_seconds": 2.7248976488536396,
+          "resource_class": "minimal-sufficient cold-start candidate",
+          "sequential_acquisitions": 33,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "33 us",
+              "acquisition_only_seconds": 3.2999999999999996e-05,
+              "acquisition_plus_projected_host_seconds": 2.72493064885364,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 2.8569306488536395,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.132
+                },
+                {
+                  "acquisition_interface_host_seconds": 2.7381306488536397,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.0132
+                },
+                {
+                  "acquisition_interface_host_seconds": 2.7262506488536395,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.00132
+                },
+                {
+                  "acquisition_interface_host_seconds": 2.7250626488536396,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.000132
+                }
+              ],
+              "interface_total_bytes": 132000000,
+              "projected_host_seconds": 2.7248976488536396,
+              "sequential_acquisitions": 33
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "330 us",
+              "acquisition_only_seconds": 0.00033000000000000005,
+              "acquisition_plus_projected_host_seconds": 2.7252276488536396,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 2.8572276488536397,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.132
+                },
+                {
+                  "acquisition_interface_host_seconds": 2.7384276488536394,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.0132
+                },
+                {
+                  "acquisition_interface_host_seconds": 2.7265476488536398,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.00132
+                },
+                {
+                  "acquisition_interface_host_seconds": 2.72535964885364,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.000132
+                }
+              ],
+              "interface_total_bytes": 132000000,
+              "projected_host_seconds": 2.7248976488536396,
+              "sequential_acquisitions": 33
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "3.3 ms",
+              "acquisition_only_seconds": 0.0033,
+              "acquisition_plus_projected_host_seconds": 2.7281976488536395,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 2.8601976488536396,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.132
+                },
+                {
+                  "acquisition_interface_host_seconds": 2.74139764885364,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.0132
+                },
+                {
+                  "acquisition_interface_host_seconds": 2.7295176488536397,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.00132
+                },
+                {
+                  "acquisition_interface_host_seconds": 2.7283296488536397,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.000132
+                }
+              ],
+              "interface_total_bytes": 132000000,
+              "projected_host_seconds": 2.7248976488536396,
+              "sequential_acquisitions": 33
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "33 ms",
+              "acquisition_only_seconds": 0.033,
+              "acquisition_plus_projected_host_seconds": 2.7578976488536395,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 2.8898976488536396,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.132
+                },
+                {
+                  "acquisition_interface_host_seconds": 2.7710976488536394,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.0132
+                },
+                {
+                  "acquisition_interface_host_seconds": 2.7592176488536397,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.00132
+                },
+                {
+                  "acquisition_interface_host_seconds": 2.7580296488536398,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.000132
+                }
+              ],
+              "interface_total_bytes": 132000000,
+              "projected_host_seconds": 2.7248976488536396,
+              "sequential_acquisitions": 33
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "3.3 s",
+              "acquisition_only_seconds": 3.3000000000000003,
+              "acquisition_plus_projected_host_seconds": 6.02489764885364,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 6.15689764885364,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.132
+                },
+                {
+                  "acquisition_interface_host_seconds": 6.03809764885364,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.0132
+                },
+                {
+                  "acquisition_interface_host_seconds": 6.02621764885364,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.00132
+                },
+                {
+                  "acquisition_interface_host_seconds": 6.025029648853639,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.000132
+                }
+              ],
+              "interface_total_bytes": 132000000,
+              "projected_host_seconds": 2.7248976488536396,
+              "sequential_acquisitions": 33
+            }
+          ]
+        },
+        {
+          "evidence_kind": "projection anchored to measured benchmark runs",
+          "full_vector_values_per_acquisition": 1000000,
+          "host_arithmetic": "O(n)",
+          "host_projection_rule": "linear continuation of the 95th percentile measured total host time per channel at the largest executed width; cache and bandwidth regime changes can make this optimistic",
+          "host_state": "O(n) total; O(1) per channel",
+          "local_monitor_plus_actuation_bytes_per_cycle": 4000000,
+          "method": "retained_residual",
+          "projected_host_seconds": 1.665175038523258,
+          "resource_class": "minimal-sufficient cold-start candidate",
+          "sequential_acquisitions": 20,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "20 us",
+              "acquisition_only_seconds": 1.9999999999999998e-05,
+              "acquisition_plus_projected_host_seconds": 1.665195038523258,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 1.745195038523258,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.08
+                },
+                {
+                  "acquisition_interface_host_seconds": 1.673195038523258,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.008
+                },
+                {
+                  "acquisition_interface_host_seconds": 1.665995038523258,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.0008
+                },
+                {
+                  "acquisition_interface_host_seconds": 1.665275038523258,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 8e-05
+                }
+              ],
+              "interface_total_bytes": 80000000,
+              "projected_host_seconds": 1.665175038523258,
+              "sequential_acquisitions": 20
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "200 us",
+              "acquisition_only_seconds": 0.0002,
+              "acquisition_plus_projected_host_seconds": 1.665375038523258,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 1.745375038523258,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.08
+                },
+                {
+                  "acquisition_interface_host_seconds": 1.673375038523258,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.008
+                },
+                {
+                  "acquisition_interface_host_seconds": 1.6661750385232579,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.0008
+                },
+                {
+                  "acquisition_interface_host_seconds": 1.665455038523258,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 8e-05
+                }
+              ],
+              "interface_total_bytes": 80000000,
+              "projected_host_seconds": 1.665175038523258,
+              "sequential_acquisitions": 20
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "2 ms",
+              "acquisition_only_seconds": 0.002,
+              "acquisition_plus_projected_host_seconds": 1.667175038523258,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 1.747175038523258,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.08
+                },
+                {
+                  "acquisition_interface_host_seconds": 1.675175038523258,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.008
+                },
+                {
+                  "acquisition_interface_host_seconds": 1.667975038523258,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.0008
+                },
+                {
+                  "acquisition_interface_host_seconds": 1.667255038523258,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 8e-05
+                }
+              ],
+              "interface_total_bytes": 80000000,
+              "projected_host_seconds": 1.665175038523258,
+              "sequential_acquisitions": 20
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "20 ms",
+              "acquisition_only_seconds": 0.02,
+              "acquisition_plus_projected_host_seconds": 1.685175038523258,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 1.765175038523258,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.08
+                },
+                {
+                  "acquisition_interface_host_seconds": 1.693175038523258,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.008
+                },
+                {
+                  "acquisition_interface_host_seconds": 1.685975038523258,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.0008
+                },
+                {
+                  "acquisition_interface_host_seconds": 1.685255038523258,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 8e-05
+                }
+              ],
+              "interface_total_bytes": 80000000,
+              "projected_host_seconds": 1.665175038523258,
+              "sequential_acquisitions": 20
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "2 s",
+              "acquisition_only_seconds": 2.0,
+              "acquisition_plus_projected_host_seconds": 3.665175038523258,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 3.745175038523258,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 0.08
+                },
+                {
+                  "acquisition_interface_host_seconds": 3.673175038523258,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.008
+                },
+                {
+                  "acquisition_interface_host_seconds": 3.665975038523258,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.0008
+                },
+                {
+                  "acquisition_interface_host_seconds": 3.665255038523258,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 8e-05
+                }
+              ],
+              "interface_total_bytes": 80000000,
+              "projected_host_seconds": 1.665175038523258,
+              "sequential_acquisitions": 20
+            }
+          ]
+        },
+        {
+          "commissioning_acquisitions": 1000001,
+          "confirmation_acquisitions": 3,
+          "dense_float64_jacobian_bytes": 8000000000000,
+          "evidence_kind": "structural lower bound, not an executed large-width run",
+          "full_vector_values_per_acquisition": 1000000,
+          "host_arithmetic": "at least O(n^2) to form a dense update; O(n^3) direct solve here",
+          "host_state": "O(n^2)",
+          "method": "dense_finite_difference_best_case_verified",
+          "resource_class": "out of class",
+          "sequential_acquisitions": 1000004,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "1 s",
+              "acquisition_only_seconds": 1.000004,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 4001.016004,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 4000.016
+                },
+                {
+                  "acquisition_interface_host_seconds": 401.001604,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 400.0016
+                },
+                {
+                  "acquisition_interface_host_seconds": 41.000164,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 40.00016
+                },
+                {
+                  "acquisition_interface_host_seconds": 5.000019999999999,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 4.000016
+                }
+              ],
+              "interface_total_bytes": 4000016000000,
+              "sequential_acquisitions": 1000004
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "10 s",
+              "acquisition_only_seconds": 10.00004,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 4010.01604,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 4000.016
+                },
+                {
+                  "acquisition_interface_host_seconds": 410.00164,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 400.0016
+                },
+                {
+                  "acquisition_interface_host_seconds": 50.0002,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 40.00016
+                },
+                {
+                  "acquisition_interface_host_seconds": 14.000056,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 4.000016
+                }
+              ],
+              "interface_total_bytes": 4000016000000,
+              "sequential_acquisitions": 1000004
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "100 s",
+              "acquisition_only_seconds": 100.0004,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 4100.0164,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 4000.016
+                },
+                {
+                  "acquisition_interface_host_seconds": 500.002,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 400.0016
+                },
+                {
+                  "acquisition_interface_host_seconds": 140.00056,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 40.00016
+                },
+                {
+                  "acquisition_interface_host_seconds": 104.000416,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 4.000016
+                }
+              ],
+              "interface_total_bytes": 4000016000000,
+              "sequential_acquisitions": 1000004
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "1e+03 s",
+              "acquisition_only_seconds": 1000.004,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 5000.02,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 4000.016
+                },
+                {
+                  "acquisition_interface_host_seconds": 1400.0056,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 400.0016
+                },
+                {
+                  "acquisition_interface_host_seconds": 1040.00416,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 40.00016
+                },
+                {
+                  "acquisition_interface_host_seconds": 1004.004016,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 4.000016
+                }
+              ],
+              "interface_total_bytes": 4000016000000,
+              "sequential_acquisitions": 1000004
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "1.16 days",
+              "acquisition_only_seconds": 100000.40000000001,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 104000.41600000001,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 4000.016
+                },
+                {
+                  "acquisition_interface_host_seconds": 100400.40160000001,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 400.0016
+                },
+                {
+                  "acquisition_interface_host_seconds": 100040.40016,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 40.00016
+                },
+                {
+                  "acquisition_interface_host_seconds": 100004.40001600001,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 4.000016
+                }
+              ],
+              "interface_total_bytes": 4000016000000,
+              "sequential_acquisitions": 1000004
+            }
+          ]
+        },
+        {
+          "confirmation_acquisitions": 3,
+          "evidence_kind": "structural acquisition count, not an executed large-width run",
+          "full_vector_values_per_acquisition": 1000000,
+          "host_arithmetic": "O(n)",
+          "host_state": "O(n)",
+          "method": "scheduled_sweep_1024_channels_per_acquisition_best_case",
+          "resource_class": "out of class when sweep width grows",
+          "sequential_acquisitions": 980,
+          "sweep_acquisitions": 977,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "980 us",
+              "acquisition_only_seconds": 0.00098,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 3.92098,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 3.92
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.39298,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.392
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.04018,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.0392
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.0049,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.00392
+                }
+              ],
+              "interface_total_bytes": 3920000000,
+              "sequential_acquisitions": 980
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "9.8 ms",
+              "acquisition_only_seconds": 0.009800000000000001,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 3.9297999999999997,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 3.92
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.4018,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.392
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.049,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.0392
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.013720000000000001,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.00392
+                }
+              ],
+              "interface_total_bytes": 3920000000,
+              "sequential_acquisitions": 980
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "98 ms",
+              "acquisition_only_seconds": 0.098,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 4.018,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 3.92
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.49,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.392
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.1372,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.0392
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.10192000000000001,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.00392
+                }
+              ],
+              "interface_total_bytes": 3920000000,
+              "sequential_acquisitions": 980
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "980 ms",
+              "acquisition_only_seconds": 0.98,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 4.9,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 3.92
+                },
+                {
+                  "acquisition_interface_host_seconds": 1.3719999999999999,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.392
+                },
+                {
+                  "acquisition_interface_host_seconds": 1.0191999999999999,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.0392
+                },
+                {
+                  "acquisition_interface_host_seconds": 0.98392,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.00392
+                }
+              ],
+              "interface_total_bytes": 3920000000,
+              "sequential_acquisitions": 980
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "98 s",
+              "acquisition_only_seconds": 98.0,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 101.92,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 3.92
+                },
+                {
+                  "acquisition_interface_host_seconds": 98.392,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.392
+                },
+                {
+                  "acquisition_interface_host_seconds": 98.0392,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.0392
+                },
+                {
+                  "acquisition_interface_host_seconds": 98.00392,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.00392
+                }
+              ],
+              "interface_total_bytes": 3920000000,
+              "sequential_acquisitions": 980
+            }
+          ]
+        }
+      ],
+      "width": 1000000
+    },
+    {
+      "methods": [
+        {
+          "evidence_kind": "projection anchored to measured benchmark runs",
+          "full_vector_values_per_acquisition": 100000000,
+          "host_arithmetic": "O(n)",
+          "host_projection_rule": "linear continuation of the 95th percentile measured total host time per channel at the largest executed width; cache and bandwidth regime changes can make this optimistic",
+          "host_state": "O(n) total; O(1) per channel",
+          "local_monitor_plus_actuation_bytes_per_cycle": 400000000,
+          "method": "anderson_residual",
+          "projected_host_seconds": 272.48976488536397,
+          "resource_class": "minimal-sufficient cold-start candidate",
+          "sequential_acquisitions": 33,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "33 us",
+              "acquisition_only_seconds": 3.2999999999999996e-05,
+              "acquisition_plus_projected_host_seconds": 272.48979788536394,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 285.689797885364,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 13.2
+                },
+                {
+                  "acquisition_interface_host_seconds": 273.809797885364,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 1.32
+                },
+                {
+                  "acquisition_interface_host_seconds": 272.62179788536395,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.132
+                },
+                {
+                  "acquisition_interface_host_seconds": 272.502997885364,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.0132
+                }
+              ],
+              "interface_total_bytes": 13200000000,
+              "projected_host_seconds": 272.48976488536397,
+              "sequential_acquisitions": 33
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "330 us",
+              "acquisition_only_seconds": 0.00033000000000000005,
+              "acquisition_plus_projected_host_seconds": 272.490094885364,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 285.690094885364,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 13.2
+                },
+                {
+                  "acquisition_interface_host_seconds": 273.810094885364,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 1.32
+                },
+                {
+                  "acquisition_interface_host_seconds": 272.622094885364,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.132
+                },
+                {
+                  "acquisition_interface_host_seconds": 272.50329488536397,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.0132
+                }
+              ],
+              "interface_total_bytes": 13200000000,
+              "projected_host_seconds": 272.48976488536397,
+              "sequential_acquisitions": 33
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "3.3 ms",
+              "acquisition_only_seconds": 0.0033,
+              "acquisition_plus_projected_host_seconds": 272.493064885364,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 285.693064885364,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 13.2
+                },
+                {
+                  "acquisition_interface_host_seconds": 273.813064885364,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 1.32
+                },
+                {
+                  "acquisition_interface_host_seconds": 272.62506488536394,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.132
+                },
+                {
+                  "acquisition_interface_host_seconds": 272.506264885364,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.0132
+                }
+              ],
+              "interface_total_bytes": 13200000000,
+              "projected_host_seconds": 272.48976488536397,
+              "sequential_acquisitions": 33
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "33 ms",
+              "acquisition_only_seconds": 0.033,
+              "acquisition_plus_projected_host_seconds": 272.522764885364,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 285.722764885364,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 13.2
+                },
+                {
+                  "acquisition_interface_host_seconds": 273.842764885364,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 1.32
+                },
+                {
+                  "acquisition_interface_host_seconds": 272.654764885364,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.132
+                },
+                {
+                  "acquisition_interface_host_seconds": 272.53596488536397,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.0132
+                }
+              ],
+              "interface_total_bytes": 13200000000,
+              "projected_host_seconds": 272.48976488536397,
+              "sequential_acquisitions": 33
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "3.3 s",
+              "acquisition_only_seconds": 3.3000000000000003,
+              "acquisition_plus_projected_host_seconds": 275.789764885364,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 288.98976488536397,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 13.2
+                },
+                {
+                  "acquisition_interface_host_seconds": 277.109764885364,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 1.32
+                },
+                {
+                  "acquisition_interface_host_seconds": 275.921764885364,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.132
+                },
+                {
+                  "acquisition_interface_host_seconds": 275.80296488536396,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.0132
+                }
+              ],
+              "interface_total_bytes": 13200000000,
+              "projected_host_seconds": 272.48976488536397,
+              "sequential_acquisitions": 33
+            }
+          ]
+        },
+        {
+          "evidence_kind": "projection anchored to measured benchmark runs",
+          "full_vector_values_per_acquisition": 100000000,
+          "host_arithmetic": "O(n)",
+          "host_projection_rule": "linear continuation of the 95th percentile measured total host time per channel at the largest executed width; cache and bandwidth regime changes can make this optimistic",
+          "host_state": "O(n) total; O(1) per channel",
+          "local_monitor_plus_actuation_bytes_per_cycle": 400000000,
+          "method": "retained_residual",
+          "projected_host_seconds": 166.5175038523258,
+          "resource_class": "minimal-sufficient cold-start candidate",
+          "sequential_acquisitions": 20,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "20 us",
+              "acquisition_only_seconds": 1.9999999999999998e-05,
+              "acquisition_plus_projected_host_seconds": 166.5175238523258,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 174.5175238523258,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 8.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 167.3175238523258,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.8
+                },
+                {
+                  "acquisition_interface_host_seconds": 166.5975238523258,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.08
+                },
+                {
+                  "acquisition_interface_host_seconds": 166.5255238523258,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.008
+                }
+              ],
+              "interface_total_bytes": 8000000000,
+              "projected_host_seconds": 166.5175038523258,
+              "sequential_acquisitions": 20
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "200 us",
+              "acquisition_only_seconds": 0.0002,
+              "acquisition_plus_projected_host_seconds": 166.5177038523258,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 174.5177038523258,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 8.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 167.3177038523258,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.8
+                },
+                {
+                  "acquisition_interface_host_seconds": 166.5977038523258,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.08
+                },
+                {
+                  "acquisition_interface_host_seconds": 166.5257038523258,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.008
+                }
+              ],
+              "interface_total_bytes": 8000000000,
+              "projected_host_seconds": 166.5175038523258,
+              "sequential_acquisitions": 20
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "2 ms",
+              "acquisition_only_seconds": 0.002,
+              "acquisition_plus_projected_host_seconds": 166.5195038523258,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 174.5195038523258,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 8.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 167.3195038523258,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.8
+                },
+                {
+                  "acquisition_interface_host_seconds": 166.5995038523258,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.08
+                },
+                {
+                  "acquisition_interface_host_seconds": 166.5275038523258,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.008
+                }
+              ],
+              "interface_total_bytes": 8000000000,
+              "projected_host_seconds": 166.5175038523258,
+              "sequential_acquisitions": 20
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "20 ms",
+              "acquisition_only_seconds": 0.02,
+              "acquisition_plus_projected_host_seconds": 166.5375038523258,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 174.5375038523258,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 8.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 167.3375038523258,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.8
+                },
+                {
+                  "acquisition_interface_host_seconds": 166.6175038523258,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.08
+                },
+                {
+                  "acquisition_interface_host_seconds": 166.5455038523258,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.008
+                }
+              ],
+              "interface_total_bytes": 8000000000,
+              "projected_host_seconds": 166.5175038523258,
+              "sequential_acquisitions": 20
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "2 s",
+              "acquisition_only_seconds": 2.0,
+              "acquisition_plus_projected_host_seconds": 168.5175038523258,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 176.5175038523258,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 8.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 169.3175038523258,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 0.8
+                },
+                {
+                  "acquisition_interface_host_seconds": 168.59750385232581,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 0.08
+                },
+                {
+                  "acquisition_interface_host_seconds": 168.5255038523258,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.008
+                }
+              ],
+              "interface_total_bytes": 8000000000,
+              "projected_host_seconds": 166.5175038523258,
+              "sequential_acquisitions": 20
+            }
+          ]
+        },
+        {
+          "commissioning_acquisitions": 100000001,
+          "confirmation_acquisitions": 3,
+          "dense_float64_jacobian_bytes": 80000000000000000,
+          "evidence_kind": "structural lower bound, not an executed large-width run",
+          "full_vector_values_per_acquisition": 100000000,
+          "host_arithmetic": "at least O(n^2) to form a dense update; O(n^3) direct solve here",
+          "host_state": "O(n^2)",
+          "method": "dense_finite_difference_best_case_verified",
+          "resource_class": "out of class",
+          "sequential_acquisitions": 100000004,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "100 s",
+              "acquisition_only_seconds": 100.00000399999999,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 40000101.600004,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 40000001.6
+                },
+                {
+                  "acquisition_interface_host_seconds": 4000100.160004,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 4000000.16
+                },
+                {
+                  "acquisition_interface_host_seconds": 400100.016004,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 400000.016
+                },
+                {
+                  "acquisition_interface_host_seconds": 40100.001604000005,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 40000.0016
+                }
+              ],
+              "interface_total_bytes": 40000001600000000,
+              "sequential_acquisitions": 100000004
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "1e+03 s",
+              "acquisition_only_seconds": 1000.0000400000001,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 40001001.60004,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 40000001.6
+                },
+                {
+                  "acquisition_interface_host_seconds": 4001000.16004,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 4000000.16
+                },
+                {
+                  "acquisition_interface_host_seconds": 401000.01604,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 400000.016
+                },
+                {
+                  "acquisition_interface_host_seconds": 41000.00164,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 40000.0016
+                }
+              ],
+              "interface_total_bytes": 40000001600000000,
+              "sequential_acquisitions": 100000004
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "1e+04 s",
+              "acquisition_only_seconds": 10000.0004,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 40010001.6004,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 40000001.6
+                },
+                {
+                  "acquisition_interface_host_seconds": 4010000.1604,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 4000000.16
+                },
+                {
+                  "acquisition_interface_host_seconds": 410000.0164,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 400000.016
+                },
+                {
+                  "acquisition_interface_host_seconds": 50000.00200000001,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 40000.0016
+                }
+              ],
+              "interface_total_bytes": 40000001600000000,
+              "sequential_acquisitions": 100000004
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "1.16 days",
+              "acquisition_only_seconds": 100000.004,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 40100001.604,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 40000001.6
+                },
+                {
+                  "acquisition_interface_host_seconds": 4100000.1640000003,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 4000000.16
+                },
+                {
+                  "acquisition_interface_host_seconds": 500000.02,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 400000.016
+                },
+                {
+                  "acquisition_interface_host_seconds": 140000.0056,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 40000.0016
+                }
+              ],
+              "interface_total_bytes": 40000001600000000,
+              "sequential_acquisitions": 100000004
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "116 days",
+              "acquisition_only_seconds": 10000000.4,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 50000002.0,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 40000001.6
+                },
+                {
+                  "acquisition_interface_host_seconds": 14000000.56,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 4000000.16
+                },
+                {
+                  "acquisition_interface_host_seconds": 10400000.416000001,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 400000.016
+                },
+                {
+                  "acquisition_interface_host_seconds": 10040000.4016,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 40000.0016
+                }
+              ],
+              "interface_total_bytes": 40000001600000000,
+              "sequential_acquisitions": 100000004
+            }
+          ]
+        },
+        {
+          "confirmation_acquisitions": 3,
+          "evidence_kind": "structural acquisition count, not an executed large-width run",
+          "full_vector_values_per_acquisition": 100000000,
+          "host_arithmetic": "O(n)",
+          "host_state": "O(n)",
+          "method": "scheduled_sweep_1024_channels_per_acquisition_best_case",
+          "resource_class": "out of class when sweep width grows",
+          "sequential_acquisitions": 97660,
+          "sweep_acquisitions": 97657,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "97.7 ms",
+              "acquisition_only_seconds": 0.09766,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 39064.09766,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 39064.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 3906.49766,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 3906.4
+                },
+                {
+                  "acquisition_interface_host_seconds": 390.73766,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 390.64
+                },
+                {
+                  "acquisition_interface_host_seconds": 39.16166,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 39.064
+                }
+              ],
+              "interface_total_bytes": 39064000000000,
+              "sequential_acquisitions": 97660
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "977 ms",
+              "acquisition_only_seconds": 0.9766000000000001,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 39064.9766,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 39064.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 3907.3766,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 3906.4
+                },
+                {
+                  "acquisition_interface_host_seconds": 391.6166,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 390.64
+                },
+                {
+                  "acquisition_interface_host_seconds": 40.0406,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 39.064
+                }
+              ],
+              "interface_total_bytes": 39064000000000,
+              "sequential_acquisitions": 97660
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "9.77 s",
+              "acquisition_only_seconds": 9.766,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 39073.766,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 39064.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 3916.166,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 3906.4
+                },
+                {
+                  "acquisition_interface_host_seconds": 400.406,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 390.64
+                },
+                {
+                  "acquisition_interface_host_seconds": 48.83,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 39.064
+                }
+              ],
+              "interface_total_bytes": 39064000000000,
+              "sequential_acquisitions": 97660
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "97.7 s",
+              "acquisition_only_seconds": 97.66,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 39161.66,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 39064.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 4004.06,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 3906.4
+                },
+                {
+                  "acquisition_interface_host_seconds": 488.29999999999995,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 390.64
+                },
+                {
+                  "acquisition_interface_host_seconds": 136.724,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 39.064
+                }
+              ],
+              "interface_total_bytes": 39064000000000,
+              "sequential_acquisitions": 97660
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "9.77e+03 s",
+              "acquisition_only_seconds": 9766.0,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 48830.0,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 39064.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 13672.4,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 3906.4
+                },
+                {
+                  "acquisition_interface_host_seconds": 10156.64,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 390.64
+                },
+                {
+                  "acquisition_interface_host_seconds": 9805.064,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 39.064
+                }
+              ],
+              "interface_total_bytes": 39064000000000,
+              "sequential_acquisitions": 97660
+            }
+          ]
+        }
+      ],
+      "width": 100000000
+    },
+    {
+      "methods": [
+        {
+          "evidence_kind": "projection anchored to measured benchmark runs",
+          "full_vector_values_per_acquisition": 10000000000,
+          "host_arithmetic": "O(n)",
+          "host_projection_rule": "linear continuation of the 95th percentile measured total host time per channel at the largest executed width; cache and bandwidth regime changes can make this optimistic",
+          "host_state": "O(n) total; O(1) per channel",
+          "local_monitor_plus_actuation_bytes_per_cycle": 40000000000,
+          "method": "anderson_residual",
+          "projected_host_seconds": 27248.9764885364,
+          "resource_class": "minimal-sufficient cold-start candidate",
+          "sequential_acquisitions": 33,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "33 us",
+              "acquisition_only_seconds": 3.2999999999999996e-05,
+              "acquisition_plus_projected_host_seconds": 27248.9765215364,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 28568.9765215364,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 1320.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 27380.9765215364,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 132.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 27262.1765215364,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 13.2
+                },
+                {
+                  "acquisition_interface_host_seconds": 27250.2965215364,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 1.32
+                }
+              ],
+              "interface_total_bytes": 1320000000000,
+              "projected_host_seconds": 27248.9764885364,
+              "sequential_acquisitions": 33
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "330 us",
+              "acquisition_only_seconds": 0.00033000000000000005,
+              "acquisition_plus_projected_host_seconds": 27248.976818536397,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 28568.976818536397,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 1320.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 27380.976818536397,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 132.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 27262.176818536398,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 13.2
+                },
+                {
+                  "acquisition_interface_host_seconds": 27250.296818536397,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 1.32
+                }
+              ],
+              "interface_total_bytes": 1320000000000,
+              "projected_host_seconds": 27248.9764885364,
+              "sequential_acquisitions": 33
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "3.3 ms",
+              "acquisition_only_seconds": 0.0033,
+              "acquisition_plus_projected_host_seconds": 27248.9797885364,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 28568.9797885364,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 1320.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 27380.9797885364,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 132.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 27262.1797885364,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 13.2
+                },
+                {
+                  "acquisition_interface_host_seconds": 27250.2997885364,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 1.32
+                }
+              ],
+              "interface_total_bytes": 1320000000000,
+              "projected_host_seconds": 27248.9764885364,
+              "sequential_acquisitions": 33
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "33 ms",
+              "acquisition_only_seconds": 0.033,
+              "acquisition_plus_projected_host_seconds": 27249.009488536398,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 28569.009488536398,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 1320.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 27381.009488536398,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 132.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 27262.2094885364,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 13.2
+                },
+                {
+                  "acquisition_interface_host_seconds": 27250.329488536398,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 1.32
+                }
+              ],
+              "interface_total_bytes": 1320000000000,
+              "projected_host_seconds": 27248.9764885364,
+              "sequential_acquisitions": 33
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "3.3 s",
+              "acquisition_only_seconds": 3.3000000000000003,
+              "acquisition_plus_projected_host_seconds": 27252.276488536398,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 28572.276488536398,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 1320.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 27384.276488536398,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 132.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 27265.4764885364,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 13.2
+                },
+                {
+                  "acquisition_interface_host_seconds": 27253.596488536397,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 1.32
+                }
+              ],
+              "interface_total_bytes": 1320000000000,
+              "projected_host_seconds": 27248.9764885364,
+              "sequential_acquisitions": 33
+            }
+          ]
+        },
+        {
+          "evidence_kind": "projection anchored to measured benchmark runs",
+          "full_vector_values_per_acquisition": 10000000000,
+          "host_arithmetic": "O(n)",
+          "host_projection_rule": "linear continuation of the 95th percentile measured total host time per channel at the largest executed width; cache and bandwidth regime changes can make this optimistic",
+          "host_state": "O(n) total; O(1) per channel",
+          "local_monitor_plus_actuation_bytes_per_cycle": 40000000000,
+          "method": "retained_residual",
+          "projected_host_seconds": 16651.75038523258,
+          "resource_class": "minimal-sufficient cold-start candidate",
+          "sequential_acquisitions": 20,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "20 us",
+              "acquisition_only_seconds": 1.9999999999999998e-05,
+              "acquisition_plus_projected_host_seconds": 16651.75040523258,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 17451.75040523258,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 800.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 16731.75040523258,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 80.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 16659.75040523258,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 8.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 16652.550405232578,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.8
+                }
+              ],
+              "interface_total_bytes": 800000000000,
+              "projected_host_seconds": 16651.75038523258,
+              "sequential_acquisitions": 20
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "200 us",
+              "acquisition_only_seconds": 0.0002,
+              "acquisition_plus_projected_host_seconds": 16651.750585232578,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 17451.750585232578,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 800.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 16731.750585232578,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 80.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 16659.750585232578,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 8.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 16652.55058523258,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.8
+                }
+              ],
+              "interface_total_bytes": 800000000000,
+              "projected_host_seconds": 16651.75038523258,
+              "sequential_acquisitions": 20
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "2 ms",
+              "acquisition_only_seconds": 0.002,
+              "acquisition_plus_projected_host_seconds": 16651.75238523258,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 17451.75238523258,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 800.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 16731.75238523258,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 80.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 16659.75238523258,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 8.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 16652.55238523258,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.8
+                }
+              ],
+              "interface_total_bytes": 800000000000,
+              "projected_host_seconds": 16651.75038523258,
+              "sequential_acquisitions": 20
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "20 ms",
+              "acquisition_only_seconds": 0.02,
+              "acquisition_plus_projected_host_seconds": 16651.77038523258,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 17451.77038523258,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 800.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 16731.77038523258,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 80.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 16659.77038523258,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 8.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 16652.57038523258,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.8
+                }
+              ],
+              "interface_total_bytes": 800000000000,
+              "projected_host_seconds": 16651.75038523258,
+              "sequential_acquisitions": 20
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "2 s",
+              "acquisition_only_seconds": 2.0,
+              "acquisition_plus_projected_host_seconds": 16653.75038523258,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 17453.75038523258,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 800.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 16733.75038523258,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 80.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 16661.75038523258,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 8.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 16654.55038523258,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 0.8
+                }
+              ],
+              "interface_total_bytes": 800000000000,
+              "projected_host_seconds": 16651.75038523258,
+              "sequential_acquisitions": 20
+            }
+          ]
+        },
+        {
+          "commissioning_acquisitions": 10000000001,
+          "confirmation_acquisitions": 3,
+          "dense_float64_jacobian_bytes": 800000000000000000000,
+          "evidence_kind": "structural lower bound, not an executed large-width run",
+          "full_vector_values_per_acquisition": 10000000000,
+          "host_arithmetic": "at least O(n^2) to form a dense update; O(n^3) direct solve here",
+          "host_state": "O(n^2)",
+          "method": "dense_finite_difference_best_case_verified",
+          "resource_class": "out of class",
+          "sequential_acquisitions": 10000000004,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "1e+04 s",
+              "acquisition_only_seconds": 10000.000004,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 400000010160.0,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 400000000160.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 40000010016.00001,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 40000000016.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 4000010001.6000037,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 4000000001.6
+                },
+                {
+                  "acquisition_interface_host_seconds": 400010000.16000396,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 400000000.15999997
+                }
+              ],
+              "interface_total_bytes": 400000000160000000000,
+              "sequential_acquisitions": 10000000004
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "1.16 days",
+              "acquisition_only_seconds": 100000.00004000001,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 400000100160.00006,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 400000000160.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 40000100016.00004,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 40000000016.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 4000100001.60004,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 4000000001.6
+                },
+                {
+                  "acquisition_interface_host_seconds": 400100000.16003996,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 400000000.15999997
+                }
+              ],
+              "interface_total_bytes": 400000000160000000000,
+              "sequential_acquisitions": 10000000004
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "11.6 days",
+              "acquisition_only_seconds": 1000000.0004,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 400001000160.0004,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 400000000160.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 40001000016.0004,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 40000000016.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 4001000001.6004,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 4000000001.6
+                },
+                {
+                  "acquisition_interface_host_seconds": 401000000.1604,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 400000000.15999997
+                }
+              ],
+              "interface_total_bytes": 400000000160000000000,
+              "sequential_acquisitions": 10000000004
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "116 days",
+              "acquisition_only_seconds": 10000000.004,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 400010000160.004,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 400000000160.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 40010000016.004,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 40000000016.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 4010000001.604,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 4000000001.6
+                },
+                {
+                  "acquisition_interface_host_seconds": 410000000.164,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 400000000.15999997
+                }
+              ],
+              "interface_total_bytes": 400000000160000000000,
+              "sequential_acquisitions": 10000000004
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "31.7 years",
+              "acquisition_only_seconds": 1000000000.4000001,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 401000000160.4,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 400000000160.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 41000000016.4,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 40000000016.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 5000000002.0,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 4000000001.6
+                },
+                {
+                  "acquisition_interface_host_seconds": 1400000000.56,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 400000000.15999997
+                }
+              ],
+              "interface_total_bytes": 400000000160000000000,
+              "sequential_acquisitions": 10000000004
+            }
+          ]
+        },
+        {
+          "confirmation_acquisitions": 3,
+          "evidence_kind": "structural acquisition count, not an executed large-width run",
+          "full_vector_values_per_acquisition": 10000000000,
+          "host_arithmetic": "O(n)",
+          "host_state": "O(n)",
+          "method": "scheduled_sweep_1024_channels_per_acquisition_best_case",
+          "resource_class": "out of class when sweep width grows",
+          "sequential_acquisitions": 9765628,
+          "sweep_acquisitions": 9765625,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "9.77 s",
+              "acquisition_only_seconds": 9.765628,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 390625129.765628,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 390625120.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 39062521.765628,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 39062512.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 3906260.965628,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 3906251.2
+                },
+                {
+                  "acquisition_interface_host_seconds": 390634.885628,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 390625.12
+                }
+              ],
+              "interface_total_bytes": 390625120000000000,
+              "sequential_acquisitions": 9765628
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "97.7 s",
+              "acquisition_only_seconds": 97.65628000000001,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 390625217.65628,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 390625120.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 39062609.65628,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 39062512.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 3906348.8562800004,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 3906251.2
+                },
+                {
+                  "acquisition_interface_host_seconds": 390722.77628,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 390625.12
+                }
+              ],
+              "interface_total_bytes": 390625120000000000,
+              "sequential_acquisitions": 9765628
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "977 s",
+              "acquisition_only_seconds": 976.5628,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 390626096.5628,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 390625120.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 39063488.5628,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 39062512.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 3907227.7628,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 3906251.2
+                },
+                {
+                  "acquisition_interface_host_seconds": 391601.6828,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 390625.12
+                }
+              ],
+              "interface_total_bytes": 390625120000000000,
+              "sequential_acquisitions": 9765628
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "9.77e+03 s",
+              "acquisition_only_seconds": 9765.628,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 390634885.628,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 390625120.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 39072277.628,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 39062512.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 3916016.828,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 3906251.2
+                },
+                {
+                  "acquisition_interface_host_seconds": 400390.748,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 390625.12
+                }
+              ],
+              "interface_total_bytes": 390625120000000000,
+              "sequential_acquisitions": 9765628
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "11.3 days",
+              "acquisition_only_seconds": 976562.8,
+              "bandwidth_scenarios": [
+                {
+                  "acquisition_interface_host_seconds": 391601682.8,
+                  "bandwidth_bytes_per_second": 1000000000.0,
+                  "interface_seconds": 390625120.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 40039074.8,
+                  "bandwidth_bytes_per_second": 10000000000.0,
+                  "interface_seconds": 39062512.0
+                },
+                {
+                  "acquisition_interface_host_seconds": 4882814.0,
+                  "bandwidth_bytes_per_second": 100000000000.0,
+                  "interface_seconds": 3906251.2
+                },
+                {
+                  "acquisition_interface_host_seconds": 1367187.92,
+                  "bandwidth_bytes_per_second": 1000000000000.0,
+                  "interface_seconds": 390625.12
+                }
+              ],
+              "interface_total_bytes": 390625120000000000,
+              "sequential_acquisitions": 9765628
+            }
+          ]
+        }
+      ],
+      "width": 10000000000
+    }
+  ],
+  "protocol_version": "1.0.0-local-freeze",
+  "resource_ceiling_rows": [
+    {
+      "dense_fd_minimum_commissioning_acquisitions": 65537,
+      "dense_fd_minimum_response_values_returned": 4295032832,
+      "full_broyden_direct_solve": "O(n^3)",
+      "full_broyden_float64_state_bytes": 34361311232,
+      "spsa_probe_acquisitions_per_update": 2,
+      "spsa_warning": "constant probes per update do not imply constant time to contract; the scalar estimator's width dependence is empirical",
+      "width": 65536
+    },
+    {
+      "dense_fd_minimum_commissioning_acquisitions": 1000001,
+      "dense_fd_minimum_response_values_returned": 1000001000000,
+      "full_broyden_direct_solve": "O(n^3)",
+      "full_broyden_float64_state_bytes": 8000024000000,
+      "spsa_probe_acquisitions_per_update": 2,
+      "spsa_warning": "constant probes per update do not imply constant time to contract; the scalar estimator's width dependence is empirical",
+      "width": 1000000
+    },
+    {
+      "dense_fd_minimum_commissioning_acquisitions": 100000001,
+      "dense_fd_minimum_response_values_returned": 10000000100000000,
+      "full_broyden_direct_solve": "O(n^3)",
+      "full_broyden_float64_state_bytes": 80000002400000000,
+      "spsa_probe_acquisitions_per_update": 2,
+      "spsa_warning": "constant probes per update do not imply constant time to contract; the scalar estimator's width dependence is empirical",
+      "width": 100000000
+    },
+    {
+      "dense_fd_minimum_commissioning_acquisitions": 10000000001,
+      "dense_fd_minimum_response_values_returned": 100000000010000000000,
+      "full_broyden_direct_solve": "O(n^3)",
+      "full_broyden_float64_state_bytes": 800000000240000000000,
+      "spsa_probe_acquisitions_per_update": 2,
+      "spsa_warning": "constant probes per update do not imply constant time to contract; the scalar estimator's width dependence is empirical",
+      "width": 10000000000
+    }
+  ],
+  "semantics": {
+    "flat_quantity": "sequential acquisition depth under the stated no-growth hypothesis",
+    "not_flat": [
+      "full-vector data volume",
+      "host arithmetic",
+      "total controller state",
+      "sensor and actuator count",
+      "actuation energy",
+      "simulator runtime"
+    ],
+    "placement_warning": "The 2n-value maintenance frame remains local only when the maintenance layer is placed beside the plant. If it crosses the workload host boundary, routing closure must be checked separately.",
+    "time_formula": "T_acquisition_only = A_contract * tau",
+    "total_time_warning": "Acquisition-only time is not end-to-end wall time. Add readout, transport, host/local update, command distribution, and settling unless included in tau."
+  },
+  "source_development_run": false,
+  "source_result_label": "FROZEN CONFIRMATION",
+  "source_result_path": "results/confirmation/scale_confirmation_v1.json",
+  "source_result_sha256": "120ba465ed552acfec7772a7460a85c0839070ad4869f10a0028e252c978b085"
+}

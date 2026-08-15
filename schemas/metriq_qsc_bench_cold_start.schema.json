@@ -1,0 +1,31 @@
+{
+  "$id": "metriq-gym/qsc_bench_cold_start.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QSC-Bench Cold Start",
+  "description": "Draft local-Aer adaptive time-to-contract benchmark.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "benchmark_name": {"type": "string", "const": "QSC-Bench Cold Start"},
+    "width": {"type": "integer", "minimum": 1, "maximum": 24, "default": 4},
+    "seed": {"type": "integer", "minimum": 0, "default": 20260813},
+    "controller": {
+      "type": "string",
+      "enum": ["do_nothing", "retained_residual", "diagonal_secant", "commissioned_pi", "dense_fd", "oracle"],
+      "default": "retained_residual"
+    },
+    "shots": {"type": "integer", "minimum": 1, "default": 1024},
+    "reference_shots": {"type": "integer", "minimum": 1, "default": 8192},
+    "monitor_rmse_tolerance": {"type": "number", "minimum": 0.000001, "default": 0.025},
+    "consecutive_acquisitions": {"type": "integer", "minimum": 1, "default": 3},
+    "payload_drop_tolerance": {"type": "number", "minimum": 0, "maximum": 0.999999, "default": 0.03},
+    "max_monitor_acquisitions": {"type": "integer", "minimum": 3, "default": 24},
+    "projected_acquisition_latency_seconds": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "default": 0.001,
+      "description": "Declared physical acquisition/settling latency used only for a labeled time-to-contract projection; Aer runtime is reported separately."
+    }
+  },
+  "required": ["benchmark_name"]
+}

@@ -1,0 +1,13 @@
+{
+  "benchmark_name": "QSC-Bench Cold Start",
+  "width": 4,
+  "seed": 20260813,
+  "controller": "retained_residual",
+  "shots": 256,
+  "reference_shots": 2048,
+  "monitor_rmse_tolerance": 0.04,
+  "consecutive_acquisitions": 2,
+  "payload_drop_tolerance": 0.04,
+  "max_monitor_acquisitions": 18,
+  "projected_acquisition_latency_seconds": 0.001
+}

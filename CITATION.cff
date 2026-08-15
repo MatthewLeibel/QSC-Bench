@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "QSC-Bench: Quantum Stability Contract Benchmark"
+message: "If you use QSC-Bench or its published evidence, cite this software release."
+type: software
+version: 1.0.0
+date-released: 2026-08-14
+license: MIT
+repository-code: "https://github.com/MatthewLeibel/QSC-Bench"
+authors:
+  - family-names: Leibel
+    given-names: Matthew

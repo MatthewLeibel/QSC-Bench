@@ -1,0 +1,48 @@
+{
+  "adaptive_confirmations": [
+    {
+      "backend": "Tuna-9",
+      "provider": "Quantum Inspire",
+      "retained_residual_successes": 3,
+      "retained_residual_trials": 3,
+      "scope": "4 controlled channels, 8 physical qubits, 3 seeds, 75 jobs",
+      "summary_path": "quantum_inspire_tuna9_v1/QSC_TUNA9_HARDWARE_SUMMARY.json",
+      "summary_sha256": "e634675f227f99c69ecb3f4123d487819866c937456b8bc23c193558c14812e6"
+    },
+    {
+      "backend": "Rigetti Cepheus-1-108Q",
+      "provider": "OpenQuantum",
+      "retained_residual_successes": 1,
+      "retained_residual_trials": 1,
+      "scope": "48 controlled channels, 96 physical qubits, 1 seed, 8 jobs",
+      "summary_path": "openquantum_cepheus_96q_single_rx_v3/QSC_CEPHEUS_96Q_HARDWARE_SUMMARY.json",
+      "summary_sha256": "ddcbb8502de4738a11dd3379ae769dc339c15984bf9c89e906d7da183b5d9d17"
+    }
+  ],
+  "claim_boundary": "The real-QPU campaigns establish adaptive finite-width transfer at 4 and 48 controlled channels. The frozen width-scaling inference is from simulator/reduced-model evidence and remains a separate layer.",
+  "combined_decision": "PASS_FINITE_WIDTH_HARDWARE_TRANSFER",
+  "date": "2026-08-14",
+  "hardware_scaling_exponent": "NOT_ESTABLISHED",
+  "negative_and_blocked_evidence": {
+    "entries": 6,
+    "index_path": "openquantum_development_evidence/OPENQUANTUM_DEVELOPMENT_EVIDENCE_INDEX.json",
+    "index_sha256": "ca13cc813e9c3a5d140876a5b60972ccab4eac6b8ddfae72825578a100bdbe61"
+  },
+  "publication_state": "public evidence package",
+  "schema_version": "qsc-hardware-evidence-index-v2",
+  "static_diagnostics": [
+    {
+      "backend": "Rigetti Cepheus-1-108Q",
+      "provider": "OpenQuantum",
+      "summary_path": "openquantum_static_crosscheck_v1/OPENQUANTUM_STATIC_CROSSCHECK_SUMMARY.json",
+      "summary_sha256": "d8816b60192beb9db0a7825c8c462f97d7cb4f96bd4b594e0e74bb056455b3f0"
+    },
+    {
+      "backend": "IQM Emerald",
+      "decision": "PASS",
+      "provider": "OpenQuantum",
+      "summary_path": "openquantum_iqm_emerald_command_effect_v1/OPENQUANTUM_EMERALD_COMMAND_EFFECT_SUMMARY.json",
+      "summary_sha256": "fafeb261b826f226115f6b493d44f47544254e15a68c375b99fec42026042515"
+    }
+  ]
+}

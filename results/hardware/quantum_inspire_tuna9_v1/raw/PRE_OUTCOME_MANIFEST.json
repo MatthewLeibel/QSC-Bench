@@ -1,0 +1,31 @@
+{
+  "files": {
+    "tuna9_commissioned_pi_seed_1411640080.py": "d2d807a204972d2ce8f4549bc42e746dfb51a7e1c8ec8a744d8d46fad8c0cf34",
+    "tuna9_commissioned_pi_seed_1568158650.py": "402ef44401807eeb4026ee07fa263777699b805e686cc68c2706bde05ff0c1e6",
+    "tuna9_commissioned_pi_seed_492734311.py": "e7bb47b9b7a7694b88b505a3da4a7c263f666c53765f6bf411cfbcfd333c851d",
+    "tuna9_contract_reference.cq": "ab31842c1a18d1f0fb01293ee04f031373977ab51398a041724aea8f55c7279f",
+    "tuna9_dense_fd_seed_1411640080.py": "eec58c73c43cac69ec579e561bf2a04a8c780a287ed5eab85fd3099315ceb1c7",
+    "tuna9_dense_fd_seed_1568158650.py": "774ad47144f8c42d23010666c768dbaf8dca65ee741c7339d8719daa933a37b3",
+    "tuna9_dense_fd_seed_492734311.py": "1a5f291e3c45e50cfc6d10fc20ed2cb42461c1e165ed81e7c8a093f3d47fe817",
+    "tuna9_diagonal_secant_seed_1411640080.py": "a12c4de43c25ba0b4a26e6f02e25ffa507022c2f09c197cd6312544bf00fd380",
+    "tuna9_diagonal_secant_seed_1568158650.py": "d662e6d60b253febcb05600f01587c509a766c6c486c1e20cf3e735ce7197422",
+    "tuna9_diagonal_secant_seed_492734311.py": "270443585c2f4a87308892f0862ef7a6503e32dadfacdffa92667775104e1521",
+    "tuna9_do_nothing_seed_1411640080.py": "bf623a831a0c2f8a30d06999fa431385214a8036081058d7cd7882fc86057a3e",
+    "tuna9_do_nothing_seed_1568158650.py": "35b152fd76163757d80508bcc2369594e568b98e2edf894bd48f13d0558b776a",
+    "tuna9_do_nothing_seed_492734311.py": "bfb4e4970a81de42bbc77eb0cf5cdf3163f48bd2d353f9a9fc14cd243a345dac",
+    "tuna9_retained_residual_seed_1411640080.py": "80dc02c8cacd43268d757e5fb2453d4c0f842f2deafc47760e3a5021964266ab",
+    "tuna9_retained_residual_seed_1568158650.py": "eded2684cb3def18432957a17b0c1fc971eea120043d18aa5e1337606321bfb6",
+    "tuna9_retained_residual_seed_492734311.py": "c9c931a9fe21a8911612bdace5bc57aeeaadd613073929e5f9c6d50dab1cffb4"
+  },
+  "generated_before_pilot_outcome": true,
+  "payload_reference_bitwise_zero": 0.931671142578125,
+  "payload_threshold": 0.831671142578125,
+  "protocol_commit": "4c01ede",
+  "reference_job_id": 1283728,
+  "reference_monitor_target": [
+    0.5050048828125,
+    0.4866943359375,
+    0.4642333984375,
+    0.4942626953125
+  ]
+}

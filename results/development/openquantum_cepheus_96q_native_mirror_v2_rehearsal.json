@@ -1,0 +1,763 @@
+{
+  "circuit": {
+    "classical_bits": 96,
+    "logical_depth_before_provider_compilation": 4,
+    "operation_counts_before_provider_compilation": {
+      "h": 96,
+      "measure": 96,
+      "rx": 96,
+      "rz": 96
+    },
+    "physical_qubits": 96
+  },
+  "completed_at": "2026-08-14T18:16:28.117610+00:00",
+  "confirmation_seed_evaluated": false,
+  "development_seeds": [
+    2026082301,
+    2026082302,
+    2026082303,
+    2026082304,
+    2026082305,
+    2026082306,
+    2026082307,
+    2026082308,
+    2026082309,
+    2026082310,
+    2026082311,
+    2026082312,
+    2026082313,
+    2026082314,
+    2026082315,
+    2026082316,
+    2026082317,
+    2026082318,
+    2026082319,
+    2026082320
+  ],
+  "model": "exact factorized single-qubit blocks with 3.5% symmetric readout flips",
+  "model_limit": "logic rehearsal only; not a calibrated Cepheus predictor",
+  "peak_rss_raw_platform_units": 70467584,
+  "runs": [
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.03816423762947333,
+      "final_payload_bitwise_zero": 0.9504903157552084,
+      "seed": 2026082301
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.0387181041048912,
+      "final_payload_bitwise_zero": 0.9510091145833334,
+      "seed": 2026082302
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.0423366993081585,
+      "final_payload_bitwise_zero": 0.95098876953125,
+      "seed": 2026082303
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.03800355527375074,
+      "final_payload_bitwise_zero": 0.94976806640625,
+      "seed": 2026082304
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.04139437715183071,
+      "final_payload_bitwise_zero": 0.9468790690104166,
+      "seed": 2026082305
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.044034683339150706,
+      "final_payload_bitwise_zero": 0.941070556640625,
+      "seed": 2026082306
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.046270391934742874,
+      "final_payload_bitwise_zero": 0.9456685384114584,
+      "seed": 2026082307
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.03937986515405034,
+      "final_payload_bitwise_zero": 0.9491170247395834,
+      "seed": 2026082308
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.04538444420058167,
+      "final_payload_bitwise_zero": 0.946014404296875,
+      "seed": 2026082309
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.041802740428230026,
+      "final_payload_bitwise_zero": 0.9472554524739584,
+      "seed": 2026082310
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.0417708247399579,
+      "final_payload_bitwise_zero": 0.948333740234375,
+      "seed": 2026082311
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.03796177374821595,
+      "final_payload_bitwise_zero": 0.950927734375,
+      "seed": 2026082312
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.0406488641925084,
+      "final_payload_bitwise_zero": 0.949462890625,
+      "seed": 2026082313
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.03696809611920544,
+      "final_payload_bitwise_zero": 0.9510498046875,
+      "seed": 2026082314
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.03986288870120242,
+      "final_payload_bitwise_zero": 0.9464111328125,
+      "seed": 2026082315
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.039997296142586354,
+      "final_payload_bitwise_zero": 0.9531656901041666,
+      "seed": 2026082316
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.04133169311427425,
+      "final_payload_bitwise_zero": 0.9485066731770834,
+      "seed": 2026082317
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.04154792396203465,
+      "final_payload_bitwise_zero": 0.9471944173177084,
+      "seed": 2026082318
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.03931706450243408,
+      "final_payload_bitwise_zero": 0.9502970377604166,
+      "seed": 2026082319
+    },
+    {
+      "arm": "retained_residual",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.0386658557869851,
+      "final_payload_bitwise_zero": 0.9364217122395834,
+      "seed": 2026082320
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.026395429391838674,
+      "final_payload_bitwise_zero": 0.9597880045572916,
+      "seed": 2026082301
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.02510239770336625,
+      "final_payload_bitwise_zero": 0.9595133463541666,
+      "seed": 2026082302
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.027562853048980006,
+      "final_payload_bitwise_zero": 0.9587605794270834,
+      "seed": 2026082303
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.025014189825719433,
+      "final_payload_bitwise_zero": 0.9565531412760416,
+      "seed": 2026082304
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.02755717590419228,
+      "final_payload_bitwise_zero": 0.9586893717447916,
+      "seed": 2026082305
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.031830560585084676,
+      "final_payload_bitwise_zero": 0.9550374348958334,
+      "seed": 2026082306
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.028615530921587255,
+      "final_payload_bitwise_zero": 0.9565836588541666,
+      "seed": 2026082307
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.021119104853201443,
+      "final_payload_bitwise_zero": 0.961578369140625,
+      "seed": 2026082308
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.0246508496087128,
+      "final_payload_bitwise_zero": 0.958984375,
+      "seed": 2026082309
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.028169868142457317,
+      "final_payload_bitwise_zero": 0.9567057291666666,
+      "seed": 2026082310
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.026546200257771584,
+      "final_payload_bitwise_zero": 0.9576416015625,
+      "seed": 2026082311
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.052844556450776355,
+      "final_payload_bitwise_zero": 0.9400227864583334,
+      "seed": 2026082312
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.034414664417304265,
+      "final_payload_bitwise_zero": 0.9538370768229166,
+      "seed": 2026082313
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.022848571407699022,
+      "final_payload_bitwise_zero": 0.9598592122395834,
+      "seed": 2026082314
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.02437802516064483,
+      "final_payload_bitwise_zero": 0.9573160807291666,
+      "seed": 2026082315
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.02068302450336289,
+      "final_payload_bitwise_zero": 0.9620463053385416,
+      "seed": 2026082316
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.03012887215955505,
+      "final_payload_bitwise_zero": 0.9571126302083334,
+      "seed": 2026082317
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.033549576926370867,
+      "final_payload_bitwise_zero": 0.95513916015625,
+      "seed": 2026082318
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.028813851948848272,
+      "final_payload_bitwise_zero": 0.95648193359375,
+      "seed": 2026082319
+    },
+    {
+      "arm": "diagonal_secant",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.029723389999725215,
+      "final_payload_bitwise_zero": 0.948486328125,
+      "seed": 2026082320
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.020543748160775022,
+      "final_payload_bitwise_zero": 0.9621480305989584,
+      "seed": 2026082301
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.021829548801378957,
+      "final_payload_bitwise_zero": 0.960479736328125,
+      "seed": 2026082302
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.0241964175717455,
+      "final_payload_bitwise_zero": 0.96051025390625,
+      "seed": 2026082303
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.030133158221481503,
+      "final_payload_bitwise_zero": 0.9552103678385416,
+      "seed": 2026082304
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.021385659666271047,
+      "final_payload_bitwise_zero": 0.9610595703125,
+      "seed": 2026082305
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.03529056745676659,
+      "final_payload_bitwise_zero": 0.9505411783854166,
+      "seed": 2026082306
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.029386510420038873,
+      "final_payload_bitwise_zero": 0.9582316080729166,
+      "seed": 2026082307
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.027215840122436934,
+      "final_payload_bitwise_zero": 0.95843505859375,
+      "seed": 2026082308
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.03456207004714277,
+      "final_payload_bitwise_zero": 0.9541829427083334,
+      "seed": 2026082309
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.02731212421918174,
+      "final_payload_bitwise_zero": 0.9573974609375,
+      "seed": 2026082310
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.026488789028350012,
+      "final_payload_bitwise_zero": 0.957977294921875,
+      "seed": 2026082311
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.03062310855240556,
+      "final_payload_bitwise_zero": 0.9546101888020834,
+      "seed": 2026082312
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.03022598320997557,
+      "final_payload_bitwise_zero": 0.9556376139322916,
+      "seed": 2026082313
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.03285188581781576,
+      "final_payload_bitwise_zero": 0.9548136393229166,
+      "seed": 2026082314
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.026222396596995098,
+      "final_payload_bitwise_zero": 0.9561767578125,
+      "seed": 2026082315
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.026604794508043587,
+      "final_payload_bitwise_zero": 0.9608357747395834,
+      "seed": 2026082316
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.030547511361624705,
+      "final_payload_bitwise_zero": 0.9583028157552084,
+      "seed": 2026082317
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.0248697104461036,
+      "final_payload_bitwise_zero": 0.957855224609375,
+      "seed": 2026082318
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.017465299990138277,
+      "final_payload_bitwise_zero": 0.96221923828125,
+      "seed": 2026082319
+    },
+    {
+      "arm": "commissioned_pi",
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "final_monitor_rmse": 0.02528859693530584,
+      "final_payload_bitwise_zero": 0.9437459309895834,
+      "seed": 2026082320
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.1948489473817771,
+      "final_payload_bitwise_zero": 0.665618896484375,
+      "seed": 2026082301
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.1930179214120648,
+      "final_payload_bitwise_zero": 0.666534423828125,
+      "seed": 2026082302
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.18558541951622093,
+      "final_payload_bitwise_zero": 0.709991455078125,
+      "seed": 2026082303
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.18548268328775094,
+      "final_payload_bitwise_zero": 0.6909281412760416,
+      "seed": 2026082304
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.19415610985305978,
+      "final_payload_bitwise_zero": 0.6702473958333334,
+      "seed": 2026082305
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.19509687601192444,
+      "final_payload_bitwise_zero": 0.681793212890625,
+      "seed": 2026082306
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.18740357462690974,
+      "final_payload_bitwise_zero": 0.6991678873697916,
+      "seed": 2026082307
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.19489342552612882,
+      "final_payload_bitwise_zero": 0.6658833821614584,
+      "seed": 2026082308
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.19030987483543663,
+      "final_payload_bitwise_zero": 0.6832987467447916,
+      "seed": 2026082309
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.1949893184939731,
+      "final_payload_bitwise_zero": 0.6675008138020834,
+      "seed": 2026082310
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.19193657567339834,
+      "final_payload_bitwise_zero": 0.6739603678385416,
+      "seed": 2026082311
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.18836310204840417,
+      "final_payload_bitwise_zero": 0.684112548828125,
+      "seed": 2026082312
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.19301246580325315,
+      "final_payload_bitwise_zero": 0.6717529296875,
+      "seed": 2026082313
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.18793841604777678,
+      "final_payload_bitwise_zero": 0.705047607421875,
+      "seed": 2026082314
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.19476143981541882,
+      "final_payload_bitwise_zero": 0.6859334309895834,
+      "seed": 2026082315
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.19399980008223153,
+      "final_payload_bitwise_zero": 0.6566365559895834,
+      "seed": 2026082316
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.19168958647837972,
+      "final_payload_bitwise_zero": 0.6936543782552084,
+      "seed": 2026082317
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.18949202829602113,
+      "final_payload_bitwise_zero": 0.692840576171875,
+      "seed": 2026082318
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.191121596862221,
+      "final_payload_bitwise_zero": 0.6861979166666666,
+      "seed": 2026082319
+    },
+    {
+      "arm": "do_nothing",
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "final_monitor_rmse": 0.1811618579652121,
+      "final_payload_bitwise_zero": 0.7184041341145834,
+      "seed": 2026082320
+    }
+  ],
+  "runtime_seconds": 61.17196269199485,
+  "schema_version": "qsc-openquantum-native-mirror-development-rehearsal-v2",
+  "started_at": "2026-08-14T18:15:26.925640+00:00",
+  "summary": {
+    "commissioned_pi": {
+      "entry_acquisitions_successes_only": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "median_entry_acquisition_successes_only": 4.0,
+      "median_final_monitor_rmse": 0.02691031731524026,
+      "median_final_payload_bitwise_zero": 0.957916259765625,
+      "successes": 20,
+      "trials": 20
+    },
+    "diagonal_secant": {
+      "entry_acquisitions_successes_only": [
+        4
+      ],
+      "median_entry_acquisition_successes_only": 4,
+      "median_final_monitor_rmse": 0.027560014476586143,
+      "median_final_payload_bitwise_zero": 0.95721435546875,
+      "successes": 1,
+      "trials": 20
+    },
+    "do_nothing": {
+      "entry_acquisitions_successes_only": [],
+      "median_entry_acquisition_successes_only": null,
+      "median_final_monitor_rmse": 0.191813081075889,
+      "median_final_payload_bitwise_zero": 0.6837056477864583,
+      "successes": 0,
+      "trials": 20
+    },
+    "retained_residual": {
+      "entry_acquisitions_successes_only": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "median_entry_acquisition_successes_only": 4.0,
+      "median_final_monitor_rmse": 0.040323080167547376,
+      "median_final_payload_bitwise_zero": 0.9488118489583334,
+      "successes": 20,
+      "trials": 20
+    }
+  }
+}

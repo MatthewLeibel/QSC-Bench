@@ -1,0 +1,16 @@
+The benchmark code, plant models, baselines, result records, schemas, and public
+reference implementation in this repository are MIT licensed.
+
+The TrueLoop hosted runtime and licensed offline build are proprietary software.
+They are not included in this repository. The retained-residual controller here
+is an independent manuscript-level implementation. It is not the hosted runtime,
+the licensed offline build, or a claim of numerical identity with either.
+
+Certain subject matter may be covered by pending patent applications. This
+repository does not contain patent drafts, credentials, private provider data,
+or unpublished hosted-runtime implementation details. The MIT license governs
+the files in this repository; no rights to TrueLoop or NEOTECH trademarks,
+hosted services, or software not present here are granted by this notice.
+
+Hardware evidence produced through OpenQuantum must preserve the attribution
+specified at https://www.openquantum.com/citation.

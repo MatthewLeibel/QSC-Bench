@@ -1,0 +1,69 @@
+{
+  "backend": "Rigetti Cepheus-1-108Q",
+  "correct_shift_directions": 4,
+  "credit_balance_after": {
+    "full_credits": 0,
+    "spark_credits": 23
+  },
+  "decision": "PASS",
+  "evidence_scope": "Single-acquisition cross-provider component-observability and circuit-portability check; not adaptive control, convergence, drift hold, or scale.",
+  "execution_plan": "Public Plan",
+  "ideal_one_marginals": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.6714489037277257,
+    0.3285510962722743,
+    0.8025932028680198,
+    0.19740679713198023
+  ],
+  "job_id": "89ba127b-163e-4f57-96f5-ff4c09e0a324",
+  "marginal_residuals": [
+    0.2080078125,
+    0.0546875,
+    -0.015625,
+    0.080078125,
+    -0.0405895287277257,
+    0.0835582787277257,
+    -0.06626507786801983,
+    0.03501507786801977
+  ],
+  "marginal_rmse": 0.09162507261595906,
+  "minimum_correct_shift_directions": 3,
+  "observed_one_marginals": [
+    0.7080078125,
+    0.5546875,
+    0.484375,
+    0.580078125,
+    0.630859375,
+    0.412109375,
+    0.736328125,
+    0.232421875
+  ],
+  "phase_offsets_radians": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.35,
+    -0.35,
+    0.65,
+    -0.65
+  ],
+  "provider": "OpenQuantum public compute",
+  "publication_state": "local only; owner review required",
+  "queue_priority": "Standard Queue",
+  "required_attribution": "https://www.openquantum.com/citation",
+  "rmse_limit": 0.15,
+  "schema_version": "qsc-openquantum-static-crosscheck-v1",
+  "shifted_channel_direction_checks": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "shots": 1024,
+  "source_sha256": "b8d33eb3e2f1e5122a730cda82793d456f4a188c3e588e089e36c800061a902b",
+  "spark_credit_cost": 1.0
+}

@@ -1,0 +1,8 @@
+# Direct runtime pins used for the 2026-08-13 development smoke runs.
+# Transitive versions are recorded in each result environment manifest.
+jsonschema==4.26.0
+numpy==2.5.2
+pydantic==2.13.4
+qiskit==2.5.2
+qiskit-aer==0.17.2
+

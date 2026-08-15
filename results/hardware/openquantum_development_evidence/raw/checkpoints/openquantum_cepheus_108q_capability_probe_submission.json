@@ -1,0 +1,76 @@
+{
+  "capture_schema": "qsc-openquantum-guarded-submission-v1",
+  "credit_balance_after": {
+    "full_credits": 0,
+    "spark_credits": 21
+  },
+  "credit_balance_before": {
+    "full_credits": 0,
+    "spark_credits": 22
+  },
+  "git_commit": "cfba6c06ab6d11b61f21ca587b13c332ef4b6ca0",
+  "job": {
+    "id": "9cd8cb03-6b88-4142-912d-b783bbfa0a55",
+    "job_preparation_id": "2fe9271c-893a-4cca-8a7a-30d6116b99ae",
+    "status": "Created",
+    "submitted_at": "2026-08-14T17:10:09.474Z"
+  },
+  "preparation": {
+    "id": "2fe9271c-893a-4cca-8a7a-30d6116b99ae",
+    "quote": [
+      {
+        "execution_plan_id": "072f7eb6-574b-4bae-aafa-d3399c4abe7a",
+        "name": "Public Plan",
+        "price": 1,
+        "queue_priorities": [
+          {
+            "description": "Normal queue position",
+            "extra": {},
+            "name": "Standard Queue",
+            "price_increase": 0,
+            "queue_priority_id": "0f7b91a3-d1bf-46fb-af9c-55b77fa72bed"
+          },
+          {
+            "description": "Move ahead in queue for faster processing",
+            "extra": {},
+            "name": "Priority Queue",
+            "price_increase": 2,
+            "queue_priority_id": "4ea2b9de-2d20-46d4-b1b5-0b71537a584f"
+          }
+        ]
+      },
+      {
+        "execution_plan_id": "f83fd52f-c691-470f-9521-26b81c4e53bd",
+        "name": "Private Plan",
+        "price": 1,
+        "queue_priorities": [
+          {
+            "description": "Normal queue position",
+            "extra": {},
+            "name": "Standard Queue",
+            "price_increase": 0,
+            "queue_priority_id": "0f7b91a3-d1bf-46fb-af9c-55b77fa72bed"
+          },
+          {
+            "description": "Move ahead in queue for faster processing",
+            "extra": {},
+            "name": "Priority Queue",
+            "price_increase": 2,
+            "queue_priority_id": "4ea2b9de-2d20-46d4-b1b5-0b71537a584f"
+          }
+        ]
+      }
+    ],
+    "shots": 256,
+    "status": "Completed"
+  },
+  "selected": {
+    "plan": "Public Plan",
+    "priority": "Standard Queue",
+    "total_spark_credits": 1
+  },
+  "signed_content_urls_serialized": false,
+  "source_path": "configs/hardware/openquantum_cepheus_108q_capability_probe.qasm",
+  "source_sha256": "903651413c51f17b1c48ff412b31c477cdc916f5670a937786ee8a96cf8edee2",
+  "submitted_at_observed": "2026-08-14T17:10:09.603176+00:00"
+}

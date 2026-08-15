@@ -1,0 +1,42 @@
+{
+  "schema_version": "qsc-hardware-transfer-v1-development",
+  "provider": "Quantum Inspire",
+  "backend_name": "Tuna-9",
+  "backend_type_id": 6,
+  "development_seed": 2026081499,
+  "confirmation_seed_phrase": "QSC-Bench-Tuna9-v1-hardware-confirmation-2026-08-14",
+  "confirmation_seed_phrase_sha256": "e250433b0d3587aecdab8a9703588588a71b3e0162ac0abac4ab4dad750e18a3",
+  "confirmation_seeds": [1411640080, 492734311, 1568158650],
+  "reserve_seeds": [582662097, 1606952049],
+  "arms": [
+    "retained_residual",
+    "diagonal_secant",
+    "commissioned_pi",
+    "dense_fd",
+    "do_nothing"
+  ],
+  "width": 4,
+  "physical_qubits": 9,
+  "monitor_qubits": [2, 4, 5, 7],
+  "payload_qubits": [0, 1, 3, 6],
+  "payload_edges": [[0, 1], [1, 3], [3, 6]],
+  "excluded_qubits": [8],
+  "shots_requested_per_acquisition": 4096,
+  "reference_shots_requested": 8192,
+  "acquisition_deadline": 5,
+  "required_consecutive_ordinary_acquisitions": 2,
+  "monitor_rmse_tolerance": 0.08,
+  "payload_bitwise_zero_absolute_floor": 0.70,
+  "payload_reference_margin": 0.10,
+  "initial_commanded_shock_rms_radians": 0.45,
+  "identification_cycles": 1,
+  "identification_amplitude_radians": 0.15,
+  "reference_controller": {
+    "eta": 0.65,
+    "momentum": 0.15,
+    "estimator_smoothing": 0.50,
+    "gain_floor": 0.15
+  },
+  "scope": "Commanded phase-restoration hardware-in-the-loop benchmark under native QPU noise and drift; no access to provider-private calibration registers.",
+  "publication_state": "local only; do not push or submit without owner approval"
+}

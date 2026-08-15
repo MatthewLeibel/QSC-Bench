@@ -1,0 +1,74 @@
+{
+  "artifact": "QSC-Bench density-matrix/MPS overlap validation",
+  "claim_boundary": "This validates output agreement only on the declared overlap widths and finite-shot samples. It does not validate arbitrary-width MPS or tiled extrapolation.",
+  "commands_per_cell": 3,
+  "config": "configs/mps_scale_development.json",
+  "created_at_utc": "2026-08-14T07:12:04.025081+00:00",
+  "development_run": true,
+  "maximum_declared_difference": 0.01832396968947966,
+  "passed": true,
+  "records": [
+    {
+      "maximum_declared_difference": 0.01832396968947966,
+      "ordinary_response_rmse": [
+        0.007434272450481012,
+        0.013189243942583575,
+        0.011512207766457356
+      ],
+      "passed": true,
+      "payload_bitwise_probability_absolute_difference": 0.0023193359375,
+      "reference_response_rmse": 0.01832396968947966,
+      "seed": 20260813,
+      "width": 4
+    },
+    {
+      "maximum_declared_difference": 0.014255596668035131,
+      "ordinary_response_rmse": [
+        0.009767150759715583,
+        0.014255596668035131,
+        0.004963025231996124
+      ],
+      "passed": true,
+      "payload_bitwise_probability_absolute_difference": 0.0032958984375,
+      "reference_response_rmse": 0.011516090249092534,
+      "seed": 20260814,
+      "width": 4
+    },
+    {
+      "maximum_declared_difference": 0.015144100235223923,
+      "ordinary_response_rmse": [
+        0.01020875709328861,
+        0.015144100235223923,
+        0.011041797901069442
+      ],
+      "passed": true,
+      "payload_bitwise_probability_absolute_difference": 0.008056640625,
+      "reference_response_rmse": 0.009757992622905928,
+      "seed": 20260813,
+      "width": 8
+    },
+    {
+      "maximum_declared_difference": 0.012914958297390424,
+      "ordinary_response_rmse": [
+        0.01180647756055327,
+        0.011108063074436313,
+        0.009263681088820397
+      ],
+      "passed": true,
+      "payload_bitwise_probability_absolute_difference": 0.001983642578125,
+      "reference_response_rmse": 0.012914958297390424,
+      "seed": 20260814,
+      "width": 8
+    }
+  ],
+  "rmse_tolerance": 0.025,
+  "seeds": [
+    20260813,
+    20260814
+  ],
+  "shots": 4096,
+  "widths": [
+    4,
+    8
+  ]
+}

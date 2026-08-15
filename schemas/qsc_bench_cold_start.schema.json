@@ -1,0 +1,113 @@
+{
+  "$id": "qsc-bench/qsc_bench_cold_start.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QSC-Bench Cold Start",
+  "description": "Adaptive time-to-contract benchmark for a drifting component-observable quantum plant.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "benchmark_name": {
+      "type": "string",
+      "const": "QSC-Bench Cold Start"
+    },
+    "protocol_version": {
+      "type": "string",
+      "default": "0.1.0-draft"
+    },
+    "development_run": {
+      "type": "boolean",
+      "default": true
+    },
+    "widths": {
+      "type": "array",
+      "items": {"type": "integer", "minimum": 1},
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "seeds": {
+      "type": "array",
+      "items": {"type": "integer", "minimum": 0},
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "shots": {"type": "integer", "minimum": 1, "default": 1024},
+    "reference_shots": {"type": "integer", "minimum": 1, "default": 8192},
+    "latency_seconds": {
+      "type": "array",
+      "items": {"type": "number", "exclusiveMinimum": 0},
+      "minItems": 1
+    },
+    "plant": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "backend": {"type": "string", "enum": ["aer", "analytic_ring"]},
+        "coupling_radians": {"type": "number", "minimum": 0},
+        "nominal_angle_low": {"type": "number"},
+        "nominal_angle_high": {"type": "number"},
+        "analysis_tilt_radians": {"type": "number", "exclusiveMinimum": 0, "exclusiveMaximum": 3.141592653589793},
+        "gain_low": {"type": "number", "exclusiveMinimum": 0},
+        "gain_high": {"type": "number", "exclusiveMinimum": 0},
+        "simulator_method": {
+          "type": "string",
+          "enum": ["automatic", "statevector", "density_matrix", "matrix_product_state"]
+        },
+        "payload_kind": {
+          "type": "string",
+          "enum": ["entangled_mirror", "local_mirror"]
+        },
+        "payload_error_amplification": {"type": "number", "exclusiveMinimum": 0},
+        "noise": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "one_qubit_depolarizing": {"type": "number", "minimum": 0, "exclusiveMaximum": 1},
+            "two_qubit_depolarizing": {"type": "number", "minimum": 0, "exclusiveMaximum": 1},
+            "readout_flip": {"type": "number", "minimum": 0, "exclusiveMaximum": 1}
+          }
+        },
+        "drift": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "initial_shock_rms": {"type": "number", "minimum": 0},
+            "fast_sigma": {"type": "number", "minimum": 0},
+            "fast_reversion": {"type": "number", "minimum": 0, "maximum": 1},
+            "slow_sigma": {"type": "number", "minimum": 0},
+            "common_mode_fraction": {"type": "number", "minimum": 0, "maximum": 1}
+          }
+        }
+      },
+      "required": ["coupling_radians", "noise", "drift"]
+    },
+    "contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "monitor_rmse_tolerance": {"type": "number", "exclusiveMinimum": 0},
+        "consecutive_acquisitions": {"type": "integer", "minimum": 1},
+        "payload_drop_tolerance": {"type": "number", "minimum": 0, "exclusiveMaximum": 1},
+        "max_monitor_acquisitions": {"type": "integer", "minimum": 1}
+      },
+      "required": ["monitor_rmse_tolerance", "consecutive_acquisitions", "payload_drop_tolerance", "max_monitor_acquisitions"]
+    },
+    "controllers": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "names": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["do_nothing", "retained_residual", "diagonal_secant", "anderson_residual", "full_broyden", "spsa", "commissioned_pi", "dense_fd", "oracle"]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "include_oracle_in_ranking": {"type": "boolean", "default": false}
+      },
+      "required": ["names"]
+    }
+  },
+  "required": ["benchmark_name", "widths", "seeds", "shots", "reference_shots", "plant", "contract", "controllers"]
+}

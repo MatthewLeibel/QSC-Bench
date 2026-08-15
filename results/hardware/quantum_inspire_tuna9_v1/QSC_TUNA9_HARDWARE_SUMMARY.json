@@ -1,0 +1,3600 @@
+{
+  "arm_summary": {
+    "commissioned_pi": {
+      "contract_at_deadline": 3,
+      "contract_successes": 3,
+      "infrastructure_failures": 0,
+      "median_controller_update_seconds_to_contract": 9.112292900681496e-05,
+      "median_entry_acquisition_successes_only": 4.0,
+      "median_final_monitor_rmse": 0.023022797502179334,
+      "median_final_payload_bitwise_zero": 0.9273681640625,
+      "median_provider_execution_seconds_to_contract": 11.898381,
+      "median_provider_execution_seconds_total": 15.233533999999999,
+      "median_provider_job_create_to_finish_seconds_total": 626.431222,
+      "network_retries": 0,
+      "orchestration_resumed_trials": 0,
+      "success_wilson_95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "total_controller_update_seconds": 0.0003554998547770083,
+      "trials": 3
+    },
+    "dense_fd": {
+      "contract_at_deadline": 0,
+      "contract_successes": 0,
+      "infrastructure_failures": 0,
+      "median_controller_update_seconds_to_contract": null,
+      "median_entry_acquisition_successes_only": null,
+      "median_final_monitor_rmse": 0.20080106318342433,
+      "median_final_payload_bitwise_zero": 0.86981201171875,
+      "median_provider_execution_seconds_to_contract": null,
+      "median_provider_execution_seconds_total": 14.873196,
+      "median_provider_job_create_to_finish_seconds_total": 664.1982969999999,
+      "network_retries": 0,
+      "orchestration_resumed_trials": 0,
+      "success_wilson_95": [
+        5.551115123125783e-17,
+        0.5614970317550454
+      ],
+      "total_controller_update_seconds": 0.0004315811675041914,
+      "trials": 3
+    },
+    "diagonal_secant": {
+      "contract_at_deadline": 3,
+      "contract_successes": 3,
+      "infrastructure_failures": 0,
+      "median_controller_update_seconds_to_contract": 0.0001118939253501594,
+      "median_entry_acquisition_successes_only": 4.0,
+      "median_final_monitor_rmse": 0.014880065664484896,
+      "median_final_payload_bitwise_zero": 0.92669677734375,
+      "median_provider_execution_seconds_to_contract": 12.23752,
+      "median_provider_execution_seconds_total": 14.87565,
+      "median_provider_job_create_to_finish_seconds_total": 641.454355,
+      "network_retries": 0,
+      "orchestration_resumed_trials": 0,
+      "success_wilson_95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "total_controller_update_seconds": 0.0003725319402292371,
+      "trials": 3
+    },
+    "do_nothing": {
+      "contract_at_deadline": 0,
+      "contract_successes": 0,
+      "infrastructure_failures": 0,
+      "median_controller_update_seconds_to_contract": null,
+      "median_entry_acquisition_successes_only": null,
+      "median_final_monitor_rmse": 0.20076343590938817,
+      "median_final_payload_bitwise_zero": 0.87872314453125,
+      "median_provider_execution_seconds_to_contract": null,
+      "median_provider_execution_seconds_total": 16.024749,
+      "median_provider_job_create_to_finish_seconds_total": 647.12047,
+      "network_retries": 0,
+      "orchestration_resumed_trials": 0,
+      "success_wilson_95": [
+        5.551115123125783e-17,
+        0.5614970317550454
+      ],
+      "total_controller_update_seconds": 3.258406650274992e-05,
+      "trials": 3
+    },
+    "retained_residual": {
+      "contract_at_deadline": 3,
+      "contract_successes": 3,
+      "infrastructure_failures": 0,
+      "median_controller_update_seconds_to_contract": 0.00015009002527222037,
+      "median_entry_acquisition_successes_only": 4.0,
+      "median_final_monitor_rmse": 0.025124846102115097,
+      "median_final_payload_bitwise_zero": 0.92657470703125,
+      "median_provider_execution_seconds_to_contract": 11.941517000000001,
+      "median_provider_execution_seconds_total": 15.175763,
+      "median_provider_job_create_to_finish_seconds_total": 623.282617,
+      "network_retries": 0,
+      "orchestration_resumed_trials": 0,
+      "success_wilson_95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "total_controller_update_seconds": 0.00048441800754517317,
+      "trials": 3
+    }
+  },
+  "backend": "Tuna-9",
+  "backend_type_id": 6,
+  "confirmation_trials": [
+    {
+      "arm": "commissioned_pi",
+      "capture_completed_at": "2026-08-14T11:56:11.602988+00:00",
+      "client_wall_seconds": 261.142444,
+      "contract_at_deadline": true,
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "controller_update_seconds": 0.00010787794599309564,
+      "controller_update_seconds_to_contract": 9.112292900681496e-05,
+      "direct_job_timings": [
+        {
+          "create_to_finish_seconds": 570.456128,
+          "created_on": "2026-08-14T11:44:25.050464Z",
+          "finished_at": "2026-08-14T11:53:55.506592Z",
+          "provider_result_execution_seconds": 2.945505,
+          "queue_to_finish_seconds": 3.144701,
+          "queued_at": "2026-08-14T11:53:52.361891Z"
+        },
+        {
+          "create_to_finish_seconds": 13.955147,
+          "created_on": "2026-08-14T11:54:09.717741Z",
+          "finished_at": "2026-08-14T11:54:23.672888Z",
+          "provider_result_execution_seconds": 3.139272,
+          "queue_to_finish_seconds": 3.308691,
+          "queued_at": "2026-08-14T11:54:20.364197Z"
+        },
+        {
+          "create_to_finish_seconds": 12.429372,
+          "created_on": "2026-08-14T11:54:41.622320Z",
+          "finished_at": "2026-08-14T11:54:54.051692Z",
+          "provider_result_execution_seconds": 2.929173,
+          "queue_to_finish_seconds": 3.109028,
+          "queued_at": "2026-08-14T11:54:50.942664Z"
+        },
+        {
+          "create_to_finish_seconds": 15.705611,
+          "created_on": "2026-08-14T11:55:13.456863Z",
+          "finished_at": "2026-08-14T11:55:29.162474Z",
+          "provider_result_execution_seconds": 2.994198,
+          "queue_to_finish_seconds": 3.17469,
+          "queued_at": "2026-08-14T11:55:25.987784Z"
+        },
+        {
+          "create_to_finish_seconds": 13.884964,
+          "created_on": "2026-08-14T11:55:46.101854Z",
+          "finished_at": "2026-08-14T11:55:59.986818Z",
+          "provider_result_execution_seconds": 3.001489,
+          "queue_to_finish_seconds": 3.3168,
+          "queued_at": "2026-08-14T11:55:56.670018Z"
+        }
+      ],
+      "discarded_probe_acquisitions": 2,
+      "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+      "final_monitor_rmse": 0.016672767079019248,
+      "final_payload_bitwise_zero": 0.93048095703125,
+      "infrastructure_failures": 0,
+      "minimum_monitor_rmse": 0.013503536926639397,
+      "monitor_rmse_at_entry": 0.013503536926639397,
+      "network_retry_count": 0,
+      "orchestration_resumed": false,
+      "ordinary_acquisitions": 3,
+      "payload_bitwise_zero_at_entry": 0.91961669921875,
+      "provider_execution_seconds_by_acquisition": [
+        2.945505,
+        3.139272,
+        2.929173,
+        2.994198,
+        3.001489
+      ],
+      "provider_execution_seconds_to_contract": 12.008148,
+      "provider_execution_seconds_total": 15.009637,
+      "provider_job_create_to_finish_seconds_to_contract": 612.5462580000001,
+      "provider_job_create_to_finish_seconds_total": 626.431222,
+      "resume_events": [
+        {
+          "acquisition": 1,
+          "action": "attached_existing_job",
+          "job_id": 1283793
+        }
+      ],
+      "seed": 492734311,
+      "selected_job_ids": [
+        1283793,
+        1283800,
+        1283805,
+        1283812,
+        1283818
+      ],
+      "shots_done": 20480,
+      "shots_requested": 20480,
+      "source_sha256": "e7bb47b9b7a7694b88b505a3da4a7c263f666c53765f6bf411cfbcfd333c851d",
+      "structural_minimum_acquisitions_to_confirm": 4,
+      "trace": [
+        {
+          "acquisition": 1,
+          "acquisition_kind": "coded_probe_minus",
+          "command": [
+            0.15,
+            0.15,
+            0.15,
+            0.15
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 2.12349696084857e-05,
+          "hybrid_execute_call_seconds": 133.02275036700303,
+          "monitor_response": [
+            0.69384765625,
+            0.208984375,
+            0.324462890625,
+            0.27587890625
+          ],
+          "monitor_rmse": 0.21213892244407517,
+          "payload_all_zero": 0.6328125,
+          "payload_bitwise_zero": 0.87420654296875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 2,
+          "acquisition_kind": "coded_probe_plus",
+          "command": [
+            -0.15,
+            -0.15,
+            -0.15,
+            -0.15
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 4.5523978769779205e-05,
+          "hybrid_execute_call_seconds": 31.982705320988316,
+          "monitor_response": [
+            0.576904296875,
+            0.103759765625,
+            0.425048828125,
+            0.393310546875
+          ],
+          "monitor_rmse": 0.20219741449117995,
+          "payload_all_zero": 0.62255859375,
+          "payload_bitwise_zero": 0.8619384765625,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 3,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.2541795407098121,
+            0.7157401392111369,
+            -0.20282038834951455,
+            -0.3100041580041579
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.191295450553298e-05,
+          "hybrid_execute_call_seconds": 31.63608877302613,
+          "monitor_response": [
+            0.5283203125,
+            0.47021484375,
+            0.46337890625,
+            0.4638671875
+          ],
+          "monitor_rmse": 0.020855454780158097,
+          "payload_all_zero": 0.7646484375,
+          "payload_bitwise_zero": 0.92510986328125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 4,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.31970354906054277,
+            0.807953596287703,
+            -0.22076941747572815,
+            -0.3934927234927234
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.2451026123017073e-05,
+          "hybrid_execute_call_seconds": 32.51058436901076,
+          "monitor_response": [
+            0.51220703125,
+            0.51171875,
+            0.460693359375,
+            0.50048828125
+          ],
+          "monitor_rmse": 0.013503536926639397,
+          "payload_all_zero": 0.75390625,
+          "payload_bitwise_zero": 0.91961669921875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 5,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.35740083507306886,
+            0.8130556844547564,
+            -0.24495873786407765,
+            -0.41053846153846146
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.675501698628068e-05,
+          "hybrid_execute_call_seconds": 31.9816746939905,
+          "monitor_response": [
+            0.494140625,
+            0.51513671875,
+            0.468017578125,
+            0.50732421875
+          ],
+          "monitor_rmse": 0.016672767079019248,
+          "payload_all_zero": 0.78125,
+          "payload_bitwise_zero": 0.93048095703125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        }
+      ]
+    },
+    {
+      "arm": "dense_fd",
+      "capture_completed_at": "2026-08-14T11:56:23.175350+00:00",
+      "client_wall_seconds": 272.738682,
+      "contract_at_deadline": false,
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "controller_update_seconds": 0.00012363912537693977,
+      "controller_update_seconds_to_contract": null,
+      "direct_job_timings": [
+        {
+          "create_to_finish_seconds": 581.754831,
+          "created_on": "2026-08-14T11:44:24.663945Z",
+          "finished_at": "2026-08-14T11:54:06.418776Z",
+          "provider_result_execution_seconds": 2.745383,
+          "queue_to_finish_seconds": 2.910189,
+          "queued_at": "2026-08-14T11:54:03.508587Z"
+        },
+        {
+          "create_to_finish_seconds": 19.061523,
+          "created_on": "2026-08-14T11:54:20.648294Z",
+          "finished_at": "2026-08-14T11:54:39.709817Z",
+          "provider_result_execution_seconds": 2.823717,
+          "queue_to_finish_seconds": 3.004152,
+          "queued_at": "2026-08-14T11:54:36.705665Z"
+        },
+        {
+          "create_to_finish_seconds": 21.028644,
+          "created_on": "2026-08-14T11:54:53.706243Z",
+          "finished_at": "2026-08-14T11:55:14.734887Z",
+          "provider_result_execution_seconds": 2.865847,
+          "queue_to_finish_seconds": 3.052932,
+          "queued_at": "2026-08-14T11:55:11.681955Z"
+        },
+        {
+          "create_to_finish_seconds": 19.57602,
+          "created_on": "2026-08-14T11:55:25.668223Z",
+          "finished_at": "2026-08-14T11:55:45.244243Z",
+          "provider_result_execution_seconds": 2.814672,
+          "queue_to_finish_seconds": 2.991494,
+          "queued_at": "2026-08-14T11:55:42.252749Z"
+        },
+        {
+          "create_to_finish_seconds": 22.777279,
+          "created_on": "2026-08-14T11:55:57.488913Z",
+          "finished_at": "2026-08-14T11:56:20.266192Z",
+          "provider_result_execution_seconds": 3.46857,
+          "queue_to_finish_seconds": 3.638837,
+          "queued_at": "2026-08-14T11:56:16.627355Z"
+        }
+      ],
+      "discarded_probe_acquisitions": 5,
+      "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+      "final_monitor_rmse": 0.21265913250137672,
+      "final_payload_bitwise_zero": 0.8707275390625,
+      "infrastructure_failures": 0,
+      "minimum_monitor_rmse": 0.1756462850602952,
+      "monitor_rmse_at_entry": null,
+      "network_retry_count": 0,
+      "orchestration_resumed": false,
+      "ordinary_acquisitions": 0,
+      "payload_bitwise_zero_at_entry": null,
+      "provider_execution_seconds_by_acquisition": [
+        2.745383,
+        2.823717,
+        2.865847,
+        2.814672,
+        3.46857
+      ],
+      "provider_execution_seconds_to_contract": null,
+      "provider_execution_seconds_total": 14.718188999999999,
+      "provider_job_create_to_finish_seconds_to_contract": null,
+      "provider_job_create_to_finish_seconds_total": 664.1982969999999,
+      "resume_events": [
+        {
+          "acquisition": 1,
+          "action": "attached_existing_job",
+          "job_id": 1283792
+        }
+      ],
+      "seed": 492734311,
+      "selected_job_ids": [
+        1283792,
+        1283802,
+        1283808,
+        1283815,
+        1283822
+      ],
+      "shots_done": 20480,
+      "shots_requested": 20480,
+      "source_sha256": "1a5f291e3c45e50cfc6d10fc20ed2cb42461c1e165ed81e7c8a093f3d47fe817",
+      "structural_minimum_acquisitions_to_confirm": 7,
+      "trace": [
+        {
+          "acquisition": 1,
+          "acquisition_kind": "dense_base",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 1.5550176613032818e-06,
+          "hybrid_execute_call_seconds": 144.06242793804267,
+          "monitor_response": [
+            0.634521484375,
+            0.15625,
+            0.384521484375,
+            0.336181640625
+          ],
+          "monitor_rmse": 0.19831264352537792,
+          "payload_all_zero": 0.661865234375,
+          "payload_bitwise_zero": 0.88311767578125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 2,
+          "acquisition_kind": "dense_probe_0",
+          "command": [
+            0.15,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 3.5820412449538708e-06,
+          "hybrid_execute_call_seconds": 31.63629872800084,
+          "monitor_response": [
+            0.692626953125,
+            0.1513671875,
+            0.3759765625,
+            0.344482421875
+          ],
+          "monitor_rmse": 0.2108730288279448,
+          "payload_all_zero": 0.63427734375,
+          "payload_bitwise_zero": 0.873291015625,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 3,
+          "acquisition_kind": "dense_probe_1",
+          "command": [
+            0.0,
+            0.15,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 2.72504985332489e-06,
+          "hybrid_execute_call_seconds": 33.40197488601552,
+          "monitor_response": [
+            0.629638671875,
+            0.21240234375,
+            0.366943359375,
+            0.342041015625
+          ],
+          "monitor_rmse": 0.1756462850602952,
+          "payload_all_zero": 0.669677734375,
+          "payload_bitwise_zero": 0.88812255859375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 4,
+          "acquisition_kind": "dense_probe_2",
+          "command": [
+            0.0,
+            0.0,
+            0.15,
+            0.0
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 4.23000892624259e-06,
+          "hybrid_execute_call_seconds": 31.60946739796782,
+          "monitor_response": [
+            0.63623046875,
+            0.154541015625,
+            0.310791015625,
+            0.3212890625
+          ],
+          "monitor_rmse": 0.21272659982404046,
+          "payload_all_zero": 0.624755859375,
+          "payload_bitwise_zero": 0.87255859375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 5,
+          "acquisition_kind": "dense_probe_3",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.15
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 0.00011154700769111514,
+          "hybrid_execute_call_seconds": 32.018813144997694,
+          "monitor_response": [
+            0.64208984375,
+            0.151611328125,
+            0.385498046875,
+            0.285400390625
+          ],
+          "monitor_rmse": 0.21265913250137672,
+          "payload_all_zero": 0.630859375,
+          "payload_bitwise_zero": 0.8707275390625,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        }
+      ]
+    },
+    {
+      "arm": "diagonal_secant",
+      "capture_completed_at": "2026-08-14T11:56:12.477331+00:00",
+      "client_wall_seconds": 261.995418,
+      "contract_at_deadline": true,
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "controller_update_seconds": 0.00012056395644322038,
+      "controller_update_seconds_to_contract": 0.00010520091746002436,
+      "direct_job_timings": [
+        {
+          "create_to_finish_seconds": 565.5952,
+          "created_on": "2026-08-14T11:44:25.066773Z",
+          "finished_at": "2026-08-14T11:53:50.661973Z",
+          "provider_result_execution_seconds": 3.465467,
+          "queue_to_finish_seconds": 3.675606,
+          "queued_at": "2026-08-14T11:53:46.986367Z"
+        },
+        {
+          "create_to_finish_seconds": 19.129373,
+          "created_on": "2026-08-14T11:54:09.680811Z",
+          "finished_at": "2026-08-14T11:54:28.810184Z",
+          "provider_result_execution_seconds": 2.813909,
+          "queue_to_finish_seconds": 3.051909,
+          "queued_at": "2026-08-14T11:54:25.758275Z"
+        },
+        {
+          "create_to_finish_seconds": 17.492651,
+          "created_on": "2026-08-14T11:54:41.988157Z",
+          "finished_at": "2026-08-14T11:54:59.480808Z",
+          "provider_result_execution_seconds": 2.959937,
+          "queue_to_finish_seconds": 3.281919,
+          "queued_at": "2026-08-14T11:54:56.198889Z"
+        },
+        {
+          "create_to_finish_seconds": 20.970933,
+          "created_on": "2026-08-14T11:55:13.611768Z",
+          "finished_at": "2026-08-14T11:55:34.582701Z",
+          "provider_result_execution_seconds": 2.998207,
+          "queue_to_finish_seconds": 3.176164,
+          "queued_at": "2026-08-14T11:55:31.406537Z"
+        },
+        {
+          "create_to_finish_seconds": 18.266198,
+          "created_on": "2026-08-14T11:55:47.018270Z",
+          "finished_at": "2026-08-14T11:56:05.284468Z",
+          "provider_result_execution_seconds": 2.951372,
+          "queue_to_finish_seconds": 3.1299,
+          "queued_at": "2026-08-14T11:56:02.154568Z"
+        }
+      ],
+      "discarded_probe_acquisitions": 0,
+      "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+      "final_monitor_rmse": 0.007327269872294394,
+      "final_payload_bitwise_zero": 0.92730712890625,
+      "infrastructure_failures": 0,
+      "minimum_monitor_rmse": 0.007327269872294394,
+      "monitor_rmse_at_entry": 0.015433569311201307,
+      "network_retry_count": 0,
+      "orchestration_resumed": false,
+      "ordinary_acquisitions": 5,
+      "payload_bitwise_zero_at_entry": 0.92449951171875,
+      "provider_execution_seconds_by_acquisition": [
+        3.465467,
+        2.813909,
+        2.959937,
+        2.998207,
+        2.951372
+      ],
+      "provider_execution_seconds_to_contract": 12.23752,
+      "provider_execution_seconds_total": 15.188892,
+      "provider_job_create_to_finish_seconds_to_contract": 623.1881569999999,
+      "provider_job_create_to_finish_seconds_total": 641.454355,
+      "resume_events": [
+        {
+          "acquisition": 1,
+          "action": "attached_existing_job",
+          "job_id": 1283794
+        }
+      ],
+      "seed": 492734311,
+      "selected_job_ids": [
+        1283794,
+        1283799,
+        1283806,
+        1283813,
+        1283819
+      ],
+      "shots_done": 20480,
+      "shots_requested": 20480,
+      "source_sha256": "270443585c2f4a87308892f0862ef7a6503e32dadfacdffa92667775104e1521",
+      "structural_minimum_acquisitions_to_confirm": 2,
+      "trace": [
+        {
+          "acquisition": 1,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 3.875099355354905e-05,
+          "hybrid_execute_call_seconds": 132.47993619198678,
+          "monitor_response": [
+            0.64404296875,
+            0.14111328125,
+            0.374267578125,
+            0.341796875
+          ],
+          "monitor_rmse": 0.20621440898258847,
+          "payload_all_zero": 0.64794921875,
+          "payload_bitwise_zero": 0.87860107421875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 2,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.15,
+            -0.15,
+            -0.15,
+            -0.15
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 3.450096119195223e-05,
+          "hybrid_execute_call_seconds": 32.76237220602343,
+          "monitor_response": [
+            0.56298828125,
+            0.1044921875,
+            0.436767578125,
+            0.391357421875
+          ],
+          "monitor_rmse": 0.2004896651646213,
+          "payload_all_zero": 0.644287109375,
+          "payload_bitwise_zero": 0.875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 3,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.3126563784129303,
+            0.6,
+            -0.2636516702586207,
+            -0.6980906766069959
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.3338983990252018e-05,
+          "hybrid_execute_call_seconds": 31.72325019101845,
+          "monitor_response": [
+            0.500732421875,
+            0.4150390625,
+            0.4892578125,
+            0.6328125
+          ],
+          "monitor_rmse": 0.0790174060128229,
+          "payload_all_zero": 0.756591796875,
+          "payload_bitwise_zero": 0.9208984375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 4,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.30242181977121785,
+            0.8080232475724715,
+            -0.20254060821791972,
+            -0.32283329886672124
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.860997872427106e-05,
+          "hybrid_execute_call_seconds": 31.997642681992147,
+          "monitor_response": [
+            0.508056640625,
+            0.512939453125,
+            0.451904296875,
+            0.484130859375
+          ],
+          "monitor_rmse": 0.015433569311201307,
+          "payload_all_zero": 0.76953125,
+          "payload_bitwise_zero": 0.92449951171875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 5,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.30707389188108714,
+            0.7517476914503181,
+            -0.2235524116770203,
+            -0.3462736468271674
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.536303898319602e-05,
+          "hybrid_execute_call_seconds": 33.02293033199385,
+          "monitor_response": [
+            0.5087890625,
+            0.497314453125,
+            0.45703125,
+            0.48828125
+          ],
+          "monitor_rmse": 0.007327269872294394,
+          "payload_all_zero": 0.77294921875,
+          "payload_bitwise_zero": 0.92730712890625,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        }
+      ]
+    },
+    {
+      "arm": "do_nothing",
+      "capture_completed_at": "2026-08-14T11:56:22.621340+00:00",
+      "client_wall_seconds": 272.114025,
+      "contract_at_deadline": false,
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "controller_update_seconds": 1.3803073670715094e-05,
+      "controller_update_seconds_to_contract": null,
+      "direct_job_timings": [
+        {
+          "create_to_finish_seconds": 576.516841,
+          "created_on": "2026-08-14T11:44:24.602859Z",
+          "finished_at": "2026-08-14T11:54:01.119700Z",
+          "provider_result_execution_seconds": 3.172677,
+          "queue_to_finish_seconds": 3.338055,
+          "queued_at": "2026-08-14T11:53:57.781645Z"
+        },
+        {
+          "create_to_finish_seconds": 23.051251,
+          "created_on": "2026-08-14T11:54:11.279324Z",
+          "finished_at": "2026-08-14T11:54:34.330575Z",
+          "provider_result_execution_seconds": 2.948381,
+          "queue_to_finish_seconds": 3.113045,
+          "queued_at": "2026-08-14T11:54:31.217530Z"
+        },
+        {
+          "create_to_finish_seconds": 15.683322,
+          "created_on": "2026-08-14T11:54:53.723407Z",
+          "finished_at": "2026-08-14T11:55:09.406729Z",
+          "provider_result_execution_seconds": 3.90671,
+          "queue_to_finish_seconds": 4.100326,
+          "queued_at": "2026-08-14T11:55:05.306403Z"
+        },
+        {
+          "create_to_finish_seconds": 14.541408,
+          "created_on": "2026-08-14T11:55:25.517608Z",
+          "finished_at": "2026-08-14T11:55:40.059016Z",
+          "provider_result_execution_seconds": 2.956897,
+          "queue_to_finish_seconds": 3.196569,
+          "queued_at": "2026-08-14T11:55:36.862447Z"
+        },
+        {
+          "create_to_finish_seconds": 17.327648,
+          "created_on": "2026-08-14T11:55:57.133373Z",
+          "finished_at": "2026-08-14T11:56:14.461021Z",
+          "provider_result_execution_seconds": 3.040084,
+          "queue_to_finish_seconds": 3.216903,
+          "queued_at": "2026-08-14T11:56:11.244118Z"
+        }
+      ],
+      "discarded_probe_acquisitions": 0,
+      "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+      "final_monitor_rmse": 0.20076343590938817,
+      "final_payload_bitwise_zero": 0.87872314453125,
+      "infrastructure_failures": 0,
+      "minimum_monitor_rmse": 0.1980795733603588,
+      "monitor_rmse_at_entry": null,
+      "network_retry_count": 0,
+      "orchestration_resumed": false,
+      "ordinary_acquisitions": 5,
+      "payload_bitwise_zero_at_entry": null,
+      "provider_execution_seconds_by_acquisition": [
+        3.172677,
+        2.948381,
+        3.90671,
+        2.956897,
+        3.040084
+      ],
+      "provider_execution_seconds_to_contract": null,
+      "provider_execution_seconds_total": 16.024749,
+      "provider_job_create_to_finish_seconds_to_contract": null,
+      "provider_job_create_to_finish_seconds_total": 647.12047,
+      "resume_events": [
+        {
+          "acquisition": 1,
+          "action": "attached_existing_job",
+          "job_id": 1283790
+        }
+      ],
+      "seed": 492734311,
+      "selected_job_ids": [
+        1283790,
+        1283801,
+        1283809,
+        1283814,
+        1283821
+      ],
+      "shots_done": 20480,
+      "shots_requested": 20480,
+      "source_sha256": "bfb4e4970a81de42bbc77eb0cf5cdf3163f48bd2d353f9a9fc14cd243a345dac",
+      "structural_minimum_acquisitions_to_confirm": 2,
+      "trace": [
+        {
+          "acquisition": 1,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 6.638991180807352e-06,
+          "hybrid_execute_call_seconds": 133.50210529298056,
+          "monitor_response": [
+            0.64111328125,
+            0.15087890625,
+            0.375244140625,
+            0.3525390625
+          ],
+          "monitor_rmse": 0.19956338281672156,
+          "payload_all_zero": 0.639892578125,
+          "payload_bitwise_zero": 0.876708984375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 2,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 2.1490268409252167e-06,
+          "hybrid_execute_call_seconds": 43.516764798027,
+          "monitor_response": [
+            0.6279296875,
+            0.151123046875,
+            0.3818359375,
+            0.344482421875
+          ],
+          "monitor_rmse": 0.1980795733603588,
+          "payload_all_zero": 0.650390625,
+          "payload_bitwise_zero": 0.87774658203125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 3,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.6060075722634792e-06,
+          "hybrid_execute_call_seconds": 31.690764867991675,
+          "monitor_response": [
+            0.637939453125,
+            0.158447265625,
+            0.37158203125,
+            0.336181640625
+          ],
+          "monitor_rmse": 0.19936877566819086,
+          "payload_all_zero": 0.64404296875,
+          "payload_bitwise_zero": 0.87646484375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 4,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.9900035113096237e-06,
+          "hybrid_execute_call_seconds": 31.757650317973457,
+          "monitor_response": [
+            0.644775390625,
+            0.156494140625,
+            0.381591796875,
+            0.341064453125
+          ],
+          "monitor_rmse": 0.19929080482847933,
+          "payload_all_zero": 0.642578125,
+          "payload_bitwise_zero": 0.87835693359375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 5,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.419044565409422e-06,
+          "hybrid_execute_call_seconds": 31.636378375987988,
+          "monitor_response": [
+            0.646240234375,
+            0.157470703125,
+            0.372802734375,
+            0.337646484375
+          ],
+          "monitor_rmse": 0.20076343590938817,
+          "payload_all_zero": 0.6435546875,
+          "payload_bitwise_zero": 0.87872314453125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        }
+      ]
+    },
+    {
+      "arm": "retained_residual",
+      "capture_completed_at": "2026-08-14T11:56:03.252935+00:00",
+      "client_wall_seconds": 252.887169,
+      "contract_at_deadline": true,
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "controller_update_seconds": 0.00016819301526993513,
+      "controller_update_seconds_to_contract": 0.0001508240238763392,
+      "direct_job_timings": [
+        {
+          "create_to_finish_seconds": 559.996183,
+          "created_on": "2026-08-14T11:44:24.646206Z",
+          "finished_at": "2026-08-14T11:53:44.642389Z",
+          "provider_result_execution_seconds": 2.985844,
+          "queue_to_finish_seconds": 3.14933,
+          "queued_at": "2026-08-14T11:53:41.493059Z"
+        },
+        {
+          "create_to_finish_seconds": 14.788217,
+          "created_on": "2026-08-14T11:53:59.733109Z",
+          "finished_at": "2026-08-14T11:54:14.521326Z",
+          "provider_result_execution_seconds": 2.997239,
+          "queue_to_finish_seconds": 3.162622,
+          "queued_at": "2026-08-14T11:54:11.358704Z"
+        },
+        {
+          "create_to_finish_seconds": 16.423485,
+          "created_on": "2026-08-14T11:54:32.187824Z",
+          "finished_at": "2026-08-14T11:54:48.611309Z",
+          "provider_result_execution_seconds": 3.011654,
+          "queue_to_finish_seconds": 3.173698,
+          "queued_at": "2026-08-14T11:54:45.437611Z"
+        },
+        {
+          "create_to_finish_seconds": 15.062306,
+          "created_on": "2026-08-14T11:55:05.146628Z",
+          "finished_at": "2026-08-14T11:55:20.208934Z",
+          "provider_result_execution_seconds": 2.94678,
+          "queue_to_finish_seconds": 3.137726,
+          "queued_at": "2026-08-14T11:55:17.071208Z"
+        },
+        {
+          "create_to_finish_seconds": 17.012426,
+          "created_on": "2026-08-14T11:55:37.596369Z",
+          "finished_at": "2026-08-14T11:55:54.608795Z",
+          "provider_result_execution_seconds": 3.25673,
+          "queue_to_finish_seconds": 3.425008,
+          "queued_at": "2026-08-14T11:55:51.183787Z"
+        }
+      ],
+      "discarded_probe_acquisitions": 0,
+      "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+      "final_monitor_rmse": 0.03135971835508673,
+      "final_payload_bitwise_zero": 0.9246826171875,
+      "infrastructure_failures": 0,
+      "minimum_monitor_rmse": 0.03135971835508673,
+      "monitor_rmse_at_entry": 0.041773202912938456,
+      "network_retry_count": 0,
+      "orchestration_resumed": false,
+      "ordinary_acquisitions": 5,
+      "payload_bitwise_zero_at_entry": 0.91986083984375,
+      "provider_execution_seconds_by_acquisition": [
+        2.985844,
+        2.997239,
+        3.011654,
+        2.94678,
+        3.25673
+      ],
+      "provider_execution_seconds_to_contract": 11.941517000000001,
+      "provider_execution_seconds_total": 15.198247,
+      "provider_job_create_to_finish_seconds_to_contract": 606.270191,
+      "provider_job_create_to_finish_seconds_total": 623.282617,
+      "resume_events": [
+        {
+          "acquisition": 1,
+          "action": "attached_existing_job",
+          "job_id": 1283791
+        }
+      ],
+      "seed": 492734311,
+      "selected_job_ids": [
+        1283791,
+        1283797,
+        1283804,
+        1283810,
+        1283817
+      ],
+      "shots_done": 20480,
+      "shots_requested": 20480,
+      "source_sha256": "c9c931a9fe21a8911612bdace5bc57aeeaadd613073929e5f9c6d50dab1cffb4",
+      "structural_minimum_acquisitions_to_confirm": 2,
+      "trace": [
+        {
+          "acquisition": 1,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 4.125799750909209e-05,
+          "hybrid_execute_call_seconds": 122.635081199056,
+          "monitor_response": [
+            0.63525390625,
+            0.153076171875,
+            0.385009765625,
+            0.341064453125
+          ],
+          "monitor_rmse": 0.19875359927823025,
+          "payload_all_zero": 0.646484375,
+          "payload_bitwise_zero": 0.8797607421875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 2,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.15,
+            -0.15,
+            -0.15,
+            -0.15
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 6.18200283497572e-05,
+          "hybrid_execute_call_seconds": 32.1580495259841,
+          "monitor_response": [
+            0.5654296875,
+            0.107177734375,
+            0.438232421875,
+            0.394775390625
+          ],
+          "monitor_rmse": 0.19890813360648368,
+          "payload_all_zero": 0.614501953125,
+          "payload_bitwise_zero": 0.86578369140625,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 3,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.3001245504548339,
+            0.909479940034266,
+            -0.23945737683776114,
+            -0.42705695797027166
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 2.964900340884924e-05,
+          "hybrid_execute_call_seconds": 32.84994058200391,
+          "monitor_response": [
+            0.5205078125,
+            0.5556640625,
+            0.481201171875,
+            0.5185546875
+          ],
+          "monitor_rmse": 0.03832482951973002,
+          "payload_all_zero": 0.7548828125,
+          "payload_bitwise_zero": 0.92205810546875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 4,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.3558467515382291,
+            0.9307383949682145,
+            -0.2227722018123941,
+            -0.4235533825648405
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.809699460864067e-05,
+          "hybrid_execute_call_seconds": 33.21418117498979,
+          "monitor_response": [
+            0.502685546875,
+            0.569580078125,
+            0.46826171875,
+            0.503662109375
+          ],
+          "monitor_rmse": 0.041773202912938456,
+          "payload_all_zero": 0.756591796875,
+          "payload_bitwise_zero": 0.91986083984375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 5,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.35936794143211515,
+            0.8240061051324289,
+            -0.21568326463868226,
+            -0.42037211402574354
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.7368991393595934e-05,
+          "hybrid_execute_call_seconds": 32.02073485899018,
+          "monitor_response": [
+            0.4765625,
+            0.53271484375,
+            0.454345703125,
+            0.5244140625
+          ],
+          "monitor_rmse": 0.03135971835508673,
+          "payload_all_zero": 0.76220703125,
+          "payload_bitwise_zero": 0.9246826171875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        }
+      ]
+    },
+    {
+      "arm": "commissioned_pi",
+      "capture_completed_at": "2026-08-14T11:43:14.438543+00:00",
+      "client_wall_seconds": 2127.709013,
+      "contract_at_deadline": true,
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "controller_update_seconds": 0.0001582779223099351,
+      "controller_update_seconds_to_contract": 0.00012182595673948526,
+      "direct_job_timings": [
+        {
+          "create_to_finish_seconds": 209.595567,
+          "created_on": "2026-08-14T11:07:53.913153Z",
+          "finished_at": "2026-08-14T11:11:23.508720Z",
+          "provider_result_execution_seconds": 2.981155,
+          "queue_to_finish_seconds": 3.189391,
+          "queued_at": "2026-08-14T11:11:20.319329Z"
+        },
+        {
+          "create_to_finish_seconds": 289.841828,
+          "created_on": "2026-08-14T11:11:39.969753Z",
+          "finished_at": "2026-08-14T11:16:29.811581Z",
+          "provider_result_execution_seconds": 2.955942,
+          "queue_to_finish_seconds": 3.11434,
+          "queued_at": "2026-08-14T11:16:26.697241Z"
+        },
+        {
+          "create_to_finish_seconds": 291.979592,
+          "created_on": "2026-08-14T11:16:40.748562Z",
+          "finished_at": "2026-08-14T11:21:32.728154Z",
+          "provider_result_execution_seconds": 2.970461,
+          "queue_to_finish_seconds": 4.105481,
+          "queued_at": "2026-08-14T11:21:28.622673Z"
+        },
+        {
+          "create_to_finish_seconds": 262.489161,
+          "created_on": "2026-08-14T11:21:42.912565Z",
+          "finished_at": "2026-08-14T11:26:05.401726Z",
+          "provider_result_execution_seconds": 2.918617,
+          "queue_to_finish_seconds": 3.074791,
+          "queued_at": "2026-08-14T11:26:02.326935Z"
+        },
+        {
+          "create_to_finish_seconds": 1013.080272,
+          "created_on": "2026-08-14T11:26:17.636228Z",
+          "finished_at": "2026-08-14T11:43:10.716500Z",
+          "provider_result_execution_seconds": 3.407359,
+          "queue_to_finish_seconds": 3.56795,
+          "queued_at": "2026-08-14T11:43:07.148550Z"
+        }
+      ],
+      "discarded_probe_acquisitions": 2,
+      "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+      "final_monitor_rmse": 0.03650759593100203,
+      "final_payload_bitwise_zero": 0.924560546875,
+      "infrastructure_failures": 0,
+      "minimum_monitor_rmse": 0.012666522907813246,
+      "monitor_rmse_at_entry": 0.012666522907813246,
+      "network_retry_count": 0,
+      "orchestration_resumed": false,
+      "ordinary_acquisitions": 3,
+      "payload_bitwise_zero_at_entry": 0.92742919921875,
+      "provider_execution_seconds_by_acquisition": [
+        2.981155,
+        2.955942,
+        2.970461,
+        2.918617,
+        3.407359
+      ],
+      "provider_execution_seconds_to_contract": 11.826175,
+      "provider_execution_seconds_total": 15.233533999999999,
+      "provider_job_create_to_finish_seconds_to_contract": 1053.906148,
+      "provider_job_create_to_finish_seconds_total": 2066.98642,
+      "resume_events": [],
+      "seed": 1411640080,
+      "selected_job_ids": [
+        1283761,
+        1283768,
+        1283773,
+        1283779,
+        1283785
+      ],
+      "shots_done": 20480,
+      "shots_requested": 20480,
+      "source_sha256": "d2d807a204972d2ce8f4549bc42e746dfb51a7e1c8ec8a744d8d46fad8c0cf34",
+      "structural_minimum_acquisitions_to_confirm": 4,
+      "trace": [
+        {
+          "acquisition": 1,
+          "acquisition_kind": "coded_probe_minus",
+          "command": [
+            -0.15,
+            -0.15,
+            -0.15,
+            0.15
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 2.7514994144439697e-05,
+          "hybrid_execute_call_seconds": 227.06694601202616,
+          "monitor_response": [
+            0.533935546875,
+            0.634521484375,
+            0.58056640625,
+            0.89208984375
+          ],
+          "monitor_rmse": 0.2205049080399775,
+          "payload_all_zero": 0.620361328125,
+          "payload_bitwise_zero": 0.8714599609375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 2,
+          "acquisition_kind": "coded_probe_plus",
+          "command": [
+            0.15,
+            0.15,
+            0.15,
+            -0.15
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 5.9053010772913694e-05,
+          "hybrid_execute_call_seconds": 300.59397357399575,
+          "monitor_response": [
+            0.387939453125,
+            0.502197265625,
+            0.4453125,
+            0.8173828125
+          ],
+          "monitor_rmse": 0.17227105545169252,
+          "payload_all_zero": 0.686279296875,
+          "payload_bitwise_zero": 0.89410400390625,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 3,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.06881939799331104,
+            0.1407121771217712,
+            0.0821046931407942,
+            -0.75
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.8956954590976238e-05,
+          "hybrid_execute_call_seconds": 302.3431878609699,
+          "monitor_response": [
+            0.517822265625,
+            0.498779296875,
+            0.469482421875,
+            0.593505859375
+          ],
+          "monitor_rmse": 0.050465556182427006,
+          "payload_all_zero": 0.763671875,
+          "payload_bitwise_zero": 0.9241943359375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 4,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.054235785953177254,
+            0.17264391143911437,
+            0.0974350180505415,
+            -1.139735294117647
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.6300997231155634e-05,
+          "hybrid_execute_call_seconds": 272.81235628499417,
+          "monitor_response": [
+            0.493896484375,
+            0.49365234375,
+            0.450439453125,
+            0.4775390625
+          ],
+          "monitor_rmse": 0.012666522907813246,
+          "payload_all_zero": 0.768798828125,
+          "payload_bitwise_zero": 0.92742919921875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 5,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.07543645484949832,
+            0.19738560885608852,
+            0.08136281588447652,
+            -1.1994607843137255
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 3.645196557044983e-05,
+          "hybrid_execute_call_seconds": 1024.7985044380184,
+          "monitor_response": [
+            0.51611328125,
+            0.45751953125,
+            0.469482421875,
+            0.428466796875
+          ],
+          "monitor_rmse": 0.03650759593100203,
+          "payload_all_zero": 0.765869140625,
+          "payload_bitwise_zero": 0.924560546875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        }
+      ]
+    },
+    {
+      "arm": "dense_fd",
+      "capture_completed_at": "2026-08-14T11:43:35.638921+00:00",
+      "client_wall_seconds": 2148.898024,
+      "contract_at_deadline": false,
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "controller_update_seconds": 0.0001475279568694532,
+      "controller_update_seconds_to_contract": null,
+      "direct_job_timings": [
+        {
+          "create_to_finish_seconds": 215.189431,
+          "created_on": "2026-08-14T11:07:53.927768Z",
+          "finished_at": "2026-08-14T11:11:29.117199Z",
+          "provider_result_execution_seconds": 3.24507,
+          "queue_to_finish_seconds": 3.410592,
+          "queued_at": "2026-08-14T11:11:25.706607Z"
+        },
+        {
+          "create_to_finish_seconds": 284.277455,
+          "created_on": "2026-08-14T11:11:39.956465Z",
+          "finished_at": "2026-08-14T11:16:24.233920Z",
+          "provider_result_execution_seconds": 2.897882,
+          "queue_to_finish_seconds": 3.064902,
+          "queued_at": "2026-08-14T11:16:21.169018Z"
+        },
+        {
+          "create_to_finish_seconds": 284.493731,
+          "created_on": "2026-08-14T11:16:40.763651Z",
+          "finished_at": "2026-08-14T11:21:25.257382Z",
+          "provider_result_execution_seconds": 2.984882,
+          "queue_to_finish_seconds": 3.173876,
+          "queued_at": "2026-08-14T11:21:22.083506Z"
+        },
+        {
+          "create_to_finish_seconds": 266.312529,
+          "created_on": "2026-08-14T11:21:44.480842Z",
+          "finished_at": "2026-08-14T11:26:10.793371Z",
+          "provider_result_execution_seconds": 2.950576,
+          "queue_to_finish_seconds": 3.106816,
+          "queued_at": "2026-08-14T11:26:07.686555Z"
+        },
+        {
+          "create_to_finish_seconds": 1016.348266,
+          "created_on": "2026-08-14T11:26:28.666994Z",
+          "finished_at": "2026-08-14T11:43:25.015260Z",
+          "provider_result_execution_seconds": 3.687969,
+          "queue_to_finish_seconds": 3.870937,
+          "queued_at": "2026-08-14T11:43:21.144323Z"
+        }
+      ],
+      "discarded_probe_acquisitions": 5,
+      "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+      "final_monitor_rmse": 0.20080106318342433,
+      "final_payload_bitwise_zero": 0.86981201171875,
+      "infrastructure_failures": 0,
+      "minimum_monitor_rmse": 0.17633854157082132,
+      "monitor_rmse_at_entry": null,
+      "network_retry_count": 0,
+      "orchestration_resumed": false,
+      "ordinary_acquisitions": 0,
+      "payload_bitwise_zero_at_entry": null,
+      "provider_execution_seconds_by_acquisition": [
+        3.24507,
+        2.897882,
+        2.984882,
+        2.950576,
+        3.687969
+      ],
+      "provider_execution_seconds_to_contract": null,
+      "provider_execution_seconds_total": 15.766379,
+      "provider_job_create_to_finish_seconds_to_contract": null,
+      "provider_job_create_to_finish_seconds_total": 2066.621412,
+      "resume_events": [],
+      "seed": 1411640080,
+      "selected_job_ids": [
+        1283762,
+        1283767,
+        1283774,
+        1283780,
+        1283787
+      ],
+      "shots_done": 20480,
+      "shots_requested": 20480,
+      "source_sha256": "eec58c73c43cac69ec579e561bf2a04a8c780a287ed5eab85fd3099315ceb1c7",
+      "structural_minimum_acquisitions_to_confirm": 7,
+      "trace": [
+        {
+          "acquisition": 1,
+          "acquisition_kind": "dense_base",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 1.701992005109787e-06,
+          "hybrid_execute_call_seconds": 226.52903657202842,
+          "monitor_response": [
+            0.466064453125,
+            0.57373046875,
+            0.499267578125,
+            0.8447265625
+          ],
+          "monitor_rmse": 0.1824444856864657,
+          "payload_all_zero": 0.662841796875,
+          "payload_bitwise_zero": 0.886474609375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 2,
+          "acquisition_kind": "dense_probe_0",
+          "command": [
+            0.15,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 3.437977284193039e-06,
+          "hybrid_execute_call_seconds": 301.13824797497364,
+          "monitor_response": [
+            0.383544921875,
+            0.566162109375,
+            0.499755859375,
+            0.8564453125
+          ],
+          "monitor_rmse": 0.19589904450372916,
+          "payload_all_zero": 0.647216796875,
+          "payload_bitwise_zero": 0.879150390625,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 3,
+          "acquisition_kind": "dense_probe_1",
+          "command": [
+            0.0,
+            0.15,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 4.497007466852665e-06,
+          "hybrid_execute_call_seconds": 303.5489192160312,
+          "monitor_response": [
+            0.46533203125,
+            0.485595703125,
+            0.503173828125,
+            0.842529296875
+          ],
+          "monitor_rmse": 0.17633854157082132,
+          "payload_all_zero": 0.668212890625,
+          "payload_bitwise_zero": 0.88995361328125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 4,
+          "acquisition_kind": "dense_probe_2",
+          "command": [
+            0.0,
+            0.0,
+            0.15,
+            0.0
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 4.089029971510172e-06,
+          "hybrid_execute_call_seconds": 283.4619621610036,
+          "monitor_response": [
+            0.464599609375,
+            0.563720703125,
+            0.4501953125,
+            0.85986328125
+          ],
+          "monitor_rmse": 0.1880335765616707,
+          "payload_all_zero": 0.645751953125,
+          "payload_bitwise_zero": 0.87811279296875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 5,
+          "acquisition_kind": "dense_probe_3",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.15
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 0.00013380195014178753,
+          "hybrid_execute_call_seconds": 1034.1259547919617,
+          "monitor_response": [
+            0.4765625,
+            0.5634765625,
+            0.513916015625,
+            0.88427734375
+          ],
+          "monitor_rmse": 0.20080106318342433,
+          "payload_all_zero": 0.621337890625,
+          "payload_bitwise_zero": 0.86981201171875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        }
+      ]
+    },
+    {
+      "arm": "diagonal_secant",
+      "capture_completed_at": "2026-08-14T11:43:22.298113+00:00",
+      "client_wall_seconds": 2135.550269,
+      "contract_at_deadline": true,
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "controller_update_seconds": 0.0001400740584358573,
+      "controller_update_seconds_to_contract": 0.00011647009523585439,
+      "direct_job_timings": [
+        {
+          "create_to_finish_seconds": 203.959854,
+          "created_on": "2026-08-14T11:07:53.845884Z",
+          "finished_at": "2026-08-14T11:11:17.805738Z",
+          "provider_result_execution_seconds": 2.747989,
+          "queue_to_finish_seconds": 2.911773,
+          "queued_at": "2026-08-14T11:11:14.893965Z"
+        },
+        {
+          "create_to_finish_seconds": 285.310429,
+          "created_on": "2026-08-14T11:11:28.273948Z",
+          "finished_at": "2026-08-14T11:16:13.584377Z",
+          "provider_result_execution_seconds": 3.052414,
+          "queue_to_finish_seconds": 3.270794,
+          "queued_at": "2026-08-14T11:16:10.313583Z"
+        },
+        {
+          "create_to_finish_seconds": 290.503074,
+          "created_on": "2026-08-14T11:16:29.226868Z",
+          "finished_at": "2026-08-14T11:21:19.729942Z",
+          "provider_result_execution_seconds": 2.977015,
+          "queue_to_finish_seconds": 3.140138,
+          "queued_at": "2026-08-14T11:21:16.589804Z"
+        },
+        {
+          "create_to_finish_seconds": 265.904379,
+          "created_on": "2026-08-14T11:21:34.059247Z",
+          "finished_at": "2026-08-14T11:25:59.963626Z",
+          "provider_result_execution_seconds": 3.129647,
+          "queue_to_finish_seconds": 3.409155,
+          "queued_at": "2026-08-14T11:25:56.554471Z"
+        },
+        {
+          "create_to_finish_seconds": 1018.899178,
+          "created_on": "2026-08-14T11:26:17.921969Z",
+          "finished_at": "2026-08-14T11:43:16.821147Z",
+          "provider_result_execution_seconds": 2.959111,
+          "queue_to_finish_seconds": 4.072477,
+          "queued_at": "2026-08-14T11:43:12.748670Z"
+        }
+      ],
+      "discarded_probe_acquisitions": 0,
+      "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+      "final_monitor_rmse": 0.01894451021678367,
+      "final_payload_bitwise_zero": 0.92388916015625,
+      "infrastructure_failures": 0,
+      "minimum_monitor_rmse": 0.00972357278858771,
+      "monitor_rmse_at_entry": 0.00972357278858771,
+      "network_retry_count": 0,
+      "orchestration_resumed": false,
+      "ordinary_acquisitions": 5,
+      "payload_bitwise_zero_at_entry": 0.92938232421875,
+      "provider_execution_seconds_by_acquisition": [
+        2.747989,
+        3.052414,
+        2.977015,
+        3.129647,
+        2.959111
+      ],
+      "provider_execution_seconds_to_contract": 11.907065,
+      "provider_execution_seconds_total": 14.866176,
+      "provider_job_create_to_finish_seconds_to_contract": 1045.677736,
+      "provider_job_create_to_finish_seconds_total": 2064.576914,
+      "resume_events": [],
+      "seed": 1411640080,
+      "selected_job_ids": [
+        1283760,
+        1283766,
+        1283772,
+        1283778,
+        1283786
+      ],
+      "shots_done": 20480,
+      "shots_requested": 20480,
+      "source_sha256": "a12c4de43c25ba0b4a26e6f02e25ffa507022c2f09c197cd6312544bf00fd380",
+      "structural_minimum_acquisitions_to_confirm": 2,
+      "trace": [
+        {
+          "acquisition": 1,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 2.3190048523247242e-05,
+          "hybrid_execute_call_seconds": 215.16495247802231,
+          "monitor_response": [
+            0.47607421875,
+            0.5751953125,
+            0.5322265625,
+            0.85888671875
+          ],
+          "monitor_rmse": 0.19120875699258258,
+          "payload_all_zero": 0.661376953125,
+          "payload_bitwise_zero": 0.8868408203125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 2,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.15,
+            0.15,
+            0.15,
+            -0.15
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 5.150999641045928e-05,
+          "hybrid_execute_call_seconds": 300.97796287498204,
+          "monitor_response": [
+            0.394287109375,
+            0.487060546875,
+            0.4482421875,
+            0.81005859375
+          ],
+          "monitor_rmse": 0.16751218445429855,
+          "payload_all_zero": 0.672607421875,
+          "payload_bitwise_zero": 0.8900146484375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 3,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.19381238785979635,
+            0.15105088624740198,
+            0.10171515628071554,
+            -0.9
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 2.261204645037651e-05,
+          "hybrid_execute_call_seconds": 303.0008107480244,
+          "monitor_response": [
+            0.566650390625,
+            0.4951171875,
+            0.472900390625,
+            0.54150390625
+          ],
+          "monitor_rmse": 0.03930000580891962,
+          "payload_all_zero": 0.771728515625,
+          "payload_bitwise_zero": 0.9268798828125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 4,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.06385336400560687,
+            0.14922670634625135,
+            0.11959376855747797,
+            -1.041062402799378
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.9158003851771355e-05,
+          "hybrid_execute_call_seconds": 283.65312040701974,
+          "monitor_response": [
+            0.52001953125,
+            0.494140625,
+            0.457763671875,
+            0.501708984375
+          ],
+          "monitor_rmse": 0.00972357278858771,
+          "payload_all_zero": 0.777099609375,
+          "payload_bitwise_zero": 0.92938232421875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 5,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.03131400536119912,
+            0.146409618397639,
+            0.11120822474625311,
+            -1.062723338156866
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 2.360396320000291e-05,
+          "hybrid_execute_call_seconds": 1032.660346853023,
+          "monitor_response": [
+            0.4736328125,
+            0.505615234375,
+            0.463623046875,
+            0.484619140625
+          ],
+          "monitor_rmse": 0.01894451021678367,
+          "payload_all_zero": 0.759033203125,
+          "payload_bitwise_zero": 0.92388916015625,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        }
+      ]
+    },
+    {
+      "arm": "do_nothing",
+      "capture_completed_at": "2026-08-14T11:30:40.492559+00:00",
+      "client_wall_seconds": 1373.639163,
+      "contract_at_deadline": false,
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "controller_update_seconds": 8.631031960248947e-06,
+      "controller_update_seconds_to_contract": null,
+      "direct_job_timings": [
+        {
+          "create_to_finish_seconds": 198.836346,
+          "created_on": "2026-08-14T11:07:53.834032Z",
+          "finished_at": "2026-08-14T11:11:12.670378Z",
+          "provider_result_execution_seconds": 3.013983,
+          "queue_to_finish_seconds": 3.201781,
+          "queued_at": "2026-08-14T11:11:09.468597Z"
+        },
+        {
+          "create_to_finish_seconds": 290.735061,
+          "created_on": "2026-08-14T11:11:28.261023Z",
+          "finished_at": "2026-08-14T11:16:18.996084Z",
+          "provider_result_execution_seconds": 2.969263,
+          "queue_to_finish_seconds": 3.126253,
+          "queued_at": "2026-08-14T11:16:15.869831Z"
+        },
+        {
+          "create_to_finish_seconds": 285.595173,
+          "created_on": "2026-08-14T11:16:29.214275Z",
+          "finished_at": "2026-08-14T11:21:14.809448Z",
+          "provider_result_execution_seconds": 3.230509,
+          "queue_to_finish_seconds": 3.478224,
+          "queued_at": "2026-08-14T11:21:11.331224Z"
+        },
+        {
+          "create_to_finish_seconds": 258.371437,
+          "created_on": "2026-08-14T11:21:32.965342Z",
+          "finished_at": "2026-08-14T11:25:51.336779Z",
+          "provider_result_execution_seconds": 3.667598,
+          "queue_to_finish_seconds": 3.820172,
+          "queued_at": "2026-08-14T11:25:47.516607Z"
+        },
+        {
+          "create_to_finish_seconds": 269.52982,
+          "created_on": "2026-08-14T11:26:04.461547Z",
+          "finished_at": "2026-08-14T11:30:33.991367Z",
+          "provider_result_execution_seconds": 3.27054,
+          "queue_to_finish_seconds": 3.428503,
+          "queued_at": "2026-08-14T11:30:30.562864Z"
+        }
+      ],
+      "discarded_probe_acquisitions": 0,
+      "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+      "final_monitor_rmse": 0.1893706387939855,
+      "final_payload_bitwise_zero": 0.88323974609375,
+      "infrastructure_failures": 0,
+      "minimum_monitor_rmse": 0.18264733539948622,
+      "monitor_rmse_at_entry": null,
+      "network_retry_count": 0,
+      "orchestration_resumed": false,
+      "ordinary_acquisitions": 5,
+      "payload_bitwise_zero_at_entry": null,
+      "provider_execution_seconds_by_acquisition": [
+        3.013983,
+        2.969263,
+        3.230509,
+        3.667598,
+        3.27054
+      ],
+      "provider_execution_seconds_to_contract": null,
+      "provider_execution_seconds_total": 16.151893,
+      "provider_job_create_to_finish_seconds_to_contract": null,
+      "provider_job_create_to_finish_seconds_total": 1303.067837,
+      "resume_events": [],
+      "seed": 1411640080,
+      "selected_job_ids": [
+        1283759,
+        1283765,
+        1283771,
+        1283777,
+        1283783
+      ],
+      "shots_done": 20480,
+      "shots_requested": 20480,
+      "source_sha256": "bf623a831a0c2f8a30d06999fa431385214a8036081058d7cd7882fc86057a3e",
+      "structural_minimum_acquisitions_to_confirm": 2,
+      "trace": [
+        {
+          "acquisition": 1,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.0619987733662128e-06,
+          "hybrid_execute_call_seconds": 215.05943166202633,
+          "monitor_response": [
+            0.46826171875,
+            0.564453125,
+            0.492919921875,
+            0.85107421875
+          ],
+          "monitor_rmse": 0.18407462431478028,
+          "payload_all_zero": 0.6650390625,
+          "payload_bitwise_zero": 0.88433837890625,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 2,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.2269592843949795e-06,
+          "hybrid_execute_call_seconds": 300.98045175295556,
+          "monitor_response": [
+            0.487060546875,
+            0.558349609375,
+            0.505615234375,
+            0.849609375
+          ],
+          "monitor_rmse": 0.18264733539948622,
+          "payload_all_zero": 0.654541015625,
+          "payload_bitwise_zero": 0.8858642578125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 3,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.0690419003367424e-06,
+          "hybrid_execute_call_seconds": 301.9720310519915,
+          "monitor_response": [
+            0.458251953125,
+            0.56982421875,
+            0.533203125,
+            0.847900390625
+          ],
+          "monitor_rmse": 0.18635507544659663,
+          "payload_all_zero": 0.667236328125,
+          "payload_bitwise_zero": 0.8902587890625,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 4,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.458043698221445e-06,
+          "hybrid_execute_call_seconds": 273.1581391990185,
+          "monitor_response": [
+            0.48291015625,
+            0.57080078125,
+            0.50927734375,
+            0.853759765625
+          ],
+          "monitor_rmse": 0.18629893428141386,
+          "payload_all_zero": 0.658447265625,
+          "payload_bitwise_zero": 0.8878173828125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 5,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 3.814988303929567e-06,
+          "hybrid_execute_call_seconds": 282.39882110402687,
+          "monitor_response": [
+            0.481689453125,
+            0.564208984375,
+            0.517822265625,
+            0.8603515625
+          ],
+          "monitor_rmse": 0.1893706387939855,
+          "payload_all_zero": 0.653564453125,
+          "payload_bitwise_zero": 0.88323974609375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        }
+      ]
+    },
+    {
+      "arm": "retained_residual",
+      "capture_completed_at": "2026-08-14T11:43:39.082148+00:00",
+      "client_wall_seconds": 2152.403296,
+      "contract_at_deadline": true,
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "controller_update_seconds": 0.00017722207121551037,
+      "controller_update_seconds_to_contract": 0.00015009002527222037,
+      "direct_job_timings": [
+        {
+          "create_to_finish_seconds": 219.798553,
+          "created_on": "2026-08-14T11:07:54.875121Z",
+          "finished_at": "2026-08-14T11:11:34.673674Z",
+          "provider_result_execution_seconds": 3.409719,
+          "queue_to_finish_seconds": 3.57264,
+          "queued_at": "2026-08-14T11:11:31.101034Z"
+        },
+        {
+          "create_to_finish_seconds": 283.819129,
+          "created_on": "2026-08-14T11:11:51.331498Z",
+          "finished_at": "2026-08-14T11:16:35.150627Z",
+          "provider_result_execution_seconds": 2.813207,
+          "queue_to_finish_seconds": 2.991371,
+          "queued_at": "2026-08-14T11:16:32.159256Z"
+        },
+        {
+          "create_to_finish_seconds": 286.134361,
+          "created_on": "2026-08-14T11:16:52.289561Z",
+          "finished_at": "2026-08-14T11:21:38.423922Z",
+          "provider_result_execution_seconds": 2.975528,
+          "queue_to_finish_seconds": 3.128357,
+          "queued_at": "2026-08-14T11:21:35.295565Z"
+        },
+        {
+          "create_to_finish_seconds": 261.922444,
+          "created_on": "2026-08-14T11:21:56.004339Z",
+          "finished_at": "2026-08-14T11:26:17.926783Z",
+          "provider_result_execution_seconds": 3.033075,
+          "queue_to_finish_seconds": 4.800877,
+          "queued_at": "2026-08-14T11:26:13.125906Z"
+        },
+        {
+          "create_to_finish_seconds": 1021.151591,
+          "created_on": "2026-08-14T11:26:29.563402Z",
+          "finished_at": "2026-08-14T11:43:30.714993Z",
+          "provider_result_execution_seconds": 2.9383,
+          "queue_to_finish_seconds": 3.095149,
+          "queued_at": "2026-08-14T11:43:27.619844Z"
+        }
+      ],
+      "discarded_probe_acquisitions": 0,
+      "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+      "final_monitor_rmse": 0.011879768418068223,
+      "final_payload_bitwise_zero": 0.92657470703125,
+      "infrastructure_failures": 0,
+      "minimum_monitor_rmse": 0.011879768418068223,
+      "monitor_rmse_at_entry": 0.0365279985323683,
+      "network_retry_count": 0,
+      "orchestration_resumed": false,
+      "ordinary_acquisitions": 5,
+      "payload_bitwise_zero_at_entry": 0.9246826171875,
+      "provider_execution_seconds_by_acquisition": [
+        3.409719,
+        2.813207,
+        2.975528,
+        3.033075,
+        2.9383
+      ],
+      "provider_execution_seconds_to_contract": 12.231529,
+      "provider_execution_seconds_total": 15.169829,
+      "provider_job_create_to_finish_seconds_to_contract": 1051.674487,
+      "provider_job_create_to_finish_seconds_total": 2072.826078,
+      "resume_events": [],
+      "seed": 1411640080,
+      "selected_job_ids": [
+        1283763,
+        1283769,
+        1283775,
+        1283781,
+        1283788
+      ],
+      "shots_done": 20480,
+      "shots_requested": 20480,
+      "source_sha256": "80dc02c8cacd43268d757e5fb2453d4c0f842f2deafc47760e3a5021964266ab",
+      "structural_minimum_acquisitions_to_confirm": 2,
+      "trace": [
+        {
+          "acquisition": 1,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.084897667169571e-05,
+          "hybrid_execute_call_seconds": 238.30735129199456,
+          "monitor_response": [
+            0.460205078125,
+            0.5615234375,
+            0.521728515625,
+            0.85595703125
+          ],
+          "monitor_rmse": 0.1882384777950317,
+          "payload_all_zero": 0.656005859375,
+          "payload_bitwise_zero": 0.88311767578125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 2,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.15,
+            0.15,
+            0.15,
+            -0.15
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 4.9294030759483576e-05,
+          "hybrid_execute_call_seconds": 300.93198585300706,
+          "monitor_response": [
+            0.3935546875,
+            0.5,
+            0.443115234375,
+            0.818359375
+          ],
+          "monitor_rmse": 0.17181590538216415,
+          "payload_all_zero": 0.658935546875,
+          "payload_bitwise_zero": 0.88641357421875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 3,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.07127670062438385,
+            0.2033795327754533,
+            0.13177298628549353,
+            -1.2241026161845954
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 6.426597246900201e-05,
+          "hybrid_execute_call_seconds": 302.35373864899157,
+          "monitor_response": [
+            0.52392578125,
+            0.452392578125,
+            0.46630859375,
+            0.41845703125
+          ],
+          "monitor_rmse": 0.042677324559569164,
+          "payload_all_zero": 0.786376953125,
+          "payload_bitwise_zero": 0.93267822265625,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 4,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.07671696329218,
+            0.17333664294896856,
+            0.13071506166808933,
+            -1.213124509003891
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 2.568104537203908e-05,
+          "hybrid_execute_call_seconds": 274.24454618198797,
+          "monitor_response": [
+            0.513916015625,
+            0.4794921875,
+            0.463134765625,
+            0.422119140625
+          ],
+          "monitor_rmse": 0.0365279985323683,
+          "payload_all_zero": 0.7626953125,
+          "payload_bitwise_zero": 0.9246826171875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 5,
+          "acquisition_kind": "ordinary",
+          "command": [
+            -0.08260698181164644,
+            0.16253802288953648,
+            0.130931745969528,
+            -1.0601851838170049
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 2.7132045943289995e-05,
+          "hybrid_execute_call_seconds": 1036.4712081900216,
+          "monitor_response": [
+            0.513671875,
+            0.47900390625,
+            0.445068359375,
+            0.486328125
+          ],
+          "monitor_rmse": 0.011879768418068223,
+          "payload_all_zero": 0.76904296875,
+          "payload_bitwise_zero": 0.92657470703125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        }
+      ]
+    },
+    {
+      "arm": "commissioned_pi",
+      "capture_completed_at": "2026-08-14T12:02:25.237918+00:00",
+      "client_wall_seconds": 152.317369,
+      "contract_at_deadline": true,
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "controller_update_seconds": 8.934398647397757e-05,
+      "controller_update_seconds_to_contract": 7.935299072414637e-05,
+      "direct_job_timings": [
+        {
+          "create_to_finish_seconds": 12.249095,
+          "created_on": "2026-08-14T12:00:01.977718Z",
+          "finished_at": "2026-08-14T12:00:14.226813Z",
+          "provider_result_execution_seconds": 2.923303,
+          "queue_to_finish_seconds": 3.185408,
+          "queued_at": "2026-08-14T12:00:11.041405Z"
+        },
+        {
+          "create_to_finish_seconds": 21.708985,
+          "created_on": "2026-08-14T12:00:23.375397Z",
+          "finished_at": "2026-08-14T12:00:45.084382Z",
+          "provider_result_execution_seconds": 2.968619,
+          "queue_to_finish_seconds": 3.13567,
+          "queued_at": "2026-08-14T12:00:41.948712Z"
+        },
+        {
+          "create_to_finish_seconds": 21.248835,
+          "created_on": "2026-08-14T12:00:55.845758Z",
+          "finished_at": "2026-08-14T12:01:17.094593Z",
+          "provider_result_execution_seconds": 2.9485,
+          "queue_to_finish_seconds": 3.194931,
+          "queued_at": "2026-08-14T12:01:13.899662Z"
+        },
+        {
+          "create_to_finish_seconds": 19.980405,
+          "created_on": "2026-08-14T12:01:27.498318Z",
+          "finished_at": "2026-08-14T12:01:47.478723Z",
+          "provider_result_execution_seconds": 3.057959,
+          "queue_to_finish_seconds": 3.270271,
+          "queued_at": "2026-08-14T12:01:44.208452Z"
+        },
+        {
+          "create_to_finish_seconds": 22.775043,
+          "created_on": "2026-08-14T12:01:59.472801Z",
+          "finished_at": "2026-08-14T12:02:22.247844Z",
+          "provider_result_execution_seconds": 3.664282,
+          "queue_to_finish_seconds": 3.851015,
+          "queued_at": "2026-08-14T12:02:18.396829Z"
+        }
+      ],
+      "discarded_probe_acquisitions": 2,
+      "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+      "final_monitor_rmse": 0.023022797502179334,
+      "final_payload_bitwise_zero": 0.9273681640625,
+      "infrastructure_failures": 0,
+      "minimum_monitor_rmse": 0.008380284762858837,
+      "monitor_rmse_at_entry": 0.008380284762858837,
+      "network_retry_count": 0,
+      "orchestration_resumed": false,
+      "ordinary_acquisitions": 3,
+      "payload_bitwise_zero_at_entry": 0.92645263671875,
+      "provider_execution_seconds_by_acquisition": [
+        2.923303,
+        2.968619,
+        2.9485,
+        3.057959,
+        3.664282
+      ],
+      "provider_execution_seconds_to_contract": 11.898381,
+      "provider_execution_seconds_total": 15.562663,
+      "provider_job_create_to_finish_seconds_to_contract": 75.18732,
+      "provider_job_create_to_finish_seconds_total": 97.962363,
+      "resume_events": [],
+      "seed": 1568158650,
+      "selected_job_ids": [
+        1283832,
+        1283838,
+        1283843,
+        1283850,
+        1283857
+      ],
+      "shots_done": 20480,
+      "shots_requested": 20480,
+      "source_sha256": "402ef44401807eeb4026ee07fa263777699b805e686cc68c2706bde05ff0c1e6",
+      "structural_minimum_acquisitions_to_confirm": 4,
+      "trace": [
+        {
+          "acquisition": 1,
+          "acquisition_kind": "coded_probe_minus",
+          "command": [
+            -0.15,
+            -0.15,
+            -0.15,
+            0.15
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 2.0479783415794373e-06,
+          "hybrid_execute_call_seconds": 23.874093966034707,
+          "monitor_response": [
+            0.18115234375,
+            0.604248046875,
+            0.318603515625,
+            0.4443359375
+          ],
+          "monitor_rmse": 0.18867967956702167,
+          "payload_all_zero": 0.624267578125,
+          "payload_bitwise_zero": 0.87158203125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 2,
+          "acquisition_kind": "coded_probe_plus",
+          "command": [
+            0.15,
+            0.15,
+            0.15,
+            -0.15
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 4.895898746326566e-05,
+          "hybrid_execute_call_seconds": 32.15148950199364,
+          "monitor_response": [
+            0.30712890625,
+            0.723876953125,
+            0.20068359375,
+            0.300537109375
+          ],
+          "monitor_rmse": 0.22494365860928506,
+          "payload_all_zero": 0.5234375,
+          "payload_bitwise_zero": 0.82269287109375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 3,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.47212790697674417,
+            -0.33804489795918363,
+            -0.39557763975155275,
+            0.19316129032258061
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.776998396962881e-05,
+          "hybrid_execute_call_seconds": 32.32631950604264,
+          "monitor_response": [
+            0.4873046875,
+            0.5478515625,
+            0.4306640625,
+            0.463134765625
+          ],
+          "monitor_rmse": 0.039208900765107774,
+          "payload_all_zero": 0.757080078125,
+          "payload_bitwise_zero": 0.9224853515625,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 4,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.5414360465116279,
+            -0.48129183673469383,
+            -0.49171428571428566,
+            0.2577657045840407
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.057604094967246e-05,
+          "hybrid_execute_call_seconds": 31.640138002985623,
+          "monitor_response": [
+            0.507080078125,
+            0.4755859375,
+            0.4716796875,
+            0.484375
+          ],
+          "monitor_rmse": 0.008380284762858837,
+          "payload_all_zero": 0.7734375,
+          "payload_bitwise_zero": 0.92645263671875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 5,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.5774825581395349,
+            -0.4960102040816326,
+            -0.5136708074534161,
+            0.2925891341256366
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 9.9909957498312e-06,
+          "hybrid_execute_call_seconds": 32.32464466203237,
+          "monitor_response": [
+            0.54736328125,
+            0.48095703125,
+            0.45751953125,
+            0.510009765625
+          ],
+          "monitor_rmse": 0.023022797502179334,
+          "payload_all_zero": 0.778076171875,
+          "payload_bitwise_zero": 0.9273681640625,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        }
+      ]
+    },
+    {
+      "arm": "dense_fd",
+      "capture_completed_at": "2026-08-14T12:02:57.925640+00:00",
+      "client_wall_seconds": 185.005683,
+      "contract_at_deadline": false,
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "controller_update_seconds": 0.00016041408525779843,
+      "controller_update_seconds_to_contract": null,
+      "direct_job_timings": [
+        {
+          "create_to_finish_seconds": 28.244332,
+          "created_on": "2026-08-14T12:00:02.419218Z",
+          "finished_at": "2026-08-14T12:00:30.663550Z",
+          "provider_result_execution_seconds": 2.775676,
+          "queue_to_finish_seconds": 2.957306,
+          "queued_at": "2026-08-14T12:00:27.706244Z"
+        },
+        {
+          "create_to_finish_seconds": 20.994248,
+          "created_on": "2026-08-14T12:00:45.364641Z",
+          "finished_at": "2026-08-14T12:01:06.358889Z",
+          "provider_result_execution_seconds": 3.0542,
+          "queue_to_finish_seconds": 3.22782,
+          "queued_at": "2026-08-14T12:01:03.131069Z"
+        },
+        {
+          "create_to_finish_seconds": 21.011637,
+          "created_on": "2026-08-14T12:01:17.312226Z",
+          "finished_at": "2026-08-14T12:01:38.323863Z",
+          "provider_result_execution_seconds": 2.939518,
+          "queue_to_finish_seconds": 3.105549,
+          "queued_at": "2026-08-14T12:01:35.218314Z"
+        },
+        {
+          "create_to_finish_seconds": 22.136518,
+          "created_on": "2026-08-14T12:01:48.951376Z",
+          "finished_at": "2026-08-14T12:02:11.087894Z",
+          "provider_result_execution_seconds": 3.277145,
+          "queue_to_finish_seconds": 3.475095,
+          "queued_at": "2026-08-14T12:02:07.612799Z"
+        },
+        {
+          "create_to_finish_seconds": 27.120616,
+          "created_on": "2026-08-14T12:02:20.754353Z",
+          "finished_at": "2026-08-14T12:02:47.874969Z",
+          "provider_result_execution_seconds": 2.826657,
+          "queue_to_finish_seconds": 2.988574,
+          "queued_at": "2026-08-14T12:02:44.886395Z"
+        }
+      ],
+      "discarded_probe_acquisitions": 5,
+      "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+      "final_monitor_rmse": 0.19990626612226842,
+      "final_payload_bitwise_zero": 0.8533935546875,
+      "infrastructure_failures": 0,
+      "minimum_monitor_rmse": 0.18562415671879504,
+      "monitor_rmse_at_entry": null,
+      "network_retry_count": 0,
+      "orchestration_resumed": false,
+      "ordinary_acquisitions": 0,
+      "payload_bitwise_zero_at_entry": null,
+      "provider_execution_seconds_by_acquisition": [
+        2.775676,
+        3.0542,
+        2.939518,
+        3.277145,
+        2.826657
+      ],
+      "provider_execution_seconds_to_contract": null,
+      "provider_execution_seconds_total": 14.873196,
+      "provider_job_create_to_finish_seconds_to_contract": null,
+      "provider_job_create_to_finish_seconds_total": 119.507351,
+      "resume_events": [],
+      "seed": 1568158650,
+      "selected_job_ids": [
+        1283833,
+        1283842,
+        1283848,
+        1283855,
+        1283862
+      ],
+      "shots_done": 20480,
+      "shots_requested": 20480,
+      "source_sha256": "774ad47144f8c42d23010666c768dbaf8dca65ee741c7339d8719daa933a37b3",
+      "structural_minimum_acquisitions_to_confirm": 7,
+      "trace": [
+        {
+          "acquisition": 1,
+          "acquisition_kind": "dense_base",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 3.6717974580824375e-05,
+          "hybrid_execute_call_seconds": 46.06365986698074,
+          "monitor_response": [
+            0.238037109375,
+            0.667724609375,
+            0.257080078125,
+            0.359130859375
+          ],
+          "monitor_rmse": 0.20323438633469793,
+          "payload_all_zero": 0.581787109375,
+          "payload_bitwise_zero": 0.85272216796875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 2,
+          "acquisition_kind": "dense_probe_0",
+          "command": [
+            0.15,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 2.3909960873425007e-06,
+          "hybrid_execute_call_seconds": 31.972918110957835,
+          "monitor_response": [
+            0.31298828125,
+            0.686767578125,
+            0.253662109375,
+            0.365478515625
+          ],
+          "monitor_rmse": 0.18562415671879504,
+          "payload_all_zero": 0.577880859375,
+          "payload_bitwise_zero": 0.85101318359375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 3,
+          "acquisition_kind": "dense_probe_1",
+          "command": [
+            0.0,
+            0.15,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 2.426037099212408e-06,
+          "hybrid_execute_call_seconds": 31.82042199803982,
+          "monitor_response": [
+            0.242431640625,
+            0.755126953125,
+            0.255615234375,
+            0.358154296875
+          ],
+          "monitor_rmse": 0.22530413444110156,
+          "payload_all_zero": 0.5595703125,
+          "payload_bitwise_zero": 0.8389892578125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 4,
+          "acquisition_kind": "dense_probe_2",
+          "command": [
+            0.0,
+            0.0,
+            0.15,
+            0.0
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 4.261033609509468e-06,
+          "hybrid_execute_call_seconds": 31.632125219970476,
+          "monitor_response": [
+            0.23681640625,
+            0.686767578125,
+            0.1923828125,
+            0.37158203125
+          ],
+          "monitor_rmse": 0.2241136138266207,
+          "payload_all_zero": 0.540283203125,
+          "payload_bitwise_zero": 0.83319091796875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 5,
+          "acquisition_kind": "dense_probe_3",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.15
+          ],
+          "contract_eligible": false,
+          "controller_update_seconds": 0.00011461804388090968,
+          "hybrid_execute_call_seconds": 43.514673080004286,
+          "monitor_response": [
+            0.24267578125,
+            0.688232421875,
+            0.247314453125,
+            0.436279296875
+          ],
+          "monitor_rmse": 0.19990626612226842,
+          "payload_all_zero": 0.583740234375,
+          "payload_bitwise_zero": 0.8533935546875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        }
+      ]
+    },
+    {
+      "arm": "diagonal_secant",
+      "capture_completed_at": "2026-08-14T12:02:35.728924+00:00",
+      "client_wall_seconds": 162.808981,
+      "contract_at_deadline": true,
+      "contract_entry_acquisition": 5,
+      "contract_success": true,
+      "controller_update_seconds": 0.0001118939253501594,
+      "controller_update_seconds_to_contract": 0.0001118939253501594,
+      "direct_job_timings": [
+        {
+          "create_to_finish_seconds": 23.010327,
+          "created_on": "2026-08-14T12:00:02.441564Z",
+          "finished_at": "2026-08-14T12:00:25.451891Z",
+          "provider_result_execution_seconds": 2.845247,
+          "queue_to_finish_seconds": 3.118029,
+          "queued_at": "2026-08-14T12:00:22.333862Z"
+        },
+        {
+          "create_to_finish_seconds": 16.008647,
+          "created_on": "2026-08-14T12:00:34.501467Z",
+          "finished_at": "2026-08-14T12:00:50.510114Z",
+          "provider_result_execution_seconds": 2.791345,
+          "queue_to_finish_seconds": 2.956383,
+          "queued_at": "2026-08-14T12:00:47.553731Z"
+        },
+        {
+          "create_to_finish_seconds": 21.08891,
+          "created_on": "2026-08-14T12:01:06.604623Z",
+          "finished_at": "2026-08-14T12:01:27.693533Z",
+          "provider_result_execution_seconds": 3.24319,
+          "queue_to_finish_seconds": 3.448846,
+          "queued_at": "2026-08-14T12:01:24.244687Z"
+        },
+        {
+          "create_to_finish_seconds": 20.057291,
+          "created_on": "2026-08-14T12:01:38.327841Z",
+          "finished_at": "2026-08-14T12:01:58.385132Z",
+          "provider_result_execution_seconds": 2.948282,
+          "queue_to_finish_seconds": 3.214567,
+          "queued_at": "2026-08-14T12:01:55.170565Z"
+        },
+        {
+          "create_to_finish_seconds": 21.619254,
+          "created_on": "2026-08-14T12:02:09.907349Z",
+          "finished_at": "2026-08-14T12:02:31.526603Z",
+          "provider_result_execution_seconds": 3.047586,
+          "queue_to_finish_seconds": 3.227873,
+          "queued_at": "2026-08-14T12:02:28.298730Z"
+        }
+      ],
+      "discarded_probe_acquisitions": 0,
+      "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+      "final_monitor_rmse": 0.014880065664484896,
+      "final_payload_bitwise_zero": 0.92669677734375,
+      "infrastructure_failures": 0,
+      "minimum_monitor_rmse": 0.014880065664484896,
+      "monitor_rmse_at_entry": 0.014880065664484896,
+      "network_retry_count": 0,
+      "orchestration_resumed": false,
+      "ordinary_acquisitions": 5,
+      "payload_bitwise_zero_at_entry": 0.92669677734375,
+      "provider_execution_seconds_by_acquisition": [
+        2.845247,
+        2.791345,
+        3.24319,
+        2.948282,
+        3.047586
+      ],
+      "provider_execution_seconds_to_contract": 14.87565,
+      "provider_execution_seconds_total": 14.87565,
+      "provider_job_create_to_finish_seconds_to_contract": 101.784429,
+      "provider_job_create_to_finish_seconds_total": 101.784429,
+      "resume_events": [],
+      "seed": 1568158650,
+      "selected_job_ids": [
+        1283834,
+        1283839,
+        1283846,
+        1283852,
+        1283859
+      ],
+      "shots_done": 20480,
+      "shots_requested": 20480,
+      "source_sha256": "d662e6d60b253febcb05600f01587c509a766c6c486c1e20cf3e735ce7197422",
+      "structural_minimum_acquisitions_to_confirm": 2,
+      "trace": [
+        {
+          "acquisition": 1,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.5110010281205177e-05,
+          "hybrid_execute_call_seconds": 35.401917641982436,
+          "monitor_response": [
+            0.238037109375,
+            0.68359375,
+            0.25244140625,
+            0.3681640625
+          ],
+          "monitor_rmse": 0.20663850346938245,
+          "payload_all_zero": 0.57861328125,
+          "payload_bitwise_zero": 0.85137939453125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 2,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.15,
+            0.15,
+            0.15,
+            -0.15
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 3.217300400137901e-05,
+          "hybrid_execute_call_seconds": 31.677587524987757,
+          "monitor_response": [
+            0.313232421875,
+            0.718994140625,
+            0.1826171875,
+            0.291748046875
+          ],
+          "monitor_rmse": 0.22970619774313575,
+          "payload_all_zero": 0.53369140625,
+          "payload_bitwise_zero": 0.82855224609375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 3,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.7275169101068523,
+            -0.6,
+            -0.6,
+            0.4506662000048274
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.4601973816752434e-05,
+          "hybrid_execute_call_seconds": 31.96576599602122,
+          "monitor_response": [
+            0.605712890625,
+            0.42431640625,
+            0.518310546875,
+            0.591064453125
+          ],
+          "monitor_rmse": 0.08112956805071528,
+          "payload_all_zero": 0.746337890625,
+          "payload_bitwise_zero": 0.91693115234375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 4,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.5188215746543103,
+            -0.4102229539855655,
+            -0.4699557712630631,
+            0.24900307697187724
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 2.037297235801816e-05,
+          "hybrid_execute_call_seconds": 31.788394325005356,
+          "monitor_response": [
+            0.491943359375,
+            0.52001953125,
+            0.473876953125,
+            0.5009765625
+          ],
+          "monitor_rmse": 0.01883644205222171,
+          "payload_all_zero": 0.771484375,
+          "payload_bitwise_zero": 0.92657470703125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 5,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.5412641886175485,
+            -0.4797187736528232,
+            -0.44707493814453747,
+            0.2360721859583975
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 2.9635964892804623e-05,
+          "hybrid_execute_call_seconds": 31.974210899032187,
+          "monitor_response": [
+            0.524658203125,
+            0.48193359375,
+            0.44287109375,
+            0.48974609375
+          ],
+          "monitor_rmse": 0.014880065664484896,
+          "payload_all_zero": 0.77001953125,
+          "payload_bitwise_zero": 0.92669677734375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        }
+      ]
+    },
+    {
+      "arm": "do_nothing",
+      "capture_completed_at": "2026-08-14T12:02:47.039232+00:00",
+      "client_wall_seconds": 174.111654,
+      "contract_at_deadline": false,
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "controller_update_seconds": 1.0149960871785879e-05,
+      "controller_update_seconds_to_contract": null,
+      "direct_job_timings": [
+        {
+          "create_to_finish_seconds": 6.904254,
+          "created_on": "2026-08-14T12:00:01.436526Z",
+          "finished_at": "2026-08-14T12:00:08.340780Z",
+          "provider_result_execution_seconds": 3.355366,
+          "queue_to_finish_seconds": 3.714115,
+          "queued_at": "2026-08-14T12:00:04.626665Z"
+        },
+        {
+          "create_to_finish_seconds": 16.518328,
+          "created_on": "2026-08-14T12:00:23.356167Z",
+          "finished_at": "2026-08-14T12:00:39.874495Z",
+          "provider_result_execution_seconds": 3.15764,
+          "queue_to_finish_seconds": 3.340584,
+          "queued_at": "2026-08-14T12:00:36.533911Z"
+        },
+        {
+          "create_to_finish_seconds": 15.744508,
+          "created_on": "2026-08-14T12:00:55.858836Z",
+          "finished_at": "2026-08-14T12:01:11.603344Z",
+          "provider_result_execution_seconds": 2.916175,
+          "queue_to_finish_seconds": 3.088719,
+          "queued_at": "2026-08-14T12:01:08.514625Z"
+        },
+        {
+          "create_to_finish_seconds": 24.458286,
+          "created_on": "2026-08-14T12:01:28.337950Z",
+          "finished_at": "2026-08-14T12:01:52.796236Z",
+          "provider_result_execution_seconds": 3.038201,
+          "queue_to_finish_seconds": 3.210218,
+          "queued_at": "2026-08-14T12:01:49.586018Z"
+        },
+        {
+          "create_to_finish_seconds": 31.31751,
+          "created_on": "2026-08-14T12:02:10.858131Z",
+          "finished_at": "2026-08-14T12:02:42.175641Z",
+          "provider_result_execution_seconds": 3.278069,
+          "queue_to_finish_seconds": 3.780683,
+          "queued_at": "2026-08-14T12:02:38.394958Z"
+        }
+      ],
+      "discarded_probe_acquisitions": 0,
+      "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+      "final_monitor_rmse": 0.20567985539239855,
+      "final_payload_bitwise_zero": 0.8499755859375,
+      "infrastructure_failures": 0,
+      "minimum_monitor_rmse": 0.20112613046777691,
+      "monitor_rmse_at_entry": null,
+      "network_retry_count": 0,
+      "orchestration_resumed": false,
+      "ordinary_acquisitions": 5,
+      "payload_bitwise_zero_at_entry": null,
+      "provider_execution_seconds_by_acquisition": [
+        3.355366,
+        3.15764,
+        2.916175,
+        3.038201,
+        3.278069
+      ],
+      "provider_execution_seconds_to_contract": null,
+      "provider_execution_seconds_total": 15.745451,
+      "provider_job_create_to_finish_seconds_to_contract": null,
+      "provider_job_create_to_finish_seconds_total": 94.942886,
+      "resume_events": [],
+      "seed": 1568158650,
+      "selected_job_ids": [
+        1283831,
+        1283837,
+        1283844,
+        1283851,
+        1283860
+      ],
+      "shots_done": 20480,
+      "shots_requested": 20480,
+      "source_sha256": "35b152fd76163757d80508bcc2369594e568b98e2edf894bd48f13d0558b776a",
+      "structural_minimum_acquisitions_to_confirm": 2,
+      "trace": [
+        {
+          "acquisition": 1,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.942971721291542e-06,
+          "hybrid_execute_call_seconds": 23.868185307015665,
+          "monitor_response": [
+            0.232421875,
+            0.67431640625,
+            0.25634765625,
+            0.37255859375
+          ],
+          "monitor_rmse": 0.20465330901212003,
+          "payload_all_zero": 0.57421875,
+          "payload_bitwise_zero": 0.84942626953125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 2,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.542968675494194e-06,
+          "hybrid_execute_call_seconds": 31.97722697397694,
+          "monitor_response": [
+            0.2568359375,
+            0.68798828125,
+            0.2529296875,
+            0.37158203125
+          ],
+          "monitor_rmse": 0.20112613046777691,
+          "payload_all_zero": 0.555908203125,
+          "payload_bitwise_zero": 0.84228515625,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 3,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 2.5859917514026165e-06,
+          "hybrid_execute_call_seconds": 32.67839278100291,
+          "monitor_response": [
+            0.232421875,
+            0.6865234375,
+            0.247802734375,
+            0.368408203125
+          ],
+          "monitor_rmse": 0.21030617651990965,
+          "payload_all_zero": 0.576416015625,
+          "payload_bitwise_zero": 0.85101318359375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 4,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.9170111045241356e-06,
+          "hybrid_execute_call_seconds": 43.02113740204368,
+          "monitor_response": [
+            0.233642578125,
+            0.6796875,
+            0.254638671875,
+            0.351318359375
+          ],
+          "monitor_rmse": 0.2093125022302709,
+          "payload_all_zero": 0.572509765625,
+          "payload_bitwise_zero": 0.84796142578125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 5,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 2.161017619073391e-06,
+          "hybrid_execute_call_seconds": 42.564998978050426,
+          "monitor_response": [
+            0.235595703125,
+            0.67529296875,
+            0.25244140625,
+            0.366943359375
+          ],
+          "monitor_rmse": 0.20567985539239855,
+          "payload_all_zero": 0.585693359375,
+          "payload_bitwise_zero": 0.8499755859375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        }
+      ]
+    },
+    {
+      "arm": "retained_residual",
+      "capture_completed_at": "2026-08-14T12:03:08.410054+00:00",
+      "client_wall_seconds": 195.490093,
+      "contract_at_deadline": true,
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "controller_update_seconds": 0.00013900292105972767,
+      "controller_update_seconds_to_contract": 0.00011173292296007276,
+      "direct_job_timings": [
+        {
+          "create_to_finish_seconds": 17.437873,
+          "created_on": "2026-08-14T12:00:02.568611Z",
+          "finished_at": "2026-08-14T12:00:20.006484Z",
+          "provider_result_execution_seconds": 3.029783,
+          "queue_to_finish_seconds": 3.261367,
+          "queued_at": "2026-08-14T12:00:16.745117Z"
+        },
+        {
+          "create_to_finish_seconds": 21.170073,
+          "created_on": "2026-08-14T12:00:34.843652Z",
+          "finished_at": "2026-08-14T12:00:56.013725Z",
+          "provider_result_execution_seconds": 2.884108,
+          "queue_to_finish_seconds": 3.056889,
+          "queued_at": "2026-08-14T12:00:52.956836Z"
+        },
+        {
+          "create_to_finish_seconds": 25.979498,
+          "created_on": "2026-08-14T12:01:06.825144Z",
+          "finished_at": "2026-08-14T12:01:32.804642Z",
+          "provider_result_execution_seconds": 3.011251,
+          "queue_to_finish_seconds": 3.188897,
+          "queued_at": "2026-08-14T12:01:29.615745Z"
+        },
+        {
+          "create_to_finish_seconds": 26.647386,
+          "created_on": "2026-08-14T12:01:49.487917Z",
+          "finished_at": "2026-08-14T12:02:16.135303Z",
+          "provider_result_execution_seconds": 2.956161,
+          "queue_to_finish_seconds": 3.196164,
+          "queued_at": "2026-08-14T12:02:12.939139Z"
+        },
+        {
+          "create_to_finish_seconds": 25.701946,
+          "created_on": "2026-08-14T12:02:32.300984Z",
+          "finished_at": "2026-08-14T12:02:58.002930Z",
+          "provider_result_execution_seconds": 3.29446,
+          "queue_to_finish_seconds": 3.467021,
+          "queued_at": "2026-08-14T12:02:54.535909Z"
+        }
+      ],
+      "discarded_probe_acquisitions": 0,
+      "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+      "final_monitor_rmse": 0.025124846102115097,
+      "final_payload_bitwise_zero": 0.92706298828125,
+      "infrastructure_failures": 0,
+      "minimum_monitor_rmse": 0.025124846102115097,
+      "monitor_rmse_at_entry": 0.03652881439939539,
+      "network_retry_count": 0,
+      "orchestration_resumed": false,
+      "ordinary_acquisitions": 5,
+      "payload_bitwise_zero_at_entry": 0.9222412109375,
+      "provider_execution_seconds_by_acquisition": [
+        3.029783,
+        2.884108,
+        3.011251,
+        2.956161,
+        3.29446
+      ],
+      "provider_execution_seconds_to_contract": 11.881302999999999,
+      "provider_execution_seconds_total": 15.175763,
+      "provider_job_create_to_finish_seconds_to_contract": 91.23483,
+      "provider_job_create_to_finish_seconds_total": 116.936776,
+      "resume_events": [],
+      "seed": 1568158650,
+      "selected_job_ids": [
+        1283835,
+        1283840,
+        1283847,
+        1283856,
+        1283864
+      ],
+      "shots_done": 20480,
+      "shots_requested": 20480,
+      "source_sha256": "eded2684cb3def18432957a17b0c1fc971eea120043d18aa5e1337606321bfb6",
+      "structural_minimum_acquisitions_to_confirm": 2,
+      "trace": [
+        {
+          "acquisition": 1,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 1.8037972040474415e-05,
+          "hybrid_execute_call_seconds": 35.40105991699966,
+          "monitor_response": [
+            0.24658203125,
+            0.673095703125,
+            0.257568359375,
+            0.366455078125
+          ],
+          "monitor_rmse": 0.20035784566676837,
+          "payload_all_zero": 0.551025390625,
+          "payload_bitwise_zero": 0.838134765625,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 2,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.15,
+            0.15,
+            0.15,
+            -0.15
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 4.377396544441581e-05,
+          "hybrid_execute_call_seconds": 32.155467203003354,
+          "monitor_response": [
+            0.315185546875,
+            0.74560546875,
+            0.200927734375,
+            0.302734375
+          ],
+          "monitor_rmse": 0.22862596374817493,
+          "payload_all_zero": 0.527587890625,
+          "payload_bitwise_zero": 0.8245849609375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 3,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.5787935470039661,
+            -0.35889454209065674,
+            -0.4762768385982231,
+            0.2606676860346585
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 2.83439876511693e-05,
+          "hybrid_execute_call_seconds": 42.823284876008984,
+          "monitor_response": [
+            0.530029296875,
+            0.534912109375,
+            0.462646484375,
+            0.49072265625
+          ],
+          "monitor_rmse": 0.02723153111398308,
+          "payload_all_zero": 0.76220703125,
+          "payload_bitwise_zero": 0.92401123046875,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 4,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.6026864602412079,
+            -0.5210112813089074,
+            -0.5732446124264597,
+            0.3284437214978724
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 2.1576997824013233e-05,
+          "hybrid_execute_call_seconds": 42.45853386505041,
+          "monitor_response": [
+            0.55224609375,
+            0.46044921875,
+            0.50146484375,
+            0.5263671875
+          ],
+          "monitor_rmse": 0.03652881439939539,
+          "payload_all_zero": 0.759521484375,
+          "payload_bitwise_zero": 0.9222412109375,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        },
+        {
+          "acquisition": 5,
+          "acquisition_kind": "ordinary",
+          "command": [
+            0.5601713505393328,
+            -0.5039566481009599,
+            -0.522486562423338,
+            0.29215949586623313
+          ],
+          "contract_eligible": true,
+          "controller_update_seconds": 2.7269998099654913e-05,
+          "hybrid_execute_call_seconds": 42.64880574599374,
+          "monitor_response": [
+            0.531982421875,
+            0.4599609375,
+            0.471435546875,
+            0.5263671875
+          ],
+          "monitor_rmse": 0.025124846102115097,
+          "payload_all_zero": 0.76953125,
+          "payload_bitwise_zero": 0.92706298828125,
+          "shots_done": 4096,
+          "shots_requested": 4096
+        }
+      ]
+    }
+  ],
+  "decision": {
+    "claim_boundary": "This is a real-QPU hardware-in-the-loop transfer at width four. It does not access provider-private calibration registers and does not establish flat physical scaling; that claim remains finite-range simulator evidence.",
+    "dense_fd_deadline_ceiling": "PASS",
+    "finite_width_hardware_transfer": "PASS",
+    "reason": "At width four, all declared minimal-sufficient candidate arms restored the monitor and disjoint payload within the five-acquisition deadline.",
+    "width_scaling_from_hardware": "NOT_TESTED"
+  },
+  "development_pilot": {
+    "arm": "retained_residual",
+    "capture_completed_at": "2026-08-14T11:07:00.376750+00:00",
+    "client_wall_seconds": 1379.56649,
+    "contract_at_deadline": true,
+    "contract_entry_acquisition": 4,
+    "contract_success": true,
+    "controller_update_seconds": 0.0002895400393754244,
+    "controller_update_seconds_to_contract": 0.0002700810437090695,
+    "direct_job_timings": [
+      {
+        "create_to_finish_seconds": 167.689232,
+        "created_on": "2026-08-14T10:44:07.334440Z",
+        "finished_at": "2026-08-14T10:46:55.023672Z",
+        "provider_result_execution_seconds": 3.855067,
+        "queue_to_finish_seconds": 4.015894,
+        "queued_at": "2026-08-14T10:46:51.007778Z"
+      },
+      {
+        "create_to_finish_seconds": 237.93817,
+        "created_on": "2026-08-14T10:47:09.650599Z",
+        "finished_at": "2026-08-14T10:51:07.588769Z",
+        "provider_result_execution_seconds": 3.01801,
+        "queue_to_finish_seconds": 3.182851,
+        "queued_at": "2026-08-14T10:51:04.405918Z"
+      },
+      {
+        "create_to_finish_seconds": 393.323149,
+        "created_on": "2026-08-14T10:51:17.791187Z",
+        "finished_at": "2026-08-14T10:57:51.114336Z",
+        "provider_result_execution_seconds": 3.185348,
+        "queue_to_finish_seconds": 3.346037,
+        "queued_at": "2026-08-14T10:57:47.768299Z"
+      },
+      {
+        "create_to_finish_seconds": 262.078211,
+        "created_on": "2026-08-14T10:58:08.200268Z",
+        "finished_at": "2026-08-14T11:02:30.278479Z",
+        "provider_result_execution_seconds": 3.000294,
+        "queue_to_finish_seconds": 3.248894,
+        "queued_at": "2026-08-14T11:02:27.029585Z"
+      },
+      {
+        "create_to_finish_seconds": 240.13994,
+        "created_on": "2026-08-14T11:02:48.139354Z",
+        "finished_at": "2026-08-14T11:06:48.279294Z",
+        "provider_result_execution_seconds": 3.149237,
+        "queue_to_finish_seconds": 3.31041,
+        "queued_at": "2026-08-14T11:06:44.968884Z"
+      }
+    ],
+    "discarded_probe_acquisitions": 0,
+    "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+    "final_monitor_rmse": 0.013912267347448697,
+    "final_payload_bitwise_zero": 0.9283447265625,
+    "infrastructure_failures": 0,
+    "minimum_monitor_rmse": 0.013912267347448697,
+    "monitor_rmse_at_entry": 0.03530449869435037,
+    "network_retry_count": 0,
+    "orchestration_resumed": false,
+    "ordinary_acquisitions": 5,
+    "payload_bitwise_zero_at_entry": 0.9296875,
+    "provider_execution_seconds_by_acquisition": [
+      3.855067,
+      3.01801,
+      3.185348,
+      3.000294,
+      3.149237
+    ],
+    "provider_execution_seconds_to_contract": 13.058719,
+    "provider_execution_seconds_total": 16.207956,
+    "provider_job_create_to_finish_seconds_to_contract": 1061.028762,
+    "provider_job_create_to_finish_seconds_total": 1301.168702,
+    "resume_events": [],
+    "seed": 2026081499,
+    "selected_job_ids": [
+      1283748,
+      1283750,
+      1283752,
+      1283754,
+      1283757
+    ],
+    "shots_done": 20480,
+    "shots_requested": 20480,
+    "source_sha256": "c6c86e82970cee05b177e65abf4f4342f5e7e2277454ce69998d4a45c327f29d",
+    "structural_minimum_acquisitions_to_confirm": 2,
+    "trace": [
+      {
+        "acquisition": 1,
+        "acquisition_kind": "ordinary",
+        "command": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "contract_eligible": true,
+        "controller_update_seconds": 2.3594999220222235e-05,
+        "hybrid_execute_call_seconds": 182.45660773001146,
+        "monitor_response": [
+          0.53759765625,
+          0.792236328125,
+          0.53271484375,
+          0.287109375
+        ],
+        "monitor_rmse": 0.1884279732011921,
+        "payload_all_zero": 0.625732421875,
+        "payload_bitwise_zero": 0.86920166015625,
+        "shots_done": 4096,
+        "shots_requested": 4096
+      },
+      {
+        "acquisition": 2,
+        "acquisition_kind": "ordinary",
+        "command": [
+          0.15,
+          0.15,
+          0.15,
+          -0.15
+        ],
+        "contract_eligible": true,
+        "controller_update_seconds": 5.759997293353081e-05,
+        "hybrid_execute_call_seconds": 247.60333684203215,
+        "monitor_response": [
+          0.6103515625,
+          0.745849609375,
+          0.60205078125,
+          0.217529296875
+        ],
+        "monitor_rmse": 0.20846725371608213,
+        "payload_all_zero": 0.629150390625,
+        "payload_bitwise_zero": 0.86932373046875,
+        "shots_done": 4096,
+        "shots_requested": 4096
+      },
+      {
+        "acquisition": 3,
+        "acquisition_kind": "ordinary",
+        "command": [
+          -0.0431615234775477,
+          0.9060997306492771,
+          -0.12013478307103356,
+          0.413544384346166
+        ],
+        "contract_eligible": true,
+        "controller_update_seconds": 0.00017011002637445927,
+        "hybrid_execute_call_seconds": 410.8940682510147,
+        "monitor_response": [
+          0.52197265625,
+          0.377685546875,
+          0.485595703125,
+          0.501953125
+        ],
+        "monitor_rmse": 0.05631676526275039,
+        "payload_all_zero": 0.773193359375,
+        "payload_bitwise_zero": 0.927490234375,
+        "shots_done": 4096,
+        "shots_requested": 4096
+      },
+      {
+        "acquisition": 4,
+        "acquisition_kind": "ordinary",
+        "command": [
+          -0.10059591779181053,
+          0.8217449767700455,
+          -0.1983249059694223,
+          0.4857582996165142
+        ],
+        "contract_eligible": true,
+        "controller_update_seconds": 1.877604518085718e-05,
+        "hybrid_execute_call_seconds": 279.43882176000625,
+        "monitor_response": [
+          0.491455078125,
+          0.42236328125,
+          0.464599609375,
+          0.52001953125
+        ],
+        "monitor_rmse": 0.03530449869435037,
+        "payload_all_zero": 0.779541015625,
+        "payload_bitwise_zero": 0.9296875,
+        "shots_done": 4096,
+        "shots_requested": 4096
+      },
+      {
+        "acquisition": 5,
+        "acquisition_kind": "ordinary",
+        "command": [
+          -0.09004112408316836,
+          0.7149043819519219,
+          -0.21080063412286762,
+          0.44554775639649136
+        ],
+        "contract_eligible": true,
+        "controller_update_seconds": 1.9458995666354895e-05,
+        "hybrid_execute_call_seconds": 259.0775902909809,
+        "monitor_response": [
+          0.507568359375,
+          0.489501953125,
+          0.44775390625,
+          0.516357421875
+        ],
+        "monitor_rmse": 0.013912267347448697,
+        "payload_all_zero": 0.77783203125,
+        "payload_bitwise_zero": 0.9283447265625,
+        "shots_done": 4096,
+        "shots_requested": 4096
+      }
+    ]
+  },
+  "direct_feedback_latency_projection": {
+    "acquisitions_to_contract": 4,
+    "available": true,
+    "claim_boundary": "Parameterized direct-feedback projection, not Tuna-9 measured latency. Provider-reported execution and public-cloud timing are reported separately.",
+    "controller": "retained_residual",
+    "formula": "A_contract * tau + measured local controller update time",
+    "latency_sweep": [
+      {
+        "acquisition_only_seconds": 4e-06,
+        "including_measured_local_controller_seconds": 0.00015409002527222036,
+        "tau_seconds": 1e-06
+      },
+      {
+        "acquisition_only_seconds": 4e-05,
+        "including_measured_local_controller_seconds": 0.00019009002527222037,
+        "tau_seconds": 1e-05
+      },
+      {
+        "acquisition_only_seconds": 0.0004,
+        "including_measured_local_controller_seconds": 0.0005500900252722203,
+        "tau_seconds": 0.0001
+      },
+      {
+        "acquisition_only_seconds": 0.004,
+        "including_measured_local_controller_seconds": 0.0041500900252722205,
+        "tau_seconds": 0.001
+      },
+      {
+        "acquisition_only_seconds": 0.4,
+        "including_measured_local_controller_seconds": 0.40015009002527224,
+        "tau_seconds": 0.1
+      }
+    ],
+    "measured_median_controller_update_seconds_to_contract": 0.00015009002527222037
+  },
+  "evidence_builder_commit": "recorded in artifact manifest",
+  "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+  "failed_provider_hybrid_jobs": [
+    {
+      "algorithm_type": "hybrid",
+      "job_id": 1283734,
+      "message": "An unexpected error occurred. Please contact support.",
+      "status": "failed"
+    },
+    {
+      "algorithm_type": "hybrid",
+      "job_id": 1283738,
+      "message": "An unexpected error occurred. Please contact support.",
+      "status": "failed"
+    }
+  ],
+  "post_campaign_reference": {
+    "job_id": 1283870,
+    "monitor_target": [
+      0.490966796875,
+      0.4925537109375,
+      0.4588623046875,
+      0.5047607421875
+    ],
+    "payload_reference_all_zero": 0.7672119140625,
+    "payload_reference_bitwise_zero": 0.925323486328125,
+    "payload_threshold": 0.825323486328125,
+    "shots_done": 8192,
+    "shots_requested": 8192,
+    "timing": {
+      "create_to_finish_seconds": 8.378422,
+      "created_on": "2026-08-14T12:04:08.990354Z",
+      "finished_at": "2026-08-14T12:04:17.368776Z",
+      "provider_result_execution_seconds": 5.270017,
+      "queue_to_finish_seconds": 5.431244,
+      "queued_at": "2026-08-14T12:04:11.937532Z"
+    }
+  },
+  "post_campaign_reference_drift": {
+    "interpretation": "Diagnostic only. The original reference and all frozen thresholds remain unchanged.",
+    "monitor_delta": [
+      -0.0140380859375,
+      0.005859375,
+      -0.00537109375,
+      0.010498046875
+    ],
+    "monitor_rmse": 0.009623639753755419,
+    "payload_bitwise_zero_delta": -0.00634765625
+  },
+  "pre_outcome_source_manifest_sha256": "8dfe91bc01db4840413b452c3b57dee288578f852fa87e4438ec08de81756e1c",
+  "protocol_commit": "4c01ede",
+  "provider": "Quantum Inspire",
+  "publication_state": "local only; owner review required before push or submission",
+  "reference": {
+    "job_id": 1283728,
+    "monitor_target": [
+      0.5050048828125,
+      0.4866943359375,
+      0.4642333984375,
+      0.4942626953125
+    ],
+    "payload_reference_all_zero": 0.785400390625,
+    "payload_reference_bitwise_zero": 0.931671142578125,
+    "payload_threshold": 0.831671142578125,
+    "shots_done": 8192,
+    "shots_requested": 8192,
+    "timing": {
+      "create_to_finish_seconds": 181.049755,
+      "created_on": "2026-08-14T10:29:36.842204Z",
+      "finished_at": "2026-08-14T10:32:37.891959Z",
+      "provider_result_execution_seconds": 5.297262,
+      "queue_to_finish_seconds": 5.452851,
+      "queued_at": "2026-08-14T10:32:32.439108Z"
+    }
+  },
+  "schema_version": "qsc-tuna9-hardware-evidence-v1"
+}

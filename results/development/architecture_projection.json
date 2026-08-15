@@ -1,0 +1,868 @@
+{
+  "artifact": "QSC-Bench architecture projection",
+  "created_at_utc": "2026-08-14T06:53:52.409300+00:00",
+  "duration_sensitivity": [
+    {
+      "acquisition_latency_seconds": 1e-06,
+      "minimum_width_for_dense_fd_best_case": 863999999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_days",
+      "target_seconds": 864000.0
+    },
+    {
+      "acquisition_latency_seconds": 1e-06,
+      "minimum_width_for_dense_fd_best_case": 1727999999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "20_days",
+      "target_seconds": 1728000.0
+    },
+    {
+      "acquisition_latency_seconds": 1e-06,
+      "minimum_width_for_dense_fd_best_case": 315575999999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_years",
+      "target_seconds": 315576000.0
+    },
+    {
+      "acquisition_latency_seconds": 1e-06,
+      "minimum_width_for_dense_fd_best_case": 6311519999999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "200_years",
+      "target_seconds": 6311520000.0
+    },
+    {
+      "acquisition_latency_seconds": 1e-05,
+      "minimum_width_for_dense_fd_best_case": 86399999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_days",
+      "target_seconds": 864000.0
+    },
+    {
+      "acquisition_latency_seconds": 1e-05,
+      "minimum_width_for_dense_fd_best_case": 172799999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "20_days",
+      "target_seconds": 1728000.0
+    },
+    {
+      "acquisition_latency_seconds": 1e-05,
+      "minimum_width_for_dense_fd_best_case": 31557599999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_years",
+      "target_seconds": 315576000.0
+    },
+    {
+      "acquisition_latency_seconds": 1e-05,
+      "minimum_width_for_dense_fd_best_case": 631151999999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "200_years",
+      "target_seconds": 6311520000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.0001,
+      "minimum_width_for_dense_fd_best_case": 8639999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_days",
+      "target_seconds": 864000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.0001,
+      "minimum_width_for_dense_fd_best_case": 17279999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "20_days",
+      "target_seconds": 1728000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.0001,
+      "minimum_width_for_dense_fd_best_case": 3155759999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_years",
+      "target_seconds": 315576000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.0001,
+      "minimum_width_for_dense_fd_best_case": 63115199999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "200_years",
+      "target_seconds": 6311520000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.001,
+      "minimum_width_for_dense_fd_best_case": 863999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_days",
+      "target_seconds": 864000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.001,
+      "minimum_width_for_dense_fd_best_case": 1727999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "20_days",
+      "target_seconds": 1728000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.001,
+      "minimum_width_for_dense_fd_best_case": 315575999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_years",
+      "target_seconds": 315576000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.001,
+      "minimum_width_for_dense_fd_best_case": 6311519999996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "200_years",
+      "target_seconds": 6311520000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.1,
+      "minimum_width_for_dense_fd_best_case": 8639996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_days",
+      "target_seconds": 864000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.1,
+      "minimum_width_for_dense_fd_best_case": 17279996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "20_days",
+      "target_seconds": 1728000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.1,
+      "minimum_width_for_dense_fd_best_case": 3155759996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "10_years",
+      "target_seconds": 315576000.0
+    },
+    {
+      "acquisition_latency_seconds": 0.1,
+      "minimum_width_for_dense_fd_best_case": 63115199996,
+      "scope": "hypothetical sensitivity; no device of this width is asserted",
+      "target_duration": "200_years",
+      "target_seconds": 6311520000.0
+    }
+  ],
+  "measured_anchor_summary": [
+    {
+      "anchor_rule": "worst successful measured run; no failed run is imputed",
+      "controller": "diagonal_secant",
+      "failures": 0,
+      "observed_acquisition_max": 23,
+      "observed_acquisition_median": 20.0,
+      "observed_acquisition_min": 7,
+      "observed_widths": [
+        4,
+        8
+      ],
+      "projection_anchor_acquisitions": 23,
+      "projection_condition": "Hypothetical no-growth continuation of the measured acquisition-depth envelope. It is not evidence at unmeasured widths.",
+      "runs": 4,
+      "success_rate": 1.0,
+      "successes": 4
+    },
+    {
+      "anchor_rule": "worst successful measured run; no failed run is imputed",
+      "controller": "retained_residual",
+      "failures": 0,
+      "observed_acquisition_max": 16,
+      "observed_acquisition_median": 13.0,
+      "observed_acquisition_min": 10,
+      "observed_widths": [
+        4,
+        8
+      ],
+      "projection_anchor_acquisitions": 16,
+      "projection_condition": "Hypothetical no-growth continuation of the measured acquisition-depth envelope. It is not evidence at unmeasured widths.",
+      "runs": 4,
+      "success_rate": 1.0,
+      "successes": 4
+    }
+  ],
+  "projection_rows": [
+    {
+      "methods": [
+        {
+          "evidence_kind": "projection anchored to measured benchmark runs",
+          "full_vector_values_per_acquisition": 8,
+          "host_arithmetic": "O(n)",
+          "host_state": "O(n) total; O(1) per channel",
+          "local_monitor_plus_actuation_bytes_per_cycle": 32,
+          "method": "diagonal_secant",
+          "resource_class": "minimal-sufficient cold-start candidate",
+          "sequential_acquisitions": 23,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "23 us",
+              "acquisition_only_seconds": 2.3e-05,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "230 us",
+              "acquisition_only_seconds": 0.00023,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "2.3 ms",
+              "acquisition_only_seconds": 0.0023,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "23 ms",
+              "acquisition_only_seconds": 0.023,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "2.3 s",
+              "acquisition_only_seconds": 2.3000000000000003,
+              "sequential_acquisitions": 23
+            }
+          ]
+        },
+        {
+          "evidence_kind": "projection anchored to measured benchmark runs",
+          "full_vector_values_per_acquisition": 8,
+          "host_arithmetic": "O(n)",
+          "host_state": "O(n) total; O(1) per channel",
+          "local_monitor_plus_actuation_bytes_per_cycle": 32,
+          "method": "retained_residual",
+          "resource_class": "minimal-sufficient cold-start candidate",
+          "sequential_acquisitions": 16,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "16 us",
+              "acquisition_only_seconds": 1.6e-05,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "160 us",
+              "acquisition_only_seconds": 0.00016,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "1.6 ms",
+              "acquisition_only_seconds": 0.0016,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "16 ms",
+              "acquisition_only_seconds": 0.016,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "1.6 s",
+              "acquisition_only_seconds": 1.6,
+              "sequential_acquisitions": 16
+            }
+          ]
+        },
+        {
+          "commissioning_acquisitions": 9,
+          "confirmation_acquisitions": 3,
+          "dense_float64_jacobian_bytes": 512,
+          "evidence_kind": "structural lower bound, not an executed large-width run",
+          "full_vector_values_per_acquisition": 8,
+          "host_arithmetic": "at least O(n^2) to form a dense update; O(n^3) direct solve here",
+          "host_state": "O(n^2)",
+          "method": "dense_finite_difference_best_case_verified",
+          "resource_class": "out of class",
+          "sequential_acquisitions": 12,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "12 us",
+              "acquisition_only_seconds": 1.2e-05,
+              "sequential_acquisitions": 12
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "120 us",
+              "acquisition_only_seconds": 0.00012000000000000002,
+              "sequential_acquisitions": 12
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "1.2 ms",
+              "acquisition_only_seconds": 0.0012000000000000001,
+              "sequential_acquisitions": 12
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "12 ms",
+              "acquisition_only_seconds": 0.012,
+              "sequential_acquisitions": 12
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "1.2 s",
+              "acquisition_only_seconds": 1.2000000000000002,
+              "sequential_acquisitions": 12
+            }
+          ]
+        }
+      ],
+      "width": 8
+    },
+    {
+      "methods": [
+        {
+          "evidence_kind": "projection anchored to measured benchmark runs",
+          "full_vector_values_per_acquisition": 128,
+          "host_arithmetic": "O(n)",
+          "host_state": "O(n) total; O(1) per channel",
+          "local_monitor_plus_actuation_bytes_per_cycle": 512,
+          "method": "diagonal_secant",
+          "resource_class": "minimal-sufficient cold-start candidate",
+          "sequential_acquisitions": 23,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "23 us",
+              "acquisition_only_seconds": 2.3e-05,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "230 us",
+              "acquisition_only_seconds": 0.00023,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "2.3 ms",
+              "acquisition_only_seconds": 0.0023,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "23 ms",
+              "acquisition_only_seconds": 0.023,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "2.3 s",
+              "acquisition_only_seconds": 2.3000000000000003,
+              "sequential_acquisitions": 23
+            }
+          ]
+        },
+        {
+          "evidence_kind": "projection anchored to measured benchmark runs",
+          "full_vector_values_per_acquisition": 128,
+          "host_arithmetic": "O(n)",
+          "host_state": "O(n) total; O(1) per channel",
+          "local_monitor_plus_actuation_bytes_per_cycle": 512,
+          "method": "retained_residual",
+          "resource_class": "minimal-sufficient cold-start candidate",
+          "sequential_acquisitions": 16,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "16 us",
+              "acquisition_only_seconds": 1.6e-05,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "160 us",
+              "acquisition_only_seconds": 0.00016,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "1.6 ms",
+              "acquisition_only_seconds": 0.0016,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "16 ms",
+              "acquisition_only_seconds": 0.016,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "1.6 s",
+              "acquisition_only_seconds": 1.6,
+              "sequential_acquisitions": 16
+            }
+          ]
+        },
+        {
+          "commissioning_acquisitions": 129,
+          "confirmation_acquisitions": 3,
+          "dense_float64_jacobian_bytes": 131072,
+          "evidence_kind": "structural lower bound, not an executed large-width run",
+          "full_vector_values_per_acquisition": 128,
+          "host_arithmetic": "at least O(n^2) to form a dense update; O(n^3) direct solve here",
+          "host_state": "O(n^2)",
+          "method": "dense_finite_difference_best_case_verified",
+          "resource_class": "out of class",
+          "sequential_acquisitions": 132,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "132 us",
+              "acquisition_only_seconds": 0.00013199999999999998,
+              "sequential_acquisitions": 132
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "1.32 ms",
+              "acquisition_only_seconds": 0.0013200000000000002,
+              "sequential_acquisitions": 132
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "13.2 ms",
+              "acquisition_only_seconds": 0.0132,
+              "sequential_acquisitions": 132
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "132 ms",
+              "acquisition_only_seconds": 0.132,
+              "sequential_acquisitions": 132
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "13.2 s",
+              "acquisition_only_seconds": 13.200000000000001,
+              "sequential_acquisitions": 132
+            }
+          ]
+        }
+      ],
+      "width": 128
+    },
+    {
+      "methods": [
+        {
+          "evidence_kind": "projection anchored to measured benchmark runs",
+          "full_vector_values_per_acquisition": 1024,
+          "host_arithmetic": "O(n)",
+          "host_state": "O(n) total; O(1) per channel",
+          "local_monitor_plus_actuation_bytes_per_cycle": 4096,
+          "method": "diagonal_secant",
+          "resource_class": "minimal-sufficient cold-start candidate",
+          "sequential_acquisitions": 23,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "23 us",
+              "acquisition_only_seconds": 2.3e-05,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "230 us",
+              "acquisition_only_seconds": 0.00023,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "2.3 ms",
+              "acquisition_only_seconds": 0.0023,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "23 ms",
+              "acquisition_only_seconds": 0.023,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "2.3 s",
+              "acquisition_only_seconds": 2.3000000000000003,
+              "sequential_acquisitions": 23
+            }
+          ]
+        },
+        {
+          "evidence_kind": "projection anchored to measured benchmark runs",
+          "full_vector_values_per_acquisition": 1024,
+          "host_arithmetic": "O(n)",
+          "host_state": "O(n) total; O(1) per channel",
+          "local_monitor_plus_actuation_bytes_per_cycle": 4096,
+          "method": "retained_residual",
+          "resource_class": "minimal-sufficient cold-start candidate",
+          "sequential_acquisitions": 16,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "16 us",
+              "acquisition_only_seconds": 1.6e-05,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "160 us",
+              "acquisition_only_seconds": 0.00016,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "1.6 ms",
+              "acquisition_only_seconds": 0.0016,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "16 ms",
+              "acquisition_only_seconds": 0.016,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "1.6 s",
+              "acquisition_only_seconds": 1.6,
+              "sequential_acquisitions": 16
+            }
+          ]
+        },
+        {
+          "commissioning_acquisitions": 1025,
+          "confirmation_acquisitions": 3,
+          "dense_float64_jacobian_bytes": 8388608,
+          "evidence_kind": "structural lower bound, not an executed large-width run",
+          "full_vector_values_per_acquisition": 1024,
+          "host_arithmetic": "at least O(n^2) to form a dense update; O(n^3) direct solve here",
+          "host_state": "O(n^2)",
+          "method": "dense_finite_difference_best_case_verified",
+          "resource_class": "out of class",
+          "sequential_acquisitions": 1028,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "1.03 ms",
+              "acquisition_only_seconds": 0.001028,
+              "sequential_acquisitions": 1028
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "10.3 ms",
+              "acquisition_only_seconds": 0.010280000000000001,
+              "sequential_acquisitions": 1028
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "103 ms",
+              "acquisition_only_seconds": 0.1028,
+              "sequential_acquisitions": 1028
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "1.03 s",
+              "acquisition_only_seconds": 1.028,
+              "sequential_acquisitions": 1028
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "103 s",
+              "acquisition_only_seconds": 102.80000000000001,
+              "sequential_acquisitions": 1028
+            }
+          ]
+        }
+      ],
+      "width": 1024
+    },
+    {
+      "methods": [
+        {
+          "evidence_kind": "projection anchored to measured benchmark runs",
+          "full_vector_values_per_acquisition": 1000000,
+          "host_arithmetic": "O(n)",
+          "host_state": "O(n) total; O(1) per channel",
+          "local_monitor_plus_actuation_bytes_per_cycle": 4000000,
+          "method": "diagonal_secant",
+          "resource_class": "minimal-sufficient cold-start candidate",
+          "sequential_acquisitions": 23,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "23 us",
+              "acquisition_only_seconds": 2.3e-05,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "230 us",
+              "acquisition_only_seconds": 0.00023,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "2.3 ms",
+              "acquisition_only_seconds": 0.0023,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "23 ms",
+              "acquisition_only_seconds": 0.023,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "2.3 s",
+              "acquisition_only_seconds": 2.3000000000000003,
+              "sequential_acquisitions": 23
+            }
+          ]
+        },
+        {
+          "evidence_kind": "projection anchored to measured benchmark runs",
+          "full_vector_values_per_acquisition": 1000000,
+          "host_arithmetic": "O(n)",
+          "host_state": "O(n) total; O(1) per channel",
+          "local_monitor_plus_actuation_bytes_per_cycle": 4000000,
+          "method": "retained_residual",
+          "resource_class": "minimal-sufficient cold-start candidate",
+          "sequential_acquisitions": 16,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "16 us",
+              "acquisition_only_seconds": 1.6e-05,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "160 us",
+              "acquisition_only_seconds": 0.00016,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "1.6 ms",
+              "acquisition_only_seconds": 0.0016,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "16 ms",
+              "acquisition_only_seconds": 0.016,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "1.6 s",
+              "acquisition_only_seconds": 1.6,
+              "sequential_acquisitions": 16
+            }
+          ]
+        },
+        {
+          "commissioning_acquisitions": 1000001,
+          "confirmation_acquisitions": 3,
+          "dense_float64_jacobian_bytes": 8000000000000,
+          "evidence_kind": "structural lower bound, not an executed large-width run",
+          "full_vector_values_per_acquisition": 1000000,
+          "host_arithmetic": "at least O(n^2) to form a dense update; O(n^3) direct solve here",
+          "host_state": "O(n^2)",
+          "method": "dense_finite_difference_best_case_verified",
+          "resource_class": "out of class",
+          "sequential_acquisitions": 1000004,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "1 s",
+              "acquisition_only_seconds": 1.000004,
+              "sequential_acquisitions": 1000004
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "10 s",
+              "acquisition_only_seconds": 10.00004,
+              "sequential_acquisitions": 1000004
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "100 s",
+              "acquisition_only_seconds": 100.0004,
+              "sequential_acquisitions": 1000004
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "1e+03 s",
+              "acquisition_only_seconds": 1000.004,
+              "sequential_acquisitions": 1000004
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "1.16 days",
+              "acquisition_only_seconds": 100000.40000000001,
+              "sequential_acquisitions": 1000004
+            }
+          ]
+        }
+      ],
+      "width": 1000000
+    },
+    {
+      "methods": [
+        {
+          "evidence_kind": "projection anchored to measured benchmark runs",
+          "full_vector_values_per_acquisition": 100000000,
+          "host_arithmetic": "O(n)",
+          "host_state": "O(n) total; O(1) per channel",
+          "local_monitor_plus_actuation_bytes_per_cycle": 400000000,
+          "method": "diagonal_secant",
+          "resource_class": "minimal-sufficient cold-start candidate",
+          "sequential_acquisitions": 23,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "23 us",
+              "acquisition_only_seconds": 2.3e-05,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "230 us",
+              "acquisition_only_seconds": 0.00023,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "2.3 ms",
+              "acquisition_only_seconds": 0.0023,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "23 ms",
+              "acquisition_only_seconds": 0.023,
+              "sequential_acquisitions": 23
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "2.3 s",
+              "acquisition_only_seconds": 2.3000000000000003,
+              "sequential_acquisitions": 23
+            }
+          ]
+        },
+        {
+          "evidence_kind": "projection anchored to measured benchmark runs",
+          "full_vector_values_per_acquisition": 100000000,
+          "host_arithmetic": "O(n)",
+          "host_state": "O(n) total; O(1) per channel",
+          "local_monitor_plus_actuation_bytes_per_cycle": 400000000,
+          "method": "retained_residual",
+          "resource_class": "minimal-sufficient cold-start candidate",
+          "sequential_acquisitions": 16,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "16 us",
+              "acquisition_only_seconds": 1.6e-05,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "160 us",
+              "acquisition_only_seconds": 0.00016,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "1.6 ms",
+              "acquisition_only_seconds": 0.0016,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "16 ms",
+              "acquisition_only_seconds": 0.016,
+              "sequential_acquisitions": 16
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "1.6 s",
+              "acquisition_only_seconds": 1.6,
+              "sequential_acquisitions": 16
+            }
+          ]
+        },
+        {
+          "commissioning_acquisitions": 100000001,
+          "confirmation_acquisitions": 3,
+          "dense_float64_jacobian_bytes": 80000000000000000,
+          "evidence_kind": "structural lower bound, not an executed large-width run",
+          "full_vector_values_per_acquisition": 100000000,
+          "host_arithmetic": "at least O(n^2) to form a dense update; O(n^3) direct solve here",
+          "host_state": "O(n^2)",
+          "method": "dense_finite_difference_best_case_verified",
+          "resource_class": "out of class",
+          "sequential_acquisitions": 100000004,
+          "times": [
+            {
+              "acquisition_latency_seconds": 1e-06,
+              "acquisition_only_human": "100 s",
+              "acquisition_only_seconds": 100.00000399999999,
+              "sequential_acquisitions": 100000004
+            },
+            {
+              "acquisition_latency_seconds": 1e-05,
+              "acquisition_only_human": "1e+03 s",
+              "acquisition_only_seconds": 1000.0000400000001,
+              "sequential_acquisitions": 100000004
+            },
+            {
+              "acquisition_latency_seconds": 0.0001,
+              "acquisition_only_human": "1e+04 s",
+              "acquisition_only_seconds": 10000.0004,
+              "sequential_acquisitions": 100000004
+            },
+            {
+              "acquisition_latency_seconds": 0.001,
+              "acquisition_only_human": "1.16 days",
+              "acquisition_only_seconds": 100000.004,
+              "sequential_acquisitions": 100000004
+            },
+            {
+              "acquisition_latency_seconds": 0.1,
+              "acquisition_only_human": "116 days",
+              "acquisition_only_seconds": 10000000.4,
+              "sequential_acquisitions": 100000004
+            }
+          ]
+        }
+      ],
+      "width": 100000000
+    }
+  ],
+  "protocol_version": "0.1.0-draft",
+  "semantics": {
+    "flat_quantity": "sequential acquisition depth under the stated no-growth hypothesis",
+    "not_flat": [
+      "full-vector data volume",
+      "host arithmetic",
+      "total controller state",
+      "sensor and actuator count",
+      "actuation energy",
+      "simulator runtime"
+    ],
+    "placement_warning": "The 2n-value maintenance frame remains local only when the maintenance layer is placed beside the plant. If it crosses the workload host boundary, routing closure must be checked separately.",
+    "time_formula": "T_acquisition_only = A_contract * tau",
+    "total_time_warning": "Acquisition-only time is not end-to-end wall time. Add readout, transport, host/local update, command distribution, and settling unless included in tau."
+  },
+  "source_development_run": true,
+  "source_result_label": "DEVELOPMENT / NOT FOR PUBLICATION",
+  "source_result_path": "results/development/smoke_results.json",
+  "source_result_sha256": "bc933237e66485c0d0dd2fc38427c432fe94c17f9b41aea47b3c52f7ff571243"
+}

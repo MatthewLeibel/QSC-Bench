@@ -1,0 +1,58 @@
+{
+ "100000": {
+  "ref": {
+   "floor": 0.0496,
+   "usable_at": 4
+  },
+  "broyden": {
+   "floor": 0.0383,
+   "usable_at": 3
+  },
+  "nothing": {
+   "floor": 0.1512,
+   "usable_at": null
+  }
+ },
+ "1000000": {
+  "ref": {
+   "floor": 0.0496,
+   "usable_at": 4
+  },
+  "broyden": {
+   "floor": 0.0383,
+   "usable_at": 3
+  },
+  "nothing": {
+   "floor": 0.1515,
+   "usable_at": null
+  }
+ },
+ "10000000": {
+  "ref": {
+   "floor": 0.0496,
+   "usable_at": 4
+  },
+  "broyden": {
+   "floor": 0.0383,
+   "usable_at": 3
+  },
+  "nothing": {
+   "floor": 0.1516,
+   "usable_at": null
+  }
+ },
+ "100000000": {
+  "ref": {
+   "floor": 0.0496,
+   "usable_at": 4
+  },
+  "broyden": {
+   "floor": 0.0383,
+   "usable_at": 3
+  },
+  "nothing": {
+   "floor": 0.1515,
+   "usable_at": null
+  }
+ }
+}

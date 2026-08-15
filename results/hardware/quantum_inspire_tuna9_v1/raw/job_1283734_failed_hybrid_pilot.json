@@ -1,0 +1,22 @@
+{
+  "capture_schema": "qsc-quantum-inspire-job-capture-v1",
+  "captured_at": "2026-08-14T10:39:10.048642+00:00",
+  "final_result": null,
+  "job": {
+    "algorithm_type": "hybrid",
+    "batch_job_id": 763596,
+    "created_on": "2026-08-14T10:33:46.413934Z",
+    "file_id": 1295467,
+    "finished_at": "2026-08-14T10:37:38.211716Z",
+    "id": 1283734,
+    "message": "An unexpected error occurred. Please contact support.",
+    "number_of_shots": 8192,
+    "queued_at": "2026-08-14T10:37:30.477775Z",
+    "raw_data_enabled": false,
+    "session_id": "419bdb86-0d07-4e9b-9079-1b50b5a82cf9",
+    "source": "",
+    "status": "failed",
+    "trace_id": "4bf4b6e9-6b79-4455-89dc-5203a046a263"
+  },
+  "results": []
+}

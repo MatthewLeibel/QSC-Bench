@@ -1,0 +1,782 @@
+[
+  {
+    "app_version": "0.0.1.dev2+g69e28cd55",
+    "job_type": "QSC-Bench Cold Start",
+    "platform": {
+      "device": "Tuna-9",
+      "device_metadata": {
+        "backend_type_id": 6,
+        "controller": "commissioned_pi",
+        "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+        "num_qubits": 9,
+        "provider_execution_seconds_to_contract": 12.008148,
+        "provider_execution_seconds_total": 15.009637,
+        "provider_job_ids": [
+          1283793,
+          1283800,
+          1283805,
+          1283812,
+          1283818
+        ],
+        "scope": "commanded phase restoration; no provider-private calibration access",
+        "seed": 492734311,
+        "simulator": false,
+        "source_sha256": "e7bb47b9b7a7694b88b505a3da4a7c263f666c53765f6bf411cfbcfd333c851d"
+      },
+      "provider": "Quantum Inspire"
+    },
+    "results": {
+      "acquisitions_to_contract": 4,
+      "contract_success": true,
+      "controller_float_words_per_channel": 3.0,
+      "controller_mutable_state_bytes": 96,
+      "host_update_seconds": 9.112292900681496e-05,
+      "local_monitor_plus_actuation_values_per_cycle": 8,
+      "minimal_sufficient_cold_start_candidate": false,
+      "monitor_values_per_acquisition": 4,
+      "payload_quality": 0.91961669921875,
+      "projected_acquisition_latency_seconds": 0.0001,
+      "projected_time_to_contract_seconds": 0.0004911229290068149,
+      "qsc_code_commit": "4c01ede",
+      "qsc_git_worktree_dirty": false,
+      "score": {
+        "uncertainty": null,
+        "value": 0.25
+      },
+      "simulator_runtime_seconds": 0.0,
+      "total_quantum_executions_to_usable": 4,
+      "traffic_scalars_to_contract": 32,
+      "width": 4
+    },
+    "suite_id": null,
+    "timestamp": "2026-08-14T11:56:11.602988+00:00"
+  },
+  {
+    "app_version": "0.0.1.dev2+g69e28cd55",
+    "job_type": "QSC-Bench Cold Start",
+    "platform": {
+      "device": "Tuna-9",
+      "device_metadata": {
+        "backend_type_id": 6,
+        "controller": "dense_fd",
+        "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+        "num_qubits": 9,
+        "provider_execution_seconds_to_contract": null,
+        "provider_execution_seconds_total": 14.718188999999999,
+        "provider_job_ids": [
+          1283792,
+          1283802,
+          1283808,
+          1283815,
+          1283822
+        ],
+        "scope": "commanded phase restoration; no provider-private calibration access",
+        "seed": 492734311,
+        "simulator": false,
+        "source_sha256": "1a5f291e3c45e50cfc6d10fc20ed2cb42461c1e165ed81e7c8a093f3d47fe817"
+      },
+      "provider": "Quantum Inspire"
+    },
+    "results": {
+      "acquisitions_to_contract": 0,
+      "contract_success": false,
+      "controller_float_words_per_channel": 5.0,
+      "controller_mutable_state_bytes": 160,
+      "host_update_seconds": 0.00012363912537693977,
+      "local_monitor_plus_actuation_values_per_cycle": 8,
+      "minimal_sufficient_cold_start_candidate": false,
+      "monitor_values_per_acquisition": 4,
+      "payload_quality": 0.8707275390625,
+      "projected_acquisition_latency_seconds": 0.0001,
+      "projected_time_to_contract_seconds": 0.0,
+      "qsc_code_commit": "4c01ede",
+      "qsc_git_worktree_dirty": false,
+      "score": {
+        "uncertainty": null,
+        "value": 0.0
+      },
+      "simulator_runtime_seconds": 0.0,
+      "total_quantum_executions_to_usable": 0,
+      "traffic_scalars_to_contract": 40,
+      "width": 4
+    },
+    "suite_id": null,
+    "timestamp": "2026-08-14T11:56:23.175350+00:00"
+  },
+  {
+    "app_version": "0.0.1.dev2+g69e28cd55",
+    "job_type": "QSC-Bench Cold Start",
+    "platform": {
+      "device": "Tuna-9",
+      "device_metadata": {
+        "backend_type_id": 6,
+        "controller": "diagonal_secant",
+        "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+        "num_qubits": 9,
+        "provider_execution_seconds_to_contract": 12.23752,
+        "provider_execution_seconds_total": 15.188892,
+        "provider_job_ids": [
+          1283794,
+          1283799,
+          1283806,
+          1283813,
+          1283819
+        ],
+        "scope": "commanded phase restoration; no provider-private calibration access",
+        "seed": 492734311,
+        "simulator": false,
+        "source_sha256": "270443585c2f4a87308892f0862ef7a6503e32dadfacdffa92667775104e1521"
+      },
+      "provider": "Quantum Inspire"
+    },
+    "results": {
+      "acquisitions_to_contract": 4,
+      "contract_success": true,
+      "controller_float_words_per_channel": 4.0,
+      "controller_mutable_state_bytes": 128,
+      "host_update_seconds": 0.00010520091746002436,
+      "local_monitor_plus_actuation_values_per_cycle": 8,
+      "minimal_sufficient_cold_start_candidate": true,
+      "monitor_values_per_acquisition": 4,
+      "payload_quality": 0.92449951171875,
+      "projected_acquisition_latency_seconds": 0.0001,
+      "projected_time_to_contract_seconds": 0.0005052009174600243,
+      "qsc_code_commit": "4c01ede",
+      "qsc_git_worktree_dirty": false,
+      "score": {
+        "uncertainty": null,
+        "value": 0.25
+      },
+      "simulator_runtime_seconds": 0.0,
+      "total_quantum_executions_to_usable": 4,
+      "traffic_scalars_to_contract": 32,
+      "width": 4
+    },
+    "suite_id": null,
+    "timestamp": "2026-08-14T11:56:12.477331+00:00"
+  },
+  {
+    "app_version": "0.0.1.dev2+g69e28cd55",
+    "job_type": "QSC-Bench Cold Start",
+    "platform": {
+      "device": "Tuna-9",
+      "device_metadata": {
+        "backend_type_id": 6,
+        "controller": "do_nothing",
+        "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+        "num_qubits": 9,
+        "provider_execution_seconds_to_contract": null,
+        "provider_execution_seconds_total": 16.024749,
+        "provider_job_ids": [
+          1283790,
+          1283801,
+          1283809,
+          1283814,
+          1283821
+        ],
+        "scope": "commanded phase restoration; no provider-private calibration access",
+        "seed": 492734311,
+        "simulator": false,
+        "source_sha256": "bfb4e4970a81de42bbc77eb0cf5cdf3163f48bd2d353f9a9fc14cd243a345dac"
+      },
+      "provider": "Quantum Inspire"
+    },
+    "results": {
+      "acquisitions_to_contract": 0,
+      "contract_success": false,
+      "controller_float_words_per_channel": 1.0,
+      "controller_mutable_state_bytes": 32,
+      "host_update_seconds": 1.3803073670715094e-05,
+      "local_monitor_plus_actuation_values_per_cycle": 8,
+      "minimal_sufficient_cold_start_candidate": false,
+      "monitor_values_per_acquisition": 4,
+      "payload_quality": 0.87872314453125,
+      "projected_acquisition_latency_seconds": 0.0001,
+      "projected_time_to_contract_seconds": 0.0,
+      "qsc_code_commit": "4c01ede",
+      "qsc_git_worktree_dirty": false,
+      "score": {
+        "uncertainty": null,
+        "value": 0.0
+      },
+      "simulator_runtime_seconds": 0.0,
+      "total_quantum_executions_to_usable": 0,
+      "traffic_scalars_to_contract": 40,
+      "width": 4
+    },
+    "suite_id": null,
+    "timestamp": "2026-08-14T11:56:22.621340+00:00"
+  },
+  {
+    "app_version": "0.0.1.dev2+g69e28cd55",
+    "job_type": "QSC-Bench Cold Start",
+    "platform": {
+      "device": "Tuna-9",
+      "device_metadata": {
+        "backend_type_id": 6,
+        "controller": "retained_residual",
+        "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+        "num_qubits": 9,
+        "provider_execution_seconds_to_contract": 11.941517000000001,
+        "provider_execution_seconds_total": 15.198247,
+        "provider_job_ids": [
+          1283791,
+          1283797,
+          1283804,
+          1283810,
+          1283817
+        ],
+        "scope": "commanded phase restoration; no provider-private calibration access",
+        "seed": 492734311,
+        "simulator": false,
+        "source_sha256": "c9c931a9fe21a8911612bdace5bc57aeeaadd613073929e5f9c6d50dab1cffb4"
+      },
+      "provider": "Quantum Inspire"
+    },
+    "results": {
+      "acquisitions_to_contract": 4,
+      "contract_success": true,
+      "controller_float_words_per_channel": 6.0,
+      "controller_mutable_state_bytes": 192,
+      "host_update_seconds": 0.0001508240238763392,
+      "local_monitor_plus_actuation_values_per_cycle": 8,
+      "minimal_sufficient_cold_start_candidate": true,
+      "monitor_values_per_acquisition": 4,
+      "payload_quality": 0.91986083984375,
+      "projected_acquisition_latency_seconds": 0.0001,
+      "projected_time_to_contract_seconds": 0.0005508240238763392,
+      "qsc_code_commit": "4c01ede",
+      "qsc_git_worktree_dirty": false,
+      "score": {
+        "uncertainty": null,
+        "value": 0.25
+      },
+      "simulator_runtime_seconds": 0.0,
+      "total_quantum_executions_to_usable": 4,
+      "traffic_scalars_to_contract": 32,
+      "width": 4
+    },
+    "suite_id": null,
+    "timestamp": "2026-08-14T11:56:03.252935+00:00"
+  },
+  {
+    "app_version": "0.0.1.dev2+g69e28cd55",
+    "job_type": "QSC-Bench Cold Start",
+    "platform": {
+      "device": "Tuna-9",
+      "device_metadata": {
+        "backend_type_id": 6,
+        "controller": "commissioned_pi",
+        "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+        "num_qubits": 9,
+        "provider_execution_seconds_to_contract": 11.826175,
+        "provider_execution_seconds_total": 15.233533999999999,
+        "provider_job_ids": [
+          1283761,
+          1283768,
+          1283773,
+          1283779,
+          1283785
+        ],
+        "scope": "commanded phase restoration; no provider-private calibration access",
+        "seed": 1411640080,
+        "simulator": false,
+        "source_sha256": "d2d807a204972d2ce8f4549bc42e746dfb51a7e1c8ec8a744d8d46fad8c0cf34"
+      },
+      "provider": "Quantum Inspire"
+    },
+    "results": {
+      "acquisitions_to_contract": 4,
+      "contract_success": true,
+      "controller_float_words_per_channel": 3.0,
+      "controller_mutable_state_bytes": 96,
+      "host_update_seconds": 0.00012182595673948526,
+      "local_monitor_plus_actuation_values_per_cycle": 8,
+      "minimal_sufficient_cold_start_candidate": false,
+      "monitor_values_per_acquisition": 4,
+      "payload_quality": 0.92742919921875,
+      "projected_acquisition_latency_seconds": 0.0001,
+      "projected_time_to_contract_seconds": 0.0005218259567394852,
+      "qsc_code_commit": "4c01ede",
+      "qsc_git_worktree_dirty": false,
+      "score": {
+        "uncertainty": null,
+        "value": 0.25
+      },
+      "simulator_runtime_seconds": 0.0,
+      "total_quantum_executions_to_usable": 4,
+      "traffic_scalars_to_contract": 32,
+      "width": 4
+    },
+    "suite_id": null,
+    "timestamp": "2026-08-14T11:43:14.438543+00:00"
+  },
+  {
+    "app_version": "0.0.1.dev2+g69e28cd55",
+    "job_type": "QSC-Bench Cold Start",
+    "platform": {
+      "device": "Tuna-9",
+      "device_metadata": {
+        "backend_type_id": 6,
+        "controller": "dense_fd",
+        "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+        "num_qubits": 9,
+        "provider_execution_seconds_to_contract": null,
+        "provider_execution_seconds_total": 15.766379,
+        "provider_job_ids": [
+          1283762,
+          1283767,
+          1283774,
+          1283780,
+          1283787
+        ],
+        "scope": "commanded phase restoration; no provider-private calibration access",
+        "seed": 1411640080,
+        "simulator": false,
+        "source_sha256": "eec58c73c43cac69ec579e561bf2a04a8c780a287ed5eab85fd3099315ceb1c7"
+      },
+      "provider": "Quantum Inspire"
+    },
+    "results": {
+      "acquisitions_to_contract": 0,
+      "contract_success": false,
+      "controller_float_words_per_channel": 5.0,
+      "controller_mutable_state_bytes": 160,
+      "host_update_seconds": 0.0001475279568694532,
+      "local_monitor_plus_actuation_values_per_cycle": 8,
+      "minimal_sufficient_cold_start_candidate": false,
+      "monitor_values_per_acquisition": 4,
+      "payload_quality": 0.86981201171875,
+      "projected_acquisition_latency_seconds": 0.0001,
+      "projected_time_to_contract_seconds": 0.0,
+      "qsc_code_commit": "4c01ede",
+      "qsc_git_worktree_dirty": false,
+      "score": {
+        "uncertainty": null,
+        "value": 0.0
+      },
+      "simulator_runtime_seconds": 0.0,
+      "total_quantum_executions_to_usable": 0,
+      "traffic_scalars_to_contract": 40,
+      "width": 4
+    },
+    "suite_id": null,
+    "timestamp": "2026-08-14T11:43:35.638921+00:00"
+  },
+  {
+    "app_version": "0.0.1.dev2+g69e28cd55",
+    "job_type": "QSC-Bench Cold Start",
+    "platform": {
+      "device": "Tuna-9",
+      "device_metadata": {
+        "backend_type_id": 6,
+        "controller": "diagonal_secant",
+        "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+        "num_qubits": 9,
+        "provider_execution_seconds_to_contract": 11.907065,
+        "provider_execution_seconds_total": 14.866176,
+        "provider_job_ids": [
+          1283760,
+          1283766,
+          1283772,
+          1283778,
+          1283786
+        ],
+        "scope": "commanded phase restoration; no provider-private calibration access",
+        "seed": 1411640080,
+        "simulator": false,
+        "source_sha256": "a12c4de43c25ba0b4a26e6f02e25ffa507022c2f09c197cd6312544bf00fd380"
+      },
+      "provider": "Quantum Inspire"
+    },
+    "results": {
+      "acquisitions_to_contract": 4,
+      "contract_success": true,
+      "controller_float_words_per_channel": 4.0,
+      "controller_mutable_state_bytes": 128,
+      "host_update_seconds": 0.00011647009523585439,
+      "local_monitor_plus_actuation_values_per_cycle": 8,
+      "minimal_sufficient_cold_start_candidate": true,
+      "monitor_values_per_acquisition": 4,
+      "payload_quality": 0.92938232421875,
+      "projected_acquisition_latency_seconds": 0.0001,
+      "projected_time_to_contract_seconds": 0.0005164700952358544,
+      "qsc_code_commit": "4c01ede",
+      "qsc_git_worktree_dirty": false,
+      "score": {
+        "uncertainty": null,
+        "value": 0.25
+      },
+      "simulator_runtime_seconds": 0.0,
+      "total_quantum_executions_to_usable": 4,
+      "traffic_scalars_to_contract": 32,
+      "width": 4
+    },
+    "suite_id": null,
+    "timestamp": "2026-08-14T11:43:22.298113+00:00"
+  },
+  {
+    "app_version": "0.0.1.dev2+g69e28cd55",
+    "job_type": "QSC-Bench Cold Start",
+    "platform": {
+      "device": "Tuna-9",
+      "device_metadata": {
+        "backend_type_id": 6,
+        "controller": "do_nothing",
+        "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+        "num_qubits": 9,
+        "provider_execution_seconds_to_contract": null,
+        "provider_execution_seconds_total": 16.151893,
+        "provider_job_ids": [
+          1283759,
+          1283765,
+          1283771,
+          1283777,
+          1283783
+        ],
+        "scope": "commanded phase restoration; no provider-private calibration access",
+        "seed": 1411640080,
+        "simulator": false,
+        "source_sha256": "bf623a831a0c2f8a30d06999fa431385214a8036081058d7cd7882fc86057a3e"
+      },
+      "provider": "Quantum Inspire"
+    },
+    "results": {
+      "acquisitions_to_contract": 0,
+      "contract_success": false,
+      "controller_float_words_per_channel": 1.0,
+      "controller_mutable_state_bytes": 32,
+      "host_update_seconds": 8.631031960248947e-06,
+      "local_monitor_plus_actuation_values_per_cycle": 8,
+      "minimal_sufficient_cold_start_candidate": false,
+      "monitor_values_per_acquisition": 4,
+      "payload_quality": 0.88323974609375,
+      "projected_acquisition_latency_seconds": 0.0001,
+      "projected_time_to_contract_seconds": 0.0,
+      "qsc_code_commit": "4c01ede",
+      "qsc_git_worktree_dirty": false,
+      "score": {
+        "uncertainty": null,
+        "value": 0.0
+      },
+      "simulator_runtime_seconds": 0.0,
+      "total_quantum_executions_to_usable": 0,
+      "traffic_scalars_to_contract": 40,
+      "width": 4
+    },
+    "suite_id": null,
+    "timestamp": "2026-08-14T11:30:40.492559+00:00"
+  },
+  {
+    "app_version": "0.0.1.dev2+g69e28cd55",
+    "job_type": "QSC-Bench Cold Start",
+    "platform": {
+      "device": "Tuna-9",
+      "device_metadata": {
+        "backend_type_id": 6,
+        "controller": "retained_residual",
+        "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+        "num_qubits": 9,
+        "provider_execution_seconds_to_contract": 12.231529,
+        "provider_execution_seconds_total": 15.169829,
+        "provider_job_ids": [
+          1283763,
+          1283769,
+          1283775,
+          1283781,
+          1283788
+        ],
+        "scope": "commanded phase restoration; no provider-private calibration access",
+        "seed": 1411640080,
+        "simulator": false,
+        "source_sha256": "80dc02c8cacd43268d757e5fb2453d4c0f842f2deafc47760e3a5021964266ab"
+      },
+      "provider": "Quantum Inspire"
+    },
+    "results": {
+      "acquisitions_to_contract": 4,
+      "contract_success": true,
+      "controller_float_words_per_channel": 6.0,
+      "controller_mutable_state_bytes": 192,
+      "host_update_seconds": 0.00015009002527222037,
+      "local_monitor_plus_actuation_values_per_cycle": 8,
+      "minimal_sufficient_cold_start_candidate": true,
+      "monitor_values_per_acquisition": 4,
+      "payload_quality": 0.9246826171875,
+      "projected_acquisition_latency_seconds": 0.0001,
+      "projected_time_to_contract_seconds": 0.0005500900252722203,
+      "qsc_code_commit": "4c01ede",
+      "qsc_git_worktree_dirty": false,
+      "score": {
+        "uncertainty": null,
+        "value": 0.25
+      },
+      "simulator_runtime_seconds": 0.0,
+      "total_quantum_executions_to_usable": 4,
+      "traffic_scalars_to_contract": 32,
+      "width": 4
+    },
+    "suite_id": null,
+    "timestamp": "2026-08-14T11:43:39.082148+00:00"
+  },
+  {
+    "app_version": "0.0.1.dev2+g69e28cd55",
+    "job_type": "QSC-Bench Cold Start",
+    "platform": {
+      "device": "Tuna-9",
+      "device_metadata": {
+        "backend_type_id": 6,
+        "controller": "commissioned_pi",
+        "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+        "num_qubits": 9,
+        "provider_execution_seconds_to_contract": 11.898381,
+        "provider_execution_seconds_total": 15.562663,
+        "provider_job_ids": [
+          1283832,
+          1283838,
+          1283843,
+          1283850,
+          1283857
+        ],
+        "scope": "commanded phase restoration; no provider-private calibration access",
+        "seed": 1568158650,
+        "simulator": false,
+        "source_sha256": "402ef44401807eeb4026ee07fa263777699b805e686cc68c2706bde05ff0c1e6"
+      },
+      "provider": "Quantum Inspire"
+    },
+    "results": {
+      "acquisitions_to_contract": 4,
+      "contract_success": true,
+      "controller_float_words_per_channel": 3.0,
+      "controller_mutable_state_bytes": 96,
+      "host_update_seconds": 7.935299072414637e-05,
+      "local_monitor_plus_actuation_values_per_cycle": 8,
+      "minimal_sufficient_cold_start_candidate": false,
+      "monitor_values_per_acquisition": 4,
+      "payload_quality": 0.92645263671875,
+      "projected_acquisition_latency_seconds": 0.0001,
+      "projected_time_to_contract_seconds": 0.0004793529907241464,
+      "qsc_code_commit": "4c01ede",
+      "qsc_git_worktree_dirty": false,
+      "score": {
+        "uncertainty": null,
+        "value": 0.25
+      },
+      "simulator_runtime_seconds": 0.0,
+      "total_quantum_executions_to_usable": 4,
+      "traffic_scalars_to_contract": 32,
+      "width": 4
+    },
+    "suite_id": null,
+    "timestamp": "2026-08-14T12:02:25.237918+00:00"
+  },
+  {
+    "app_version": "0.0.1.dev2+g69e28cd55",
+    "job_type": "QSC-Bench Cold Start",
+    "platform": {
+      "device": "Tuna-9",
+      "device_metadata": {
+        "backend_type_id": 6,
+        "controller": "dense_fd",
+        "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+        "num_qubits": 9,
+        "provider_execution_seconds_to_contract": null,
+        "provider_execution_seconds_total": 14.873196,
+        "provider_job_ids": [
+          1283833,
+          1283842,
+          1283848,
+          1283855,
+          1283862
+        ],
+        "scope": "commanded phase restoration; no provider-private calibration access",
+        "seed": 1568158650,
+        "simulator": false,
+        "source_sha256": "774ad47144f8c42d23010666c768dbaf8dca65ee741c7339d8719daa933a37b3"
+      },
+      "provider": "Quantum Inspire"
+    },
+    "results": {
+      "acquisitions_to_contract": 0,
+      "contract_success": false,
+      "controller_float_words_per_channel": 5.0,
+      "controller_mutable_state_bytes": 160,
+      "host_update_seconds": 0.00016041408525779843,
+      "local_monitor_plus_actuation_values_per_cycle": 8,
+      "minimal_sufficient_cold_start_candidate": false,
+      "monitor_values_per_acquisition": 4,
+      "payload_quality": 0.8533935546875,
+      "projected_acquisition_latency_seconds": 0.0001,
+      "projected_time_to_contract_seconds": 0.0,
+      "qsc_code_commit": "4c01ede",
+      "qsc_git_worktree_dirty": false,
+      "score": {
+        "uncertainty": null,
+        "value": 0.0
+      },
+      "simulator_runtime_seconds": 0.0,
+      "total_quantum_executions_to_usable": 0,
+      "traffic_scalars_to_contract": 40,
+      "width": 4
+    },
+    "suite_id": null,
+    "timestamp": "2026-08-14T12:02:57.925640+00:00"
+  },
+  {
+    "app_version": "0.0.1.dev2+g69e28cd55",
+    "job_type": "QSC-Bench Cold Start",
+    "platform": {
+      "device": "Tuna-9",
+      "device_metadata": {
+        "backend_type_id": 6,
+        "controller": "diagonal_secant",
+        "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+        "num_qubits": 9,
+        "provider_execution_seconds_to_contract": 14.87565,
+        "provider_execution_seconds_total": 14.87565,
+        "provider_job_ids": [
+          1283834,
+          1283839,
+          1283846,
+          1283852,
+          1283859
+        ],
+        "scope": "commanded phase restoration; no provider-private calibration access",
+        "seed": 1568158650,
+        "simulator": false,
+        "source_sha256": "d662e6d60b253febcb05600f01587c509a766c6c486c1e20cf3e735ce7197422"
+      },
+      "provider": "Quantum Inspire"
+    },
+    "results": {
+      "acquisitions_to_contract": 5,
+      "contract_success": true,
+      "controller_float_words_per_channel": 4.0,
+      "controller_mutable_state_bytes": 128,
+      "host_update_seconds": 0.0001118939253501594,
+      "local_monitor_plus_actuation_values_per_cycle": 8,
+      "minimal_sufficient_cold_start_candidate": true,
+      "monitor_values_per_acquisition": 4,
+      "payload_quality": 0.92669677734375,
+      "projected_acquisition_latency_seconds": 0.0001,
+      "projected_time_to_contract_seconds": 0.0006118939253501594,
+      "qsc_code_commit": "4c01ede",
+      "qsc_git_worktree_dirty": false,
+      "score": {
+        "uncertainty": null,
+        "value": 0.2
+      },
+      "simulator_runtime_seconds": 0.0,
+      "total_quantum_executions_to_usable": 5,
+      "traffic_scalars_to_contract": 40,
+      "width": 4
+    },
+    "suite_id": null,
+    "timestamp": "2026-08-14T12:02:35.728924+00:00"
+  },
+  {
+    "app_version": "0.0.1.dev2+g69e28cd55",
+    "job_type": "QSC-Bench Cold Start",
+    "platform": {
+      "device": "Tuna-9",
+      "device_metadata": {
+        "backend_type_id": 6,
+        "controller": "do_nothing",
+        "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+        "num_qubits": 9,
+        "provider_execution_seconds_to_contract": null,
+        "provider_execution_seconds_total": 15.745451,
+        "provider_job_ids": [
+          1283831,
+          1283837,
+          1283844,
+          1283851,
+          1283860
+        ],
+        "scope": "commanded phase restoration; no provider-private calibration access",
+        "seed": 1568158650,
+        "simulator": false,
+        "source_sha256": "35b152fd76163757d80508bcc2369594e568b98e2edf894bd48f13d0558b776a"
+      },
+      "provider": "Quantum Inspire"
+    },
+    "results": {
+      "acquisitions_to_contract": 0,
+      "contract_success": false,
+      "controller_float_words_per_channel": 1.0,
+      "controller_mutable_state_bytes": 32,
+      "host_update_seconds": 1.0149960871785879e-05,
+      "local_monitor_plus_actuation_values_per_cycle": 8,
+      "minimal_sufficient_cold_start_candidate": false,
+      "monitor_values_per_acquisition": 4,
+      "payload_quality": 0.8499755859375,
+      "projected_acquisition_latency_seconds": 0.0001,
+      "projected_time_to_contract_seconds": 0.0,
+      "qsc_code_commit": "4c01ede",
+      "qsc_git_worktree_dirty": false,
+      "score": {
+        "uncertainty": null,
+        "value": 0.0
+      },
+      "simulator_runtime_seconds": 0.0,
+      "total_quantum_executions_to_usable": 0,
+      "traffic_scalars_to_contract": 40,
+      "width": 4
+    },
+    "suite_id": null,
+    "timestamp": "2026-08-14T12:02:47.039232+00:00"
+  },
+  {
+    "app_version": "0.0.1.dev2+g69e28cd55",
+    "job_type": "QSC-Bench Cold Start",
+    "platform": {
+      "device": "Tuna-9",
+      "device_metadata": {
+        "backend_type_id": 6,
+        "controller": "retained_residual",
+        "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+        "num_qubits": 9,
+        "provider_execution_seconds_to_contract": 11.881302999999999,
+        "provider_execution_seconds_total": 15.175763,
+        "provider_job_ids": [
+          1283835,
+          1283840,
+          1283847,
+          1283856,
+          1283864
+        ],
+        "scope": "commanded phase restoration; no provider-private calibration access",
+        "seed": 1568158650,
+        "simulator": false,
+        "source_sha256": "eded2684cb3def18432957a17b0c1fc971eea120043d18aa5e1337606321bfb6"
+      },
+      "provider": "Quantum Inspire"
+    },
+    "results": {
+      "acquisitions_to_contract": 4,
+      "contract_success": true,
+      "controller_float_words_per_channel": 6.0,
+      "controller_mutable_state_bytes": 192,
+      "host_update_seconds": 0.00011173292296007276,
+      "local_monitor_plus_actuation_values_per_cycle": 8,
+      "minimal_sufficient_cold_start_candidate": true,
+      "monitor_values_per_acquisition": 4,
+      "payload_quality": 0.9222412109375,
+      "projected_acquisition_latency_seconds": 0.0001,
+      "projected_time_to_contract_seconds": 0.0005117329229600727,
+      "qsc_code_commit": "4c01ede",
+      "qsc_git_worktree_dirty": false,
+      "score": {
+        "uncertainty": null,
+        "value": 0.25
+      },
+      "simulator_runtime_seconds": 0.0,
+      "total_quantum_executions_to_usable": 4,
+      "traffic_scalars_to_contract": 32,
+      "width": 4
+    },
+    "suite_id": null,
+    "timestamp": "2026-08-14T12:03:08.410054+00:00"
+  }
+]

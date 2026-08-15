@@ -1,0 +1,2590 @@
+{
+  "aer_core_cells": [
+    {
+      "acquisitions_to_contract": {
+        "median": 11.0,
+        "q1": 9.0,
+        "q3": 14.0
+      },
+      "controller": "anderson_residual",
+      "failures": 4,
+      "runs": 30,
+      "success_rate": 0.8666666666666667,
+      "successes": 26,
+      "width": 4
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 8.5,
+        "q1": 7.0,
+        "q3": 11.75
+      },
+      "controller": "commissioned_pi",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 4
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 9.0,
+        "q1": 7.0,
+        "q3": 14.75
+      },
+      "controller": "diagonal_secant",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 4
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "do_nothing",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 4
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 3.0,
+        "q1": 3.0,
+        "q3": 3.0
+      },
+      "controller": "oracle",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 4
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 11.0,
+        "q1": 9.25,
+        "q3": 14.0
+      },
+      "controller": "retained_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 4
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "spsa",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 4
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 13.0,
+        "q1": 11.0,
+        "q3": 15.5
+      },
+      "controller": "anderson_residual",
+      "failures": 3,
+      "runs": 30,
+      "success_rate": 0.9,
+      "successes": 27,
+      "width": 8
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 12.0,
+        "q1": 10.0,
+        "q3": 15.0
+      },
+      "controller": "commissioned_pi",
+      "failures": 1,
+      "runs": 30,
+      "success_rate": 0.9666666666666667,
+      "successes": 29,
+      "width": 8
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 13.5,
+        "q1": 10.0,
+        "q3": 18.0
+      },
+      "controller": "diagonal_secant",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 8
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "do_nothing",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 8
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 3.0,
+        "q1": 3.0,
+        "q3": 3.0
+      },
+      "controller": "oracle",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 8
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 11.0,
+        "q1": 10.0,
+        "q3": 13.75
+      },
+      "controller": "retained_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 8
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "spsa",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 8
+    }
+  ],
+  "artifact": "QSC-Bench v1.0 local-confirmation compact summary",
+  "created_at_utc": "2026-08-14T09:39:47.906368+00:00",
+  "decision": {
+    "claim_scope": "finite-range empirical support; no finite campaign proves asymptotic O(1)",
+    "class_level_result": "PASS",
+    "qualifying_controllers": [
+      "anderson_residual",
+      "retained_residual"
+    ]
+  },
+  "dense_baseline_cells": [
+    {
+      "acquisitions_to_contract": {
+        "median": 11.0,
+        "q1": 9.0,
+        "q3": 15.0
+      },
+      "controller": "anderson_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 4
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 13.0,
+        "q1": 12.0,
+        "q3": 17.25
+      },
+      "controller": "dense_fd",
+      "failures": 2,
+      "runs": 30,
+      "success_rate": 0.9333333333333333,
+      "successes": 28,
+      "width": 4
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 9.0,
+        "q1": 8.0,
+        "q3": 13.0
+      },
+      "controller": "full_broyden",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 4
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 3.0,
+        "q1": 3.0,
+        "q3": 3.75
+      },
+      "controller": "oracle",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 4
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 10.0,
+        "q1": 8.0,
+        "q3": 13.0
+      },
+      "controller": "retained_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 4
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 12.0,
+        "q1": 9.0,
+        "q3": 13.5
+      },
+      "controller": "anderson_residual",
+      "failures": 2,
+      "runs": 30,
+      "success_rate": 0.9333333333333333,
+      "successes": 28,
+      "width": 8
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 21.0,
+        "q1": 19.0,
+        "q3": 26.0
+      },
+      "controller": "dense_fd",
+      "failures": 5,
+      "runs": 30,
+      "success_rate": 0.8333333333333334,
+      "successes": 25,
+      "width": 8
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 10.0,
+        "q1": 8.0,
+        "q3": 12.5
+      },
+      "controller": "full_broyden",
+      "failures": 3,
+      "runs": 30,
+      "success_rate": 0.9,
+      "successes": 27,
+      "width": 8
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 3.0,
+        "q1": 3.0,
+        "q3": 3.0
+      },
+      "controller": "oracle",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 8
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 11.5,
+        "q1": 9.75,
+        "q3": 13.0
+      },
+      "controller": "retained_residual",
+      "failures": 2,
+      "runs": 30,
+      "success_rate": 0.9333333333333333,
+      "successes": 28,
+      "width": 8
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 11.0,
+        "q1": 10.0,
+        "q3": 14.0
+      },
+      "controller": "anderson_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 16
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 52.0,
+        "q1": 44.5,
+        "q3": 64.0
+      },
+      "controller": "dense_fd",
+      "failures": 23,
+      "runs": 30,
+      "success_rate": 0.23333333333333334,
+      "successes": 7,
+      "width": 16
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 11.0,
+        "q1": 9.25,
+        "q3": 15.75
+      },
+      "controller": "full_broyden",
+      "failures": 4,
+      "runs": 30,
+      "success_rate": 0.8666666666666667,
+      "successes": 26,
+      "width": 16
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 3.0,
+        "q1": 3.0,
+        "q3": 3.0
+      },
+      "controller": "oracle",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 16
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 11.5,
+        "q1": 10.0,
+        "q3": 13.0
+      },
+      "controller": "retained_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 16
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 12.5,
+        "q1": 10.25,
+        "q3": 14.0
+      },
+      "controller": "anderson_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 32
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "dense_fd",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 32
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 15.0,
+        "q1": 13.0,
+        "q3": 19.5
+      },
+      "controller": "full_broyden",
+      "failures": 7,
+      "runs": 30,
+      "success_rate": 0.7666666666666667,
+      "successes": 23,
+      "width": 32
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 3.0,
+        "q1": 3.0,
+        "q3": 3.0
+      },
+      "controller": "oracle",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 32
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 12.0,
+        "q1": 11.0,
+        "q3": 13.0
+      },
+      "controller": "retained_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 32
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 11.5,
+        "q1": 11.0,
+        "q3": 14.0
+      },
+      "controller": "anderson_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 64
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "dense_fd",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 64
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 24.0,
+        "q1": 13.0,
+        "q3": 33.25
+      },
+      "controller": "full_broyden",
+      "failures": 18,
+      "runs": 30,
+      "success_rate": 0.4,
+      "successes": 12,
+      "width": 64
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 3.0,
+        "q1": 3.0,
+        "q3": 3.0
+      },
+      "controller": "oracle",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 64
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 11.5,
+        "q1": 11.0,
+        "q3": 13.0
+      },
+      "controller": "retained_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 64
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 11.5,
+        "q1": 10.25,
+        "q3": 12.0
+      },
+      "controller": "anderson_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 128
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "dense_fd",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 128
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 64.0,
+        "q1": 64.0,
+        "q3": 64.0
+      },
+      "controller": "full_broyden",
+      "failures": 29,
+      "runs": 30,
+      "success_rate": 0.03333333333333333,
+      "successes": 1,
+      "width": 128
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 3.0,
+        "q1": 3.0,
+        "q3": 3.0
+      },
+      "controller": "oracle",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 128
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 11.5,
+        "q1": 11.0,
+        "q3": 12.75
+      },
+      "controller": "retained_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 128
+    }
+  ],
+  "dense_resource_scaling": [
+    {
+      "controller": "anderson_residual",
+      "resource_scaling": {
+        "commissioning_acquisitions_power_law_exponent": null,
+        "median_commissioning_acquisitions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "median_state_bytes": [
+          512.0,
+          1024.0,
+          2048.0,
+          4096.0,
+          8192.0,
+          16384.0
+        ],
+        "median_state_bytes_per_channel": [
+          128.0,
+          128.0,
+          128.0,
+          128.0,
+          128.0,
+          128.0
+        ],
+        "median_total_host_seconds": [
+          0.00394710514228791,
+          0.003428649593843147,
+          0.003985505521995947,
+          0.003985159506555647,
+          0.003588528517866507,
+          0.004031696036690846
+        ],
+        "median_wall_runtime_seconds": [
+          0.1124121539760381,
+          0.1028521285043098,
+          0.10978075698949397,
+          0.11337040696525946,
+          0.10203756700502709,
+          0.11061090350267477
+        ],
+        "runtime_semantics": "Measured Python/Aer-or-analytic implementation time on this Mac; not a physical-device latency and not a machine-independent operation count",
+        "state_bytes_per_channel_max_to_min_ratio": 1.0,
+        "state_bytes_power_law_exponent": 1.0000000000000002,
+        "total_host_seconds_power_law_exponent": 0.01000257451817618,
+        "wall_runtime_power_law_exponent": -0.002986198068959582,
+        "widths": [
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ]
+      }
+    },
+    {
+      "controller": "dense_fd",
+      "resource_scaling": {
+        "commissioning_acquisitions_power_law_exponent": 0.941735871872743,
+        "median_commissioning_acquisitions": [
+          5.0,
+          9.0,
+          17.0,
+          33.0,
+          65.0,
+          129.0
+        ],
+        "median_state_bytes": [
+          160.0,
+          576.0,
+          2176.0,
+          8448.0,
+          33280.0,
+          132096.0
+        ],
+        "median_state_bytes_per_channel": [
+          40.0,
+          72.0,
+          136.0,
+          264.0,
+          520.0,
+          1032.0
+        ],
+        "median_total_host_seconds": [
+          0.002419743948848918,
+          0.0032555295038037,
+          0.03414385544601828,
+          0.03838463043211959,
+          0.04112489806720987,
+          0.05211817487725057
+        ],
+        "median_wall_runtime_seconds": [
+          0.10938535298919305,
+          0.11104728648206219,
+          0.24767705801059492,
+          0.2690026905038394,
+          0.2729938964766916,
+          0.29767298250226304
+        ],
+        "runtime_semantics": "Measured Python/Aer-or-analytic implementation time on this Mac; not a physical-device latency and not a machine-independent operation count",
+        "state_bytes_per_channel_max_to_min_ratio": 25.8,
+        "state_bytes_power_law_exponent": 1.9417358718727438,
+        "total_host_seconds_power_law_exponent": 0.9511528017779198,
+        "wall_runtime_power_law_exponent": 0.3209653601695042,
+        "widths": [
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ]
+      }
+    },
+    {
+      "controller": "full_broyden",
+      "resource_scaling": {
+        "commissioning_acquisitions_power_law_exponent": null,
+        "median_commissioning_acquisitions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "median_state_bytes": [
+          224.0,
+          704.0,
+          2432.0,
+          8960.0,
+          34304.0,
+          134144.0
+        ],
+        "median_state_bytes_per_channel": [
+          56.0,
+          88.0,
+          152.0,
+          280.0,
+          536.0,
+          1048.0
+        ],
+        "median_total_host_seconds": [
+          0.0024807450245134532,
+          0.00262233053217642,
+          0.003085190517595038,
+          0.006245830445550382,
+          0.07018641728791408,
+          0.21058768380316906
+        ],
+        "median_wall_runtime_seconds": [
+          0.1025027209543623,
+          0.09873473798506893,
+          0.10728142847074196,
+          0.12240499249310233,
+          0.27547144950949587,
+          0.486704370501684
+        ],
+        "runtime_semantics": "Measured Python/Aer-or-analytic implementation time on this Mac; not a physical-device latency and not a machine-independent operation count",
+        "state_bytes_per_channel_max_to_min_ratio": 18.714285714285715,
+        "state_bytes_power_law_exponent": 1.8523333890389158,
+        "total_host_seconds_power_law_exponent": 1.3509104009512987,
+        "wall_runtime_power_law_exponent": 0.45337140221653216,
+        "widths": [
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ]
+      }
+    },
+    {
+      "controller": "oracle",
+      "resource_scaling": {
+        "commissioning_acquisitions_power_law_exponent": null,
+        "median_commissioning_acquisitions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "median_state_bytes": [
+          32.0,
+          64.0,
+          128.0,
+          256.0,
+          512.0,
+          1024.0
+        ],
+        "median_state_bytes_per_channel": [
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+        ],
+        "median_total_host_seconds": [
+          0.0001030465355142951,
+          9.283702820539474e-05,
+          9.910401422530413e-05,
+          9.344250429421663e-05,
+          9.745953138917685e-05,
+          0.0001022020005621016
+        ],
+        "median_wall_runtime_seconds": [
+          0.09828299650689587,
+          0.08627074299147353,
+          0.09587569598807022,
+          0.09458110749255866,
+          0.09269728447543457,
+          0.09797192600672133
+        ],
+        "runtime_semantics": "Measured Python/Aer-or-analytic implementation time on this Mac; not a physical-device latency and not a machine-independent operation count",
+        "state_bytes_per_channel_max_to_min_ratio": 1.0,
+        "state_bytes_power_law_exponent": 1.0000000000000002,
+        "total_host_seconds_power_law_exponent": 0.0018880415237978096,
+        "wall_runtime_power_law_exponent": 0.007671050460307758,
+        "widths": [
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ]
+      }
+    },
+    {
+      "controller": "retained_residual",
+      "resource_scaling": {
+        "commissioning_acquisitions_power_law_exponent": null,
+        "median_commissioning_acquisitions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "median_state_bytes": [
+          192.0,
+          384.0,
+          768.0,
+          1536.0,
+          3072.0,
+          6144.0
+        ],
+        "median_state_bytes_per_channel": [
+          48.0,
+          48.0,
+          48.0,
+          48.0,
+          48.0,
+          48.0
+        ],
+        "median_total_host_seconds": [
+          0.0016299650014843792,
+          0.00181413849350065,
+          0.001573665940668434,
+          0.00167965647415258,
+          0.001683365524513647,
+          0.001931080041686073
+        ],
+        "median_wall_runtime_seconds": [
+          0.10123351751826704,
+          0.09577254499890842,
+          0.1005301910045091,
+          0.09775938800885342,
+          0.09692706598434597,
+          0.10268885450204834
+        ],
+        "runtime_semantics": "Measured Python/Aer-or-analytic implementation time on this Mac; not a physical-device latency and not a machine-independent operation count",
+        "state_bytes_per_channel_max_to_min_ratio": 1.0,
+        "state_bytes_power_law_exponent": 1.0000000000000004,
+        "total_host_seconds_power_law_exponent": 0.028373240151589627,
+        "wall_runtime_power_law_exponent": 0.003271528901213665,
+        "widths": [
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ]
+      }
+    }
+  ],
+  "input_artifacts": {
+    "aer": {
+      "path": "results/confirmation/aer_core_confirmation_v1.json",
+      "sha256": "c05622517e184ec58683d720d1857e8a5b82f81c08fc0999e891a3e52ef8a09b"
+    },
+    "metriq": {
+      "path": "results/confirmation/metriq_postconfirmation_smoke.json",
+      "sha256": "89439eb254ddddcd1d9aa5ce22b4f8dd940cf2538f853396c3003d0db206811b"
+    },
+    "million": {
+      "path": "results/confirmation/million_channel_extension_v1.json",
+      "sha256": "fcc290fbb6e206333ab456cd0503f65c1ead7a719dab4923f7a270533b44fbcd"
+    },
+    "projection": {
+      "path": "results/confirmation/architecture_projection_v1.json",
+      "sha256": "cf4aba495d04fe3a7c482d29592b2961981bee01837c5be105da7b22cf94b0f3"
+    },
+    "scale": {
+      "path": "results/confirmation/scale_confirmation_v1.json",
+      "sha256": "120ba465ed552acfec7772a7460a85c0839070ad4869f10a0028e252c978b085"
+    },
+    "scale_analysis": {
+      "path": "results/confirmation/scale_confirmation_v1_analysis.json",
+      "sha256": "b4013ae7093021e684bf32b48ddb39eed5b0bbf5cc8acd79256b3fa506418ba4"
+    },
+    "strong": {
+      "path": "results/confirmation/strong_baselines_confirmation_v1.json",
+      "sha256": "674edbef0c45cf0845b5098b0cf506f7f608a3065edd7e4d71e73a39324aaa89"
+    },
+    "strong_analysis": {
+      "path": "results/confirmation/strong_baselines_confirmation_v1_analysis.json",
+      "sha256": "2a12989eaee5d59cff5b4e5e6aa27244cd3605edf4b97474463e86e28fea8bdb"
+    },
+    "validation": {
+      "path": "results/confirmation/analytic_ring_validation_v1.json",
+      "sha256": "031780d55ca1f5dfa368eb9115d44f36566703ef2e7e1a44a6698b1cc347c340"
+    }
+  },
+  "limitations": [
+    "The primary scale backend evaluates exact quantum-circuit marginals, not a globally entangled large-width state.",
+    "Cross-channel finite-shot covariance is omitted in the scale backend and bounded only by the declared Aer overlap.",
+    "The result is finite-range simulator evidence and does not prove asymptotic O(1) acquisition depth.",
+    "Only sequential acquisition depth is bounded; traffic, local arithmetic, total state, sensors, actuators, and energy scale with width.",
+    "No physical-QPU drift correction, native latency, fabricated maintenance hardware, or hosted-service equivalence is claimed.",
+    "The million-channel run is a post-confirmation extension and is not part of the frozen statistical decision."
+  ],
+  "metriq_adapter_smoke": {
+    "app_version": "0.0.1.dev2+g69e28cd55",
+    "job_type": "QSC-Bench Cold Start",
+    "platform": {
+      "device": "aer_simulator",
+      "device_metadata": {
+        "num_qubits": 29,
+        "simulator": true,
+        "version": "0.17.2"
+      },
+      "provider": "local"
+    },
+    "results": {
+      "acquisitions_to_contract": 11,
+      "contract_success": true,
+      "controller_float_words_per_channel": 6.0,
+      "controller_mutable_state_bytes": 192,
+      "host_update_seconds": 0.002747661026660353,
+      "local_monitor_plus_actuation_values_per_cycle": 8,
+      "minimal_sufficient_cold_start_candidate": true,
+      "monitor_values_per_acquisition": 4,
+      "payload_quality": 0.9912109375,
+      "projected_acquisition_latency_seconds": 0.001,
+      "projected_time_to_contract_seconds": 0.013747661026660352,
+      "qsc_code_commit": "eef340c844f23eafd779a1150c52d06be8b32e12",
+      "qsc_git_worktree_dirty": false,
+      "score": {
+        "uncertainty": null,
+        "value": 0.09090909090909091
+      },
+      "simulator_runtime_seconds": 0.35968868096824735,
+      "total_quantum_executions_to_usable": 12,
+      "traffic_scalars_to_contract": 88,
+      "width": 4
+    },
+    "suite_id": null,
+    "timestamp": "2026-08-14T02:38:51.680151"
+  },
+  "million_channel_extension_cells": [
+    {
+      "acquisitions_to_contract": {
+        "median": 11.0,
+        "q1": 11.0,
+        "q3": 11.0
+      },
+      "controller": "anderson_residual",
+      "failures": 0,
+      "runs": 5,
+      "success_rate": 1.0,
+      "successes": 5,
+      "width": 1000000
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "do_nothing",
+      "failures": 5,
+      "runs": 5,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 1000000
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 3.0,
+        "q1": 3.0,
+        "q3": 3.0
+      },
+      "controller": "oracle",
+      "failures": 0,
+      "runs": 5,
+      "success_rate": 1.0,
+      "successes": 5,
+      "width": 1000000
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 12.0,
+        "q1": 12.0,
+        "q3": 12.0
+      },
+      "controller": "retained_residual",
+      "failures": 0,
+      "runs": 5,
+      "success_rate": 1.0,
+      "successes": 5,
+      "width": 1000000
+    }
+  ],
+  "primary_cells": [
+    {
+      "acquisitions_to_contract": {
+        "median": 11.0,
+        "q1": 10.0,
+        "q3": 14.0
+      },
+      "controller": "anderson_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 16
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 10.0,
+        "q1": 9.0,
+        "q3": 13.0
+      },
+      "controller": "commissioned_pi",
+      "failures": 2,
+      "runs": 30,
+      "success_rate": 0.9333333333333333,
+      "successes": 28,
+      "width": 16
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 17.0,
+        "q1": 12.0,
+        "q3": 22.25
+      },
+      "controller": "diagonal_secant",
+      "failures": 2,
+      "runs": 30,
+      "success_rate": 0.9333333333333333,
+      "successes": 28,
+      "width": 16
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "do_nothing",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 16
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 3.0,
+        "q1": 3.0,
+        "q3": 3.0
+      },
+      "controller": "oracle",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 16
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 11.5,
+        "q1": 10.0,
+        "q3": 13.0
+      },
+      "controller": "retained_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 16
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "spsa",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 16
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 11.5,
+        "q1": 11.0,
+        "q3": 14.0
+      },
+      "controller": "anderson_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 64
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 18.0,
+        "q1": 11.0,
+        "q3": 21.0
+      },
+      "controller": "commissioned_pi",
+      "failures": 4,
+      "runs": 30,
+      "success_rate": 0.8666666666666667,
+      "successes": 26,
+      "width": 64
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 25.5,
+        "q1": 22.0,
+        "q3": 31.0
+      },
+      "controller": "diagonal_secant",
+      "failures": 4,
+      "runs": 30,
+      "success_rate": 0.8666666666666667,
+      "successes": 26,
+      "width": 64
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "do_nothing",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 64
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 3.0,
+        "q1": 3.0,
+        "q3": 3.0
+      },
+      "controller": "oracle",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 64
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 11.5,
+        "q1": 11.0,
+        "q3": 13.0
+      },
+      "controller": "retained_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 64
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "spsa",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 64
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 11.0,
+        "q1": 11.0,
+        "q3": 12.0
+      },
+      "controller": "anderson_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 256
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 19.0,
+        "q1": 14.0,
+        "q3": 25.0
+      },
+      "controller": "commissioned_pi",
+      "failures": 5,
+      "runs": 30,
+      "success_rate": 0.8333333333333334,
+      "successes": 25,
+      "width": 256
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 37.0,
+        "q1": 34.0,
+        "q3": 39.0
+      },
+      "controller": "diagonal_secant",
+      "failures": 19,
+      "runs": 30,
+      "success_rate": 0.36666666666666664,
+      "successes": 11,
+      "width": 256
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "do_nothing",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 256
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 3.0,
+        "q1": 3.0,
+        "q3": 3.0
+      },
+      "controller": "oracle",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 256
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 12.0,
+        "q1": 11.0,
+        "q3": 12.0
+      },
+      "controller": "retained_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 256
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "spsa",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 256
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 11.0,
+        "q1": 11.0,
+        "q3": 12.0
+      },
+      "controller": "anderson_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 1024
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 22.0,
+        "q1": 18.75,
+        "q3": 28.75
+      },
+      "controller": "commissioned_pi",
+      "failures": 10,
+      "runs": 30,
+      "success_rate": 0.6666666666666666,
+      "successes": 20,
+      "width": 1024
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 36.0,
+        "q1": 35.0,
+        "q3": 38.0
+      },
+      "controller": "diagonal_secant",
+      "failures": 27,
+      "runs": 30,
+      "success_rate": 0.1,
+      "successes": 3,
+      "width": 1024
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "do_nothing",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 1024
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 3.0,
+        "q1": 3.0,
+        "q3": 3.0
+      },
+      "controller": "oracle",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 1024
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 12.0,
+        "q1": 11.0,
+        "q3": 12.0
+      },
+      "controller": "retained_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 1024
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "spsa",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 1024
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 11.0,
+        "q1": 11.0,
+        "q3": 11.0
+      },
+      "controller": "anderson_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 4096
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 22.5,
+        "q1": 22.0,
+        "q3": 29.5
+      },
+      "controller": "commissioned_pi",
+      "failures": 4,
+      "runs": 30,
+      "success_rate": 0.8666666666666667,
+      "successes": 26,
+      "width": 4096
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 40.0,
+        "q1": 40.0,
+        "q3": 40.0
+      },
+      "controller": "diagonal_secant",
+      "failures": 29,
+      "runs": 30,
+      "success_rate": 0.03333333333333333,
+      "successes": 1,
+      "width": 4096
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "do_nothing",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 4096
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 3.0,
+        "q1": 3.0,
+        "q3": 3.0
+      },
+      "controller": "oracle",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 4096
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 12.0,
+        "q1": 11.0,
+        "q3": 12.0
+      },
+      "controller": "retained_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 4096
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "spsa",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 4096
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 11.0,
+        "q1": 11.0,
+        "q3": 11.0
+      },
+      "controller": "anderson_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 16384
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 23.0,
+        "q1": 22.0,
+        "q3": 26.0
+      },
+      "controller": "commissioned_pi",
+      "failures": 1,
+      "runs": 30,
+      "success_rate": 0.9666666666666667,
+      "successes": 29,
+      "width": 16384
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "diagonal_secant",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 16384
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "do_nothing",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 16384
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 3.0,
+        "q1": 3.0,
+        "q3": 3.0
+      },
+      "controller": "oracle",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 16384
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 12.0,
+        "q1": 11.0,
+        "q3": 12.0
+      },
+      "controller": "retained_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 16384
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "spsa",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 16384
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 11.0,
+        "q1": 11.0,
+        "q3": 11.0
+      },
+      "controller": "anderson_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 65536
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 26.0,
+        "q1": 24.0,
+        "q3": 27.5
+      },
+      "controller": "commissioned_pi",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 65536
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "diagonal_secant",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 65536
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "do_nothing",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 65536
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 3.0,
+        "q1": 3.0,
+        "q3": 3.0
+      },
+      "controller": "oracle",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 65536
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": 12.0,
+        "q1": 11.25,
+        "q3": 12.0
+      },
+      "controller": "retained_residual",
+      "failures": 0,
+      "runs": 30,
+      "success_rate": 1.0,
+      "successes": 30,
+      "width": 65536
+    },
+    {
+      "acquisitions_to_contract": {
+        "median": null,
+        "q1": null,
+        "q3": null
+      },
+      "controller": "spsa",
+      "failures": 30,
+      "runs": 30,
+      "success_rate": 0.0,
+      "successes": 0,
+      "width": 65536
+    }
+  ],
+  "primary_scaling": [
+    {
+      "controller": "anderson_residual",
+      "predeclared_tests": {
+        "alpha_upper_equivalence_margin": true,
+        "at_least_minimum_widths": true,
+        "paired_seed_count": true,
+        "payload_valid_at_entry": true,
+        "resource_class_candidate": true,
+        "success_wilson_lower_bound": true
+      },
+      "resource_scaling": {
+        "commissioning_acquisitions_power_law_exponent": null,
+        "median_commissioning_acquisitions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "median_state_bytes": [
+          2048.0,
+          8192.0,
+          32768.0,
+          131072.0,
+          524288.0,
+          2097152.0,
+          8388608.0
+        ],
+        "median_state_bytes_per_channel": [
+          128.0,
+          128.0,
+          128.0,
+          128.0,
+          128.0,
+          128.0,
+          128.0
+        ],
+        "median_total_host_seconds": [
+          0.003425745526328683,
+          0.004055337602039799,
+          0.004583316505886614,
+          0.0062071423744782805,
+          0.008524798497091979,
+          0.026156431500567123,
+          0.12438938301056623
+        ],
+        "median_wall_runtime_seconds": [
+          0.10767985199345276,
+          0.10969630899489857,
+          0.10802375848288648,
+          0.11589254150749184,
+          0.14450400302303024,
+          0.2617253390199039,
+          0.8021127639804035
+        ],
+        "runtime_semantics": "Measured Python/Aer-or-analytic implementation time on this Mac; not a physical-device latency and not a machine-independent operation count",
+        "state_bytes_per_channel_max_to_min_ratio": 1.0,
+        "state_bytes_power_law_exponent": 0.9999999999999997,
+        "total_host_seconds_power_law_exponent": 0.3896557514775037,
+        "wall_runtime_power_law_exponent": 0.2075001476515665,
+        "widths": [
+          16,
+          64,
+          256,
+          1024,
+          4096,
+          16384,
+          65536
+        ]
+      },
+      "scaling": {
+        "acquisitions_per_doubling": -0.017857142857142842,
+        "acquisitions_per_doubling_ci95": [
+          -0.12499999999999963,
+          0.053571428571428735
+        ],
+        "all_seed_count": 30,
+        "alpha": -0.0022903691935613566,
+        "alpha_ci95": [
+          -0.015332300808199546,
+          0.007366260200889165
+        ],
+        "complete_successful_paired_seed_count": 30,
+        "declared_widths": [
+          16,
+          64,
+          256,
+          1024,
+          4096,
+          16384,
+          65536
+        ],
+        "excluded_seed_count": 0,
+        "fit_semantics": "log(A)=log(c)+alpha*log(n), using width medians over seeds that succeeded at every declared width; failures are reported separately"
+      },
+      "supports_finite_range_claim": true
+    },
+    {
+      "controller": "commissioned_pi",
+      "predeclared_tests": {
+        "alpha_upper_equivalence_margin": false,
+        "at_least_minimum_widths": true,
+        "paired_seed_count": false,
+        "payload_valid_at_entry": true,
+        "resource_class_candidate": false,
+        "success_wilson_lower_bound": false
+      },
+      "resource_scaling": {
+        "commissioning_acquisitions_power_law_exponent": -2.7035705917380057e-17,
+        "median_commissioning_acquisitions": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "median_state_bytes": [
+          384.0,
+          1536.0,
+          6144.0,
+          24576.0,
+          98304.0,
+          393216.0,
+          1572864.0
+        ],
+        "median_state_bytes_per_channel": [
+          24.0,
+          24.0,
+          24.0,
+          24.0,
+          24.0,
+          24.0,
+          24.0
+        ],
+        "median_total_host_seconds": [
+          0.0008254034619312733,
+          0.0014313680294435471,
+          0.0018025815079454333,
+          0.0041148535965476185,
+          0.004716733412351459,
+          0.010443878563819453,
+          0.04425872804131359
+        ],
+        "median_wall_runtime_seconds": [
+          0.10424077097559348,
+          0.1209046300209593,
+          0.11666541401064023,
+          0.1423664909962099,
+          0.21505291399080306,
+          0.38982820202363655,
+          1.3722038470150437
+        ],
+        "runtime_semantics": "Measured Python/Aer-or-analytic implementation time on this Mac; not a physical-device latency and not a machine-independent operation count",
+        "state_bytes_per_channel_max_to_min_ratio": 1.0,
+        "state_bytes_power_law_exponent": 0.9999999999999997,
+        "total_host_seconds_power_law_exponent": 0.4349332442918229,
+        "wall_runtime_power_law_exponent": 0.2752814723056918,
+        "widths": [
+          16,
+          64,
+          256,
+          1024,
+          4096,
+          16384,
+          65536
+        ]
+      },
+      "scaling": {
+        "acquisitions_per_doubling": 1.1339285714285712,
+        "acquisitions_per_doubling_ci95": [
+          0.7500000000000001,
+          1.4553571428571428
+        ],
+        "all_seed_count": 30,
+        "alpha": 0.09472100642935952,
+        "alpha_ci95": [
+          0.06438496650695903,
+          0.13219231779660953
+        ],
+        "complete_successful_paired_seed_count": 14,
+        "declared_widths": [
+          16,
+          64,
+          256,
+          1024,
+          4096,
+          16384,
+          65536
+        ],
+        "excluded_seed_count": 16,
+        "fit_semantics": "log(A)=log(c)+alpha*log(n), using width medians over seeds that succeeded at every declared width; failures are reported separately"
+      },
+      "supports_finite_range_claim": false
+    },
+    {
+      "controller": "diagonal_secant",
+      "predeclared_tests": {
+        "alpha_upper_equivalence_margin": false,
+        "at_least_minimum_widths": true,
+        "paired_seed_count": false,
+        "payload_valid_at_entry": false,
+        "resource_class_candidate": true,
+        "success_wilson_lower_bound": false
+      },
+      "resource_scaling": {
+        "commissioning_acquisitions_power_law_exponent": null,
+        "median_commissioning_acquisitions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "median_state_bytes": [
+          512.0,
+          2048.0,
+          8192.0,
+          32768.0,
+          131072.0,
+          524288.0,
+          2097152.0
+        ],
+        "median_state_bytes_per_channel": [
+          32.0,
+          32.0,
+          32.0,
+          32.0,
+          32.0,
+          32.0,
+          32.0
+        ],
+        "median_total_host_seconds": [
+          0.002977298543555662,
+          0.004487144120503217,
+          0.007633557950612158,
+          0.011242422129726037,
+          0.016981586028123274,
+          0.04546826868318021,
+          0.1959787303057965
+        ],
+        "median_wall_runtime_seconds": [
+          0.11062261351617053,
+          0.12009542650775984,
+          0.13975847596884705,
+          0.16620548701030202,
+          0.2689517979742959,
+          0.6255360159557313,
+          2.2144371974864043
+        ],
+        "runtime_semantics": "Measured Python/Aer-or-analytic implementation time on this Mac; not a physical-device latency and not a machine-independent operation count",
+        "state_bytes_per_channel_max_to_min_ratio": 1.0,
+        "state_bytes_power_law_exponent": 1.0000000000000002,
+        "total_host_seconds_power_law_exponent": 0.46352094815714895,
+        "wall_runtime_power_law_exponent": 0.33349822979917104,
+        "widths": [
+          16,
+          64,
+          256,
+          1024,
+          4096,
+          16384,
+          65536
+        ]
+      },
+      "scaling": {
+        "acquisitions_per_doubling": null,
+        "acquisitions_per_doubling_ci95": [
+          null,
+          null
+        ],
+        "all_seed_count": 30,
+        "alpha": null,
+        "alpha_ci95": [
+          null,
+          null
+        ],
+        "complete_successful_paired_seed_count": 0,
+        "declared_widths": [
+          16,
+          64,
+          256,
+          1024,
+          4096,
+          16384,
+          65536
+        ],
+        "excluded_seed_count": 30,
+        "fit_semantics": "log(A)=log(c)+alpha*log(n), using width medians over seeds that succeeded at every declared width; failures are reported separately"
+      },
+      "supports_finite_range_claim": false
+    },
+    {
+      "controller": "do_nothing",
+      "predeclared_tests": {
+        "alpha_upper_equivalence_margin": false,
+        "at_least_minimum_widths": true,
+        "paired_seed_count": false,
+        "payload_valid_at_entry": false,
+        "resource_class_candidate": false,
+        "success_wilson_lower_bound": false
+      },
+      "resource_scaling": {
+        "commissioning_acquisitions_power_law_exponent": null,
+        "median_commissioning_acquisitions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "median_state_bytes": [
+          128.0,
+          512.0,
+          2048.0,
+          8192.0,
+          32768.0,
+          131072.0,
+          524288.0
+        ],
+        "median_state_bytes_per_channel": [
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+        ],
+        "median_total_host_seconds": [
+          0.0012931064702570438,
+          0.0012266404810361564,
+          0.0013926533283665776,
+          0.0016857168811839074,
+          0.002023175446083769,
+          0.0031293938809540123,
+          0.008870847843354568
+        ],
+        "median_wall_runtime_seconds": [
+          0.12418531149160117,
+          0.11943167599383742,
+          0.1374409140262287,
+          0.15509350851061754,
+          0.2524696529726498,
+          0.5947213155159261,
+          2.0236203625099733
+        ],
+        "runtime_semantics": "Measured Python/Aer-or-analytic implementation time on this Mac; not a physical-device latency and not a machine-independent operation count",
+        "state_bytes_per_channel_max_to_min_ratio": 1.0,
+        "state_bytes_power_law_exponent": 0.9999999999999998,
+        "total_host_seconds_power_law_exponent": 0.20671106477740994,
+        "wall_runtime_power_law_exponent": 0.3140798502102174,
+        "widths": [
+          16,
+          64,
+          256,
+          1024,
+          4096,
+          16384,
+          65536
+        ]
+      },
+      "scaling": {
+        "acquisitions_per_doubling": null,
+        "acquisitions_per_doubling_ci95": [
+          null,
+          null
+        ],
+        "all_seed_count": 30,
+        "alpha": null,
+        "alpha_ci95": [
+          null,
+          null
+        ],
+        "complete_successful_paired_seed_count": 0,
+        "declared_widths": [
+          16,
+          64,
+          256,
+          1024,
+          4096,
+          16384,
+          65536
+        ],
+        "excluded_seed_count": 30,
+        "fit_semantics": "log(A)=log(c)+alpha*log(n), using width medians over seeds that succeeded at every declared width; failures are reported separately"
+      },
+      "supports_finite_range_claim": false
+    },
+    {
+      "controller": "oracle",
+      "predeclared_tests": {
+        "alpha_upper_equivalence_margin": true,
+        "at_least_minimum_widths": true,
+        "paired_seed_count": true,
+        "payload_valid_at_entry": true,
+        "resource_class_candidate": false,
+        "success_wilson_lower_bound": true
+      },
+      "resource_scaling": {
+        "commissioning_acquisitions_power_law_exponent": null,
+        "median_commissioning_acquisitions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "median_state_bytes": [
+          128.0,
+          512.0,
+          2048.0,
+          8192.0,
+          32768.0,
+          131072.0,
+          524288.0
+        ],
+        "median_state_bytes_per_channel": [
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+        ],
+        "median_total_host_seconds": [
+          9.48345405049622e-05,
+          0.00010233352077193558,
+          0.00010756400297395885,
+          0.00010973296593874693,
+          0.00015125848585739732,
+          0.0003098729648627341,
+          0.0008900185057427734
+        ],
+        "median_wall_runtime_seconds": [
+          0.0953253890038468,
+          0.09562222848762758,
+          0.0992970145016443,
+          0.09815318902838044,
+          0.1058611975167878,
+          0.1389264969911892,
+          0.26821334048872814
+        ],
+        "runtime_semantics": "Measured Python/Aer-or-analytic implementation time on this Mac; not a physical-device latency and not a machine-independent operation count",
+        "state_bytes_per_channel_max_to_min_ratio": 1.0,
+        "state_bytes_power_law_exponent": 0.9999999999999998,
+        "total_host_seconds_power_law_exponent": 0.23892266734048978,
+        "wall_runtime_power_law_exponent": 0.10084830484095009,
+        "widths": [
+          16,
+          64,
+          256,
+          1024,
+          4096,
+          16384,
+          65536
+        ]
+      },
+      "scaling": {
+        "acquisitions_per_doubling": 3.65344366718591e-18,
+        "acquisitions_per_doubling_ci95": [
+          3.65344366718591e-18,
+          3.65344366718591e-18
+        ],
+        "all_seed_count": 30,
+        "alpha": -3.566305432808603e-17,
+        "alpha_ci95": [
+          -3.566305432808603e-17,
+          -3.566305432808603e-17
+        ],
+        "complete_successful_paired_seed_count": 30,
+        "declared_widths": [
+          16,
+          64,
+          256,
+          1024,
+          4096,
+          16384,
+          65536
+        ],
+        "excluded_seed_count": 0,
+        "fit_semantics": "log(A)=log(c)+alpha*log(n), using width medians over seeds that succeeded at every declared width; failures are reported separately"
+      },
+      "supports_finite_range_claim": false
+    },
+    {
+      "controller": "retained_residual",
+      "predeclared_tests": {
+        "alpha_upper_equivalence_margin": true,
+        "at_least_minimum_widths": true,
+        "paired_seed_count": true,
+        "payload_valid_at_entry": true,
+        "resource_class_candidate": true,
+        "success_wilson_lower_bound": true
+      },
+      "resource_scaling": {
+        "commissioning_acquisitions_power_law_exponent": null,
+        "median_commissioning_acquisitions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "median_state_bytes": [
+          768.0,
+          3072.0,
+          12288.0,
+          49152.0,
+          196608.0,
+          786432.0,
+          3145728.0
+        ],
+        "median_state_bytes_per_channel": [
+          48.0,
+          48.0,
+          48.0,
+          48.0,
+          48.0,
+          48.0,
+          48.0
+        ],
+        "median_total_host_seconds": [
+          0.0016799615405034274,
+          0.0017958264506887645,
+          0.002404143422609195,
+          0.0030217970779631287,
+          0.0054743795190006495,
+          0.01543400838272646,
+          0.06847632303833961
+        ],
+        "median_wall_runtime_seconds": [
+          0.0994392205029726,
+          0.10469376249238849,
+          0.11164779000682756,
+          0.11503864047699608,
+          0.14595400050166063,
+          0.24868059149594046,
+          0.7643841595272534
+        ],
+        "runtime_semantics": "Measured Python/Aer-or-analytic implementation time on this Mac; not a physical-device latency and not a machine-independent operation count",
+        "state_bytes_per_channel_max_to_min_ratio": 1.0,
+        "state_bytes_power_law_exponent": 0.9999999999999998,
+        "total_host_seconds_power_law_exponent": 0.4185941745576308,
+        "wall_runtime_power_law_exponent": 0.2091076585061441,
+        "widths": [
+          16,
+          64,
+          256,
+          1024,
+          4096,
+          16384,
+          65536
+        ]
+      },
+      "scaling": {
+        "acquisitions_per_doubling": 0.044642857142857054,
+        "acquisitions_per_doubling_ci95": [
+          -0.053571428571428686,
+          0.09821428571428543
+        ],
+        "all_seed_count": 30,
+        "alpha": 0.00548219148786997,
+        "alpha_ci95": [
+          -0.0063658092307809664,
+          0.01230455276934703
+        ],
+        "complete_successful_paired_seed_count": 30,
+        "declared_widths": [
+          16,
+          64,
+          256,
+          1024,
+          4096,
+          16384,
+          65536
+        ],
+        "excluded_seed_count": 0,
+        "fit_semantics": "log(A)=log(c)+alpha*log(n), using width medians over seeds that succeeded at every declared width; failures are reported separately"
+      },
+      "supports_finite_range_claim": true
+    },
+    {
+      "controller": "spsa",
+      "predeclared_tests": {
+        "alpha_upper_equivalence_margin": false,
+        "at_least_minimum_widths": true,
+        "paired_seed_count": false,
+        "payload_valid_at_entry": false,
+        "resource_class_candidate": false,
+        "success_wilson_lower_bound": false
+      },
+      "resource_scaling": {
+        "commissioning_acquisitions_power_law_exponent": null,
+        "median_commissioning_acquisitions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "median_state_bytes": [
+          256.0,
+          1024.0,
+          4096.0,
+          16384.0,
+          65536.0,
+          262144.0,
+          1048576.0
+        ],
+        "median_state_bytes_per_channel": [
+          16.0,
+          16.0,
+          16.0,
+          16.0,
+          16.0,
+          16.0,
+          16.0
+        ],
+        "median_total_host_seconds": [
+          0.0006051439268048853,
+          0.0006107751105446368,
+          0.0006503484037239105,
+          0.0009373229404445738,
+          0.0011985580204054713,
+          0.0024977789726108313,
+          0.010031683545093983
+        ],
+        "median_wall_runtime_seconds": [
+          0.11936651199357584,
+          0.11924880248261616,
+          0.1334572310151998,
+          0.1585754500119947,
+          0.2571944159863051,
+          0.5933816689939704,
+          1.9822904670145363
+        ],
+        "runtime_semantics": "Measured Python/Aer-or-analytic implementation time on this Mac; not a physical-device latency and not a machine-independent operation count",
+        "state_bytes_per_channel_max_to_min_ratio": 1.0,
+        "state_bytes_power_law_exponent": 0.9999999999999998,
+        "total_host_seconds_power_law_exponent": 0.30534473546110086,
+        "wall_runtime_power_law_exponent": 0.3167419281657002,
+        "widths": [
+          16,
+          64,
+          256,
+          1024,
+          4096,
+          16384,
+          65536
+        ]
+      },
+      "scaling": {
+        "acquisitions_per_doubling": null,
+        "acquisitions_per_doubling_ci95": [
+          null,
+          null
+        ],
+        "all_seed_count": 30,
+        "alpha": null,
+        "alpha_ci95": [
+          null,
+          null
+        ],
+        "complete_successful_paired_seed_count": 0,
+        "declared_widths": [
+          16,
+          64,
+          256,
+          1024,
+          4096,
+          16384,
+          65536
+        ],
+        "excluded_seed_count": 30,
+        "fit_semantics": "log(A)=log(c)+alpha*log(n), using width medians over seeds that succeeded at every declared width; failures are reported separately"
+      },
+      "supports_finite_range_claim": false
+    }
+  ],
+  "selected_projections": [
+    {
+      "method": "anderson_residual",
+      "sequential_acquisitions": 33,
+      "timing_at_100us": {
+        "acquisition_latency_seconds": 0.0001,
+        "acquisition_only_human": "3.3 ms",
+        "acquisition_only_seconds": 0.0033,
+        "acquisition_plus_projected_host_seconds": 272.493064885364,
+        "bandwidth_scenarios": [
+          {
+            "acquisition_interface_host_seconds": 285.693064885364,
+            "bandwidth_bytes_per_second": 1000000000.0,
+            "interface_seconds": 13.2
+          },
+          {
+            "acquisition_interface_host_seconds": 273.813064885364,
+            "bandwidth_bytes_per_second": 10000000000.0,
+            "interface_seconds": 1.32
+          },
+          {
+            "acquisition_interface_host_seconds": 272.62506488536394,
+            "bandwidth_bytes_per_second": 100000000000.0,
+            "interface_seconds": 0.132
+          },
+          {
+            "acquisition_interface_host_seconds": 272.506264885364,
+            "bandwidth_bytes_per_second": 1000000000000.0,
+            "interface_seconds": 0.0132
+          }
+        ],
+        "interface_total_bytes": 13200000000,
+        "projected_host_seconds": 272.48976488536397,
+        "sequential_acquisitions": 33
+      },
+      "width": 100000000
+    },
+    {
+      "method": "retained_residual",
+      "sequential_acquisitions": 20,
+      "timing_at_100us": {
+        "acquisition_latency_seconds": 0.0001,
+        "acquisition_only_human": "2 ms",
+        "acquisition_only_seconds": 0.002,
+        "acquisition_plus_projected_host_seconds": 166.5195038523258,
+        "bandwidth_scenarios": [
+          {
+            "acquisition_interface_host_seconds": 174.5195038523258,
+            "bandwidth_bytes_per_second": 1000000000.0,
+            "interface_seconds": 8.0
+          },
+          {
+            "acquisition_interface_host_seconds": 167.3195038523258,
+            "bandwidth_bytes_per_second": 10000000000.0,
+            "interface_seconds": 0.8
+          },
+          {
+            "acquisition_interface_host_seconds": 166.5995038523258,
+            "bandwidth_bytes_per_second": 100000000000.0,
+            "interface_seconds": 0.08
+          },
+          {
+            "acquisition_interface_host_seconds": 166.5275038523258,
+            "bandwidth_bytes_per_second": 1000000000000.0,
+            "interface_seconds": 0.008
+          }
+        ],
+        "interface_total_bytes": 8000000000,
+        "projected_host_seconds": 166.5175038523258,
+        "sequential_acquisitions": 20
+      },
+      "width": 100000000
+    },
+    {
+      "method": "dense_finite_difference_best_case_verified",
+      "sequential_acquisitions": 100000004,
+      "timing_at_100us": {
+        "acquisition_latency_seconds": 0.0001,
+        "acquisition_only_human": "1e+04 s",
+        "acquisition_only_seconds": 10000.0004,
+        "bandwidth_scenarios": [
+          {
+            "acquisition_interface_host_seconds": 40010001.6004,
+            "bandwidth_bytes_per_second": 1000000000.0,
+            "interface_seconds": 40000001.6
+          },
+          {
+            "acquisition_interface_host_seconds": 4010000.1604,
+            "bandwidth_bytes_per_second": 10000000000.0,
+            "interface_seconds": 4000000.16
+          },
+          {
+            "acquisition_interface_host_seconds": 410000.0164,
+            "bandwidth_bytes_per_second": 100000000000.0,
+            "interface_seconds": 400000.016
+          },
+          {
+            "acquisition_interface_host_seconds": 50000.00200000001,
+            "bandwidth_bytes_per_second": 1000000000000.0,
+            "interface_seconds": 40000.0016
+          }
+        ],
+        "interface_total_bytes": 40000001600000000,
+        "sequential_acquisitions": 100000004
+      },
+      "width": 100000000
+    },
+    {
+      "method": "anderson_residual",
+      "sequential_acquisitions": 33,
+      "timing_at_100us": {
+        "acquisition_latency_seconds": 0.0001,
+        "acquisition_only_human": "3.3 ms",
+        "acquisition_only_seconds": 0.0033,
+        "acquisition_plus_projected_host_seconds": 27248.9797885364,
+        "bandwidth_scenarios": [
+          {
+            "acquisition_interface_host_seconds": 28568.9797885364,
+            "bandwidth_bytes_per_second": 1000000000.0,
+            "interface_seconds": 1320.0
+          },
+          {
+            "acquisition_interface_host_seconds": 27380.9797885364,
+            "bandwidth_bytes_per_second": 10000000000.0,
+            "interface_seconds": 132.0
+          },
+          {
+            "acquisition_interface_host_seconds": 27262.1797885364,
+            "bandwidth_bytes_per_second": 100000000000.0,
+            "interface_seconds": 13.2
+          },
+          {
+            "acquisition_interface_host_seconds": 27250.2997885364,
+            "bandwidth_bytes_per_second": 1000000000000.0,
+            "interface_seconds": 1.32
+          }
+        ],
+        "interface_total_bytes": 1320000000000,
+        "projected_host_seconds": 27248.9764885364,
+        "sequential_acquisitions": 33
+      },
+      "width": 10000000000
+    },
+    {
+      "method": "retained_residual",
+      "sequential_acquisitions": 20,
+      "timing_at_100us": {
+        "acquisition_latency_seconds": 0.0001,
+        "acquisition_only_human": "2 ms",
+        "acquisition_only_seconds": 0.002,
+        "acquisition_plus_projected_host_seconds": 16651.75238523258,
+        "bandwidth_scenarios": [
+          {
+            "acquisition_interface_host_seconds": 17451.75238523258,
+            "bandwidth_bytes_per_second": 1000000000.0,
+            "interface_seconds": 800.0
+          },
+          {
+            "acquisition_interface_host_seconds": 16731.75238523258,
+            "bandwidth_bytes_per_second": 10000000000.0,
+            "interface_seconds": 80.0
+          },
+          {
+            "acquisition_interface_host_seconds": 16659.75238523258,
+            "bandwidth_bytes_per_second": 100000000000.0,
+            "interface_seconds": 8.0
+          },
+          {
+            "acquisition_interface_host_seconds": 16652.55238523258,
+            "bandwidth_bytes_per_second": 1000000000000.0,
+            "interface_seconds": 0.8
+          }
+        ],
+        "interface_total_bytes": 800000000000,
+        "projected_host_seconds": 16651.75038523258,
+        "sequential_acquisitions": 20
+      },
+      "width": 10000000000
+    },
+    {
+      "method": "dense_finite_difference_best_case_verified",
+      "sequential_acquisitions": 10000000004,
+      "timing_at_100us": {
+        "acquisition_latency_seconds": 0.0001,
+        "acquisition_only_human": "11.6 days",
+        "acquisition_only_seconds": 1000000.0004,
+        "bandwidth_scenarios": [
+          {
+            "acquisition_interface_host_seconds": 400001000160.0004,
+            "bandwidth_bytes_per_second": 1000000000.0,
+            "interface_seconds": 400000000160.0
+          },
+          {
+            "acquisition_interface_host_seconds": 40001000016.0004,
+            "bandwidth_bytes_per_second": 10000000000.0,
+            "interface_seconds": 40000000016.0
+          },
+          {
+            "acquisition_interface_host_seconds": 4001000001.6004,
+            "bandwidth_bytes_per_second": 100000000000.0,
+            "interface_seconds": 4000000001.6
+          },
+          {
+            "acquisition_interface_host_seconds": 401000000.1604,
+            "bandwidth_bytes_per_second": 1000000000000.0,
+            "interface_seconds": 400000000.15999997
+          }
+        ],
+        "interface_total_bytes": 400000000160000000000,
+        "sequential_acquisitions": 10000000004
+      },
+      "width": 10000000000
+    }
+  ],
+  "summary_generator_git_commit": "d37530c4f7cf9f6773c5837acd7b13981053cfd1",
+  "summary_generator_git_worktree_dirty": false,
+  "validation": {
+    "observed": {
+      "maximum_closed_loop_median_acquisition_difference": 3.5,
+      "maximum_closed_loop_success_rate_difference": 0.09999999999999998,
+      "maximum_jacobian_difference": 5.896192815102452e-07,
+      "maximum_monitor_expectation_difference": 1.099120794378905e-14,
+      "maximum_payload_expectation_difference": 2.55351295663786e-14
+    },
+    "status": "PASS",
+    "thresholds": {
+      "maximum_closed_loop_median_acquisition_difference": 6.0,
+      "maximum_closed_loop_success_rate_difference": 0.25,
+      "maximum_jacobian_difference": 2e-05,
+      "maximum_monitor_expectation_difference": 1e-12,
+      "maximum_payload_expectation_difference": 1e-12
+    }
+  }
+}

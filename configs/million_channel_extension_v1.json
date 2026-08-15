@@ -1,0 +1,44 @@
+{
+  "benchmark_name": "QSC-Bench Cold Start",
+  "protocol_version": "1.0.0-post-confirmation-million-extension",
+  "development_run": true,
+  "widths": [1000000],
+  "seeds": [363562250, 1887410070, 1995851660, 1791049539, 1188212727],
+  "shots": 512,
+  "reference_shots": 4096,
+  "latency_seconds": [0.000001, 0.00001, 0.0001, 0.001, 0.1],
+  "plant": {
+    "backend": "analytic_ring",
+    "coupling_radians": 0.15,
+    "nominal_angle_low": 1.30,
+    "nominal_angle_high": 1.80,
+    "analysis_tilt_radians": 0.40,
+    "gain_low": 0.50,
+    "gain_high": 1.20,
+    "simulator_method": "automatic",
+    "payload_kind": "local_mirror",
+    "payload_error_amplification": 3.0,
+    "noise": {
+      "one_qubit_depolarizing": 0.0,
+      "two_qubit_depolarizing": 0.0,
+      "readout_flip": 0.005
+    },
+    "drift": {
+      "initial_shock_rms": 0.45,
+      "fast_sigma": 0.002,
+      "fast_reversion": 0.05,
+      "slow_sigma": 0.0005,
+      "common_mode_fraction": 0.0
+    }
+  },
+  "contract": {
+    "monitor_rmse_tolerance": 0.035,
+    "consecutive_acquisitions": 3,
+    "payload_drop_tolerance": 0.04,
+    "max_monitor_acquisitions": 40
+  },
+  "controllers": {
+    "names": ["do_nothing", "retained_residual", "anderson_residual", "oracle"],
+    "include_oracle_in_ranking": false
+  }
+}

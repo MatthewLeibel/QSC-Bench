@@ -1,0 +1,334 @@
+{
+  "attribution": {
+    "citation_url": "https://www.openquantum.com/citation",
+    "required_text": "Powered by OpenQuantum"
+  },
+  "backend": {
+    "accepting_jobs": true,
+    "captured_at": "2026-08-14T18:25:31.605373+00:00",
+    "constraint_data_sha256": "721abb1688fdcb8ca5ac2006cb1480f72ead544d7f64eabfb32cf096d6169548",
+    "frozen_payload_edges_verified": {
+      "48": 0
+    },
+    "id": "7433acb8-ae52-4bc9-9030-6df68c696538",
+    "max_shots": 50000,
+    "n_qubits": 108,
+    "name": "Cepheus-1-108Q",
+    "native_ops": [
+      {
+        "arity": 1,
+        "name": "barrier"
+      },
+      {
+        "arity": 2,
+        "name": "cz"
+      },
+      {
+        "arity": 1,
+        "name": "rx"
+      },
+      {
+        "arity": 1,
+        "name": "rz"
+      }
+    ],
+    "queue_depth": 0,
+    "short_code": "rigetti:cepheus-1-108q",
+    "status": "Online"
+  },
+  "claim_boundary": "One paired 48-channel adaptive confirmation on 96 physical qubits. The disturbance was a commanded phase offset; no private/native device calibration variables were accessed. The shallow single-Rx payload and single seed do not establish a hardware scaling exponent, asymptotic advantage, or general hardware reliability.",
+  "completed_at": "2026-08-14T21:06:57.869251+00:00",
+  "config_sha256": "7f644e8e75c88c36181aff5cc310e242866f72f1b3e04a59896a813e28657f0a",
+  "confirmation_seeds": [
+    881723051
+  ],
+  "controlled_channels": 48,
+  "created_at": "2026-08-14T18:25:31.605865+00:00",
+  "decision": {
+    "dense_finite_difference_executed": false,
+    "dense_finite_difference_structural_minimum_acquisitions": 51,
+    "do_nothing_contract": "FAIL",
+    "hardware_width_scaling_exponent": "NOT_ESTABLISHED",
+    "replication_strength": "single paired confirmation seed",
+    "retained_contract_entry_acquisition": 4,
+    "retained_residual_contract": "PASS"
+  },
+  "evidence_level": "real-QPU hardware-in-the-loop confirmation",
+  "negative_and_protocol_evidence": {
+    "do_nothing_acquisition_4_omitted_after_outcome_became_invariant": true,
+    "futility_stops": {
+      "w48_do_nothing_s881723051": {
+        "decision_after_acquisition": 3,
+        "not_executed_acquisitions": [
+          4
+        ],
+        "protocol_deviation_disclosed": true,
+        "reason": "two consecutive passes are impossible by deadline after acquisition 3 failed"
+      }
+    },
+    "post_campaign_reference": {
+      "reason": "all remaining Spark credits allocated to the frozen comparison",
+      "status": "not_run"
+    }
+  },
+  "physical_qubits_used": 96,
+  "protocol_commit": "b403d556bc833a16d57ba98fbcff7fd807b2ac6d",
+  "protocol_sha256": "72fd346f89631bc6a18520be6857cdb3adcbc07ef59500a86ac0b2acb83b0be1",
+  "provider": "OpenQuantum",
+  "publication_state": "public evidence package",
+  "reference": {
+    "job_id": "5e03ad23-890c-4c1f-925b-ffd505ce55f6",
+    "logical_id": "ref_w48",
+    "monitor_target": [
+      0.59326171875,
+      0.60986328125,
+      0.49560546875,
+      0.46044921875,
+      0.50927734375,
+      0.5146484375,
+      0.5029296875,
+      0.50244140625,
+      0.466796875,
+      0.52685546875,
+      0.52392578125,
+      0.501953125,
+      0.5263671875,
+      0.51171875,
+      0.46240234375,
+      0.45263671875,
+      0.51123046875,
+      0.5,
+      0.5224609375,
+      0.552734375,
+      0.49365234375,
+      0.513671875,
+      0.4892578125,
+      0.58251953125,
+      0.51318359375,
+      0.5537109375,
+      0.5244140625,
+      0.517578125,
+      0.53076171875,
+      0.4990234375,
+      0.50439453125,
+      0.48193359375,
+      0.4892578125,
+      0.552734375,
+      0.498046875,
+      0.4794921875,
+      0.4892578125,
+      0.51708984375,
+      0.63232421875,
+      0.50439453125,
+      0.5078125,
+      0.5400390625,
+      0.552734375,
+      0.4736328125,
+      0.4345703125,
+      0.40966796875,
+      0.185546875,
+      0.333984375
+    ],
+    "payload_reference_all_zero": 0.00732421875,
+    "payload_reference_bitwise_zero": 0.906982421875,
+    "payload_threshold": 0.806982421875,
+    "shots_done": 2048
+  },
+  "resource_accounting": {
+    "cloud_queue_time_is_not_device_execution_time": true,
+    "credits_final": {
+      "full_credits": 0.0,
+      "spark_credits": 0.0
+    },
+    "credits_initial": {
+      "full_credits": 0.0,
+      "spark_credits": 9.0
+    },
+    "full_vector_traffic_is_flat": false,
+    "host_arithmetic_is_flat": false,
+    "provider_execution_seconds_available": false,
+    "retained_to_dense_fd_structural_acquisition_ratio_lower_bound": 12.75,
+    "sequential_depth_is_the_flat_quantity": true
+  },
+  "schema_version": "qsc-openquantum-cepheus-hardware-evidence-v1",
+  "shots_per_acquisition": 2048,
+  "trials": [
+    {
+      "arm": "do_nothing",
+      "contract_at_deadline": false,
+      "contract_entry_acquisition": null,
+      "contract_success": false,
+      "controller_metadata": {
+        "acquisition_depth_class": "O(1)",
+        "commissioned": false,
+        "discarded_probe_acquisitions": false,
+        "host_arithmetic_class": "O(n)",
+        "host_state_class": "O(n) total; O(1) per channel",
+        "information_access": "none after target publication",
+        "minimal_sufficient_cold_start_candidate": false,
+        "name": "do_nothing",
+        "ranked": true,
+        "resource_class_note": "Meets the resource ceilings but cannot discharge restoration.",
+        "retained_configuration": true,
+        "state_class": "O(1) words/channel"
+      },
+      "controller_mutable_state_bytes": 384,
+      "controller_update_seconds_total": 0.0013387229992076755,
+      "futility_reason": "Acquisition 3 failed the contract. With two consecutive passing frames required, entry by acquisition 4 became mathematically impossible.",
+      "not_executed_acquisitions": [
+        4
+      ],
+      "protocol_deviation": "Acquisition 4 was omitted after its binary deadline outcome became invariant. This early-stop rule was added after observing acquisition 3.",
+      "seed": 881723051,
+      "trace": [
+        {
+          "acquisition": 1,
+          "acquisition_kind": "ordinary",
+          "cloud_submit_to_terminal_observation_seconds": 62.535213,
+          "contract_eligible": true,
+          "controller_update_seconds": 0.0012768550077453256,
+          "joint_contract_pass": false,
+          "monitor_pass": false,
+          "monitor_rmse": 0.16435772204275842,
+          "payload_bitwise_zero": 0.7782084147135416,
+          "payload_pass": false,
+          "provider_execution_seconds": null,
+          "provider_job_id": "bea679c8-5167-4504-8d62-a9bd24c3f5f9",
+          "provider_job_status": "Completed",
+          "qasm_sha256": "b5837dcd2ee657338d1cc8e85a3d9ade06a167a107ea5eee8554fe009ab8a404",
+          "shots_done": 2048
+        },
+        {
+          "acquisition": 2,
+          "acquisition_kind": "ordinary",
+          "cloud_submit_to_terminal_observation_seconds": 232.242964,
+          "contract_eligible": true,
+          "controller_update_seconds": 2.3990985937416553e-05,
+          "joint_contract_pass": false,
+          "monitor_pass": false,
+          "monitor_rmse": 0.16564637052269549,
+          "payload_bitwise_zero": 0.7671610514322916,
+          "payload_pass": false,
+          "provider_execution_seconds": null,
+          "provider_job_id": "8eb1fabf-fc21-4c0c-9ea2-0139e49fd9ab",
+          "provider_job_status": "Completed",
+          "qasm_sha256": "b5837dcd2ee657338d1cc8e85a3d9ade06a167a107ea5eee8554fe009ab8a404",
+          "shots_done": 2048
+        },
+        {
+          "acquisition": 3,
+          "acquisition_kind": "ordinary",
+          "cloud_submit_to_terminal_observation_seconds": 61.937881,
+          "contract_eligible": true,
+          "controller_update_seconds": 3.787700552493334e-05,
+          "joint_contract_pass": false,
+          "monitor_pass": false,
+          "monitor_rmse": 0.1700802207751066,
+          "payload_bitwise_zero": 0.7623799641927084,
+          "payload_pass": false,
+          "provider_execution_seconds": null,
+          "provider_job_id": "80994d00-fbf9-48fc-b718-bf3d8ab530bc",
+          "provider_job_status": "Completed",
+          "qasm_sha256": "b5837dcd2ee657338d1cc8e85a3d9ade06a167a107ea5eee8554fe009ab8a404",
+          "shots_done": 2048
+        }
+      ]
+    },
+    {
+      "arm": "retained_residual",
+      "contract_at_deadline": true,
+      "contract_entry_acquisition": 4,
+      "contract_success": true,
+      "controller_metadata": {
+        "acquisition_depth_class": "O(1)",
+        "commissioned": false,
+        "discarded_probe_acquisitions": false,
+        "host_arithmetic_class": "O(n)",
+        "host_state_class": "O(n) total; O(1) per channel",
+        "information_access": "one component-resolved vector/acquisition",
+        "minimal_sufficient_cold_start_candidate": true,
+        "name": "retained_residual",
+        "ranked": true,
+        "resource_class_note": "Candidate member of the manuscript's minimal-sufficient class: one retained full-vector update, no separate commissioning sweep.",
+        "retained_configuration": true,
+        "state_class": "six float words/channel plus immutable one-bit ID sign"
+      },
+      "controller_mutable_state_bytes": 2304,
+      "controller_update_seconds_total": 0.0039156340644694865,
+      "futility_reason": null,
+      "not_executed_acquisitions": [],
+      "protocol_deviation": null,
+      "seed": 881723051,
+      "trace": [
+        {
+          "acquisition": 1,
+          "acquisition_kind": "ordinary",
+          "cloud_submit_to_terminal_observation_seconds": 63.013944,
+          "contract_eligible": true,
+          "controller_update_seconds": 0.0016369910445064306,
+          "joint_contract_pass": false,
+          "monitor_pass": false,
+          "monitor_rmse": 0.16318438940883442,
+          "payload_bitwise_zero": 0.775482177734375,
+          "payload_pass": false,
+          "provider_execution_seconds": null,
+          "provider_job_id": "149cf53a-a509-4b6d-b34a-ead4f38fc83f",
+          "provider_job_status": "Completed",
+          "qasm_sha256": "b5837dcd2ee657338d1cc8e85a3d9ade06a167a107ea5eee8554fe009ab8a404",
+          "shots_done": 2048
+        },
+        {
+          "acquisition": 2,
+          "acquisition_kind": "ordinary",
+          "cloud_submit_to_terminal_observation_seconds": 187.203177,
+          "contract_eligible": true,
+          "controller_update_seconds": 0.001708125986624509,
+          "joint_contract_pass": false,
+          "monitor_pass": false,
+          "monitor_rmse": 0.16831431955023787,
+          "payload_bitwise_zero": 0.7896219889322916,
+          "payload_pass": false,
+          "provider_execution_seconds": null,
+          "provider_job_id": "fe19b56a-af4d-4ef0-8f5e-bb05eda45fc2",
+          "provider_job_status": "Completed",
+          "qasm_sha256": "4ff464718dcf30f1d4b4c58014ad2e5d912884f1ee7859fa168a65febbc4ec73",
+          "shots_done": 2048
+        },
+        {
+          "acquisition": 3,
+          "acquisition_kind": "ordinary",
+          "cloud_submit_to_terminal_observation_seconds": 7311.777042,
+          "contract_eligible": true,
+          "controller_update_seconds": 0.00012396002421155572,
+          "joint_contract_pass": true,
+          "monitor_pass": true,
+          "monitor_rmse": 0.06212659393199996,
+          "payload_bitwise_zero": 0.8919576009114584,
+          "payload_pass": true,
+          "provider_execution_seconds": null,
+          "provider_job_id": "d35853a9-b75d-49f1-a1c9-a3a855c637d5",
+          "provider_job_status": "Completed",
+          "qasm_sha256": "13ce7c4b57630e7a07252ea1d93035a84b4485df84d95c52320727867c8c2c34",
+          "shots_done": 2048
+        },
+        {
+          "acquisition": 4,
+          "acquisition_kind": "ordinary",
+          "cloud_submit_to_terminal_observation_seconds": 317.953571,
+          "contract_eligible": true,
+          "controller_update_seconds": 0.00044655700912699103,
+          "joint_contract_pass": true,
+          "monitor_pass": true,
+          "monitor_rmse": 0.06186584777447648,
+          "payload_bitwise_zero": 0.9045003255208334,
+          "payload_pass": true,
+          "provider_execution_seconds": null,
+          "provider_job_id": "deabeac2-7ed3-416f-a27b-fea0da4c3f82",
+          "provider_job_status": "Completed",
+          "qasm_sha256": "9c13f2532160cb266e53d457c23588b894ce00f814be8f918d25c84dc8b84c59",
+          "shots_done": 2048
+        }
+      ]
+    }
+  ]
+}

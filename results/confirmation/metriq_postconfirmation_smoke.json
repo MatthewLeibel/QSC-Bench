@@ -1,0 +1,38 @@
+{
+    "app_version": "0.0.1.dev2+g69e28cd55",
+    "timestamp": "2026-08-14T02:38:51.680151",
+    "suite_id": null,
+    "job_type": "QSC-Bench Cold Start",
+    "results": {
+        "width": 4,
+        "contract_success": true,
+        "acquisitions_to_contract": 11,
+        "total_quantum_executions_to_usable": 12,
+        "payload_quality": 0.9912109375,
+        "monitor_values_per_acquisition": 4,
+        "local_monitor_plus_actuation_values_per_cycle": 8,
+        "traffic_scalars_to_contract": 88,
+        "controller_mutable_state_bytes": 192,
+        "controller_float_words_per_channel": 6.0,
+        "minimal_sufficient_cold_start_candidate": true,
+        "projected_acquisition_latency_seconds": 0.001,
+        "projected_time_to_contract_seconds": 0.013747661026660352,
+        "simulator_runtime_seconds": 0.35968868096824735,
+        "host_update_seconds": 0.002747661026660353,
+        "qsc_git_worktree_dirty": false,
+        "qsc_code_commit": "eef340c844f23eafd779a1150c52d06be8b32e12",
+        "score": {
+            "value": 0.09090909090909091,
+            "uncertainty": null
+        }
+    },
+    "platform": {
+        "device": "aer_simulator",
+        "device_metadata": {
+            "num_qubits": 29,
+            "simulator": true,
+            "version": "0.17.2"
+        },
+        "provider": "local"
+    }
+}

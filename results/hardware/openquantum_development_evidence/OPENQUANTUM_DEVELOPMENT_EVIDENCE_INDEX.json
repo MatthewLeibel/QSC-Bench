@@ -1,0 +1,87 @@
+{
+  "attribution": {
+    "citation_url": "https://www.openquantum.com/citation",
+    "required_text": "Powered by OpenQuantum"
+  },
+  "claim_boundary": "These are contemporaneous development and blocked-run captures. Some jobs were still marked Pending at the last local capture; no terminal outcome is inferred for them.",
+  "entries": [
+    {
+      "campaign_status": null,
+      "complete": null,
+      "provider_job_terminal_status_at_last_capture": {},
+      "reference_admissible": null,
+      "source": "checkpoints/openquantum_cepheus_108q_capability_probe_capture.json",
+      "source_sha256": "8845bc4ebcc3ffa2e9320a8ea7e0e2be153509ad9bf0e749cad294a956c6a14b"
+    },
+    {
+      "campaign_status": null,
+      "complete": null,
+      "provider_job_terminal_status_at_last_capture": {},
+      "reference_admissible": null,
+      "source": "checkpoints/openquantum_cepheus_108q_capability_probe_submission.json",
+      "source_sha256": "1b6f10cebab2db1935fd4d1be0bcedfed2274b0405d17ffe4a95bd9581635daf"
+    },
+    {
+      "campaign_status": null,
+      "complete": false,
+      "provider_job_terminal_status_at_last_capture": {
+        "ref_w18": "Completed",
+        "ref_w54": "Failed"
+      },
+      "reference_admissible": null,
+      "source": "checkpoints/openquantum_cepheus_scale_v1/CAMPAIGN_CHECKPOINT.json",
+      "source_sha256": "7e6474dd741409cce14efb769969fd35327b3ffb92b18668c339f5bdf70c84ed"
+    },
+    {
+      "campaign_status": null,
+      "complete": false,
+      "provider_job_terminal_status_at_last_capture": {
+        "candidate_ref_w48": "Completed",
+        "w18_retained_residual_s1592645915_q01": "Completed",
+        "w18_retained_residual_s1592645915_q02": "Pending",
+        "w48_commissioned_pi_s1971211535_q01": "Completed",
+        "w48_commissioned_pi_s1971211535_q02": "Pending",
+        "w48_diagonal_secant_s1971211535_q01": "Completed",
+        "w48_diagonal_secant_s1971211535_q02": "Pending",
+        "w48_do_nothing_s1971211535_q01": "Completed",
+        "w48_do_nothing_s1971211535_q02": "Pending",
+        "w48_retained_residual_s1971211535_q01": "Completed",
+        "w48_retained_residual_s1971211535_q02": "Pending"
+      },
+      "reference_admissible": null,
+      "source": "checkpoints/openquantum_cepheus_executable_width_v1/CAMPAIGN_CHECKPOINT.json",
+      "source_sha256": "44695a611aa2ea16963b0a9f122b9eef58af1e8b08eb3cc4e9a56e0763609e08"
+    },
+    {
+      "campaign_status": "BLOCKED_REFERENCE_BELOW_USABILITY_FLOOR",
+      "complete": true,
+      "provider_job_terminal_status_at_last_capture": {
+        "ref_w48": "Completed"
+      },
+      "reference_admissible": false,
+      "source": "checkpoints/openquantum_cepheus_96q_local_payload_v1/CAMPAIGN_CHECKPOINT.json",
+      "source_sha256": "b8fa08465b33b237af23cd3e3b96dd58c5d361ade2000c07f62bab5722fb26df"
+    },
+    {
+      "campaign_status": "BLOCKED_REFERENCE_ADMISSIBILITY",
+      "complete": true,
+      "provider_job_terminal_status_at_last_capture": {
+        "ref_w48": "Completed"
+      },
+      "reference_admissible": false,
+      "source": "checkpoints/openquantum_cepheus_96q_native_mirror_v2/CAMPAIGN_CHECKPOINT.json",
+      "source_sha256": "36a6604dfc5b4883bef1e157fd09b4f99768b099597a7190d84f62ee65adf9ca"
+    }
+  ],
+  "findings": [
+    "A minimal 108-physical-qubit capability probe failed after three provider attempts.",
+    "The first 54-channel scientific reference also failed after repeated provider attempts; failed attempts were refunded.",
+    "A 96-physical-qubit/48-channel reference executed, but its original paired payload reference was 0.61065, below the frozen 0.70 floor.",
+    "A local-payload revision reached 0.68268, still below its frozen 0.70 floor.",
+    "A native-mirror revision reached 0.51337, below its frozen 0.80 floor.",
+    "Those inadmissible development generations are not confirmation evidence and are not used to support the completed v3 outcome."
+  ],
+  "generated_at": "2026-08-14T21:06:57.869275+00:00",
+  "publication_state": "public negative/development evidence",
+  "schema_version": "qsc-openquantum-development-evidence-index-v1"
+}

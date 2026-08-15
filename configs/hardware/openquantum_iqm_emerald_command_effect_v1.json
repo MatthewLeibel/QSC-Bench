@@ -1,0 +1,33 @@
+{
+  "schema_version": "qsc-openquantum-iqm-emerald-command-effect-v1",
+  "protocol_path": "protocols/QSC_BENCH_OPENQUANTUM_IQM_EMERALD_COMMAND_EFFECT_V1.md",
+  "source_path": "configs/hardware/openquantum_iqm_emerald_command_effect_v1.qasm",
+  "provider": "OpenQuantum public compute",
+  "backend_name": "IQM Emerald",
+  "backend_short_code": "iqm:emerald",
+  "physical_qubits": 54,
+  "logical_pairs": 27,
+  "shots": 512,
+  "pair_mapping": "even physical qubit = unmaintained shock; following odd physical qubit = retained q3 correction",
+  "source_cepheus_campaign_commit": "b403d556bc833a16d57ba98fbcff7fd807b2ac6d",
+  "source_cepheus_seed": 881723051,
+  "source_cepheus_q1_job_id": "149cf53a-a509-4b6d-b34a-ead4f38fc83f",
+  "source_cepheus_q2_job_id": "fe19b56a-af4d-4ef0-8f5e-bb05eda45fc2",
+  "source_cepheus_q3_request_sha256": "13ce7c4b57630e7a07252ea1d93035a84b4485df84d95c52320727867c8c2c34",
+  "expected_ideal_unmaintained_bitwise_zero": 0.6927361977524406,
+  "expected_ideal_corrected_bitwise_zero": 0.9681317254221666,
+  "expected_ideal_delta": 0.2753955276697261,
+  "decision_rule": {
+    "minimum_corrected_bitwise_zero": 0.80,
+    "minimum_corrected_minus_unmaintained": 0.10
+  },
+  "maximum_quote_spark_credits": 1,
+  "minimum_balance_before_submission": 2,
+  "minimum_balance_after_submission": 1,
+  "execution_plan": "Public Plan only",
+  "queue_priority": "Standard Queue only",
+  "paid_full_credits_authorized": 0,
+  "retry_authorized": false,
+  "claim_boundary": "One static 54-qubit cross-device command-effect diagnostic. It is not an adaptive Emerald controller run, a stability-contract result, a hardware scaling exponent, or a substitute for the incomplete Cepheus confirmation.",
+  "publication_state": "local only; do not push or submit without owner approval"
+}

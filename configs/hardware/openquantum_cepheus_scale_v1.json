@@ -1,0 +1,63 @@
+{
+  "schema_version": "qsc-openquantum-cepheus-scale-protocol-v1",
+  "provider": "OpenQuantum public compute",
+  "backend_name": "Rigetti Cepheus-1-108Q",
+  "backend_short_code": "rigetti:cepheus-1-108q",
+  "backend_qubits": 108,
+  "backend_modality": "superconducting gate-based QPU",
+  "confirmation_seed_phrase": "QSC-Bench-OpenQuantum-Cepheus-Scale-v1-confirmation-2026-08-14",
+  "confirmation_seed_phrase_sha256": "77abf0e655c7c201ee2e019c679e3331ae17eef87e15badfc30b44fc567e88b6",
+  "width_seeds": {
+    "18": 1784722507,
+    "54": 169583711
+  },
+  "tracks": [
+    {
+      "width": 18,
+      "physical_qubits": 36,
+      "arms": ["retained_residual"]
+    },
+    {
+      "width": 54,
+      "physical_qubits": 108,
+      "arms": [
+        "retained_residual",
+        "diagonal_secant",
+        "commissioned_pi",
+        "do_nothing"
+      ]
+    }
+  ],
+  "shots_per_reference": 2048,
+  "shots_per_acquisition": 2048,
+  "acquisition_deadline": 4,
+  "required_consecutive_ordinary_acquisitions": 2,
+  "monitor_rmse_tolerance": 0.08,
+  "payload_bitwise_zero_absolute_floor": 0.70,
+  "payload_reference_margin": 0.10,
+  "initial_commanded_shock_rms_radians": 0.45,
+  "identification_cycles": 1,
+  "identification_amplitude_radians": 0.15,
+  "reference_controller": {
+    "eta": 0.65,
+    "momentum": 0.15,
+    "estimator_smoothing": 0.50,
+    "gain_floor": 0.15
+  },
+  "planned_reference_jobs": 2,
+  "planned_adaptive_jobs": 20,
+  "planned_main_spark_credits": 22,
+  "reserved_spark_credits": 1,
+  "maximum_quote_per_job_spark_credits": 1,
+  "execution_plan": "Public Plan only",
+  "queue_priority": "Standard Queue only",
+  "paid_full_credits_authorized": 0,
+  "reserve_rule": "Use the one reserve credit for at most one verified infrastructure retry; if no retry is needed, use it for one post-campaign width-54 reference.",
+  "dense_fd_structural_minimum": {
+    "18": 21,
+    "54": 57
+  },
+  "scope": "Commanded phase-restoration hardware-in-the-loop benchmark under native QPU noise; no access to provider-private calibration registers.",
+  "claim_boundary": "High-width finite-sample hardware transfer. Width 18 and width 54 provide two retained-controller width points, not a standalone hardware scaling exponent. Large-width scaling remains a simulation-plus-structural result.",
+  "publication_state": "local only; do not push or submit without owner approval"
+}

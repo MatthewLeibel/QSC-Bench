@@ -1,0 +1,103 @@
+[
+  {
+    "app_version": "qsc-bench-1.0.0",
+    "job_type": "QSC-Bench Cold Start",
+    "platform": {
+      "device": "Cepheus-1-108Q",
+      "device_metadata": {
+        "controlled_channels": 48,
+        "controller": "do_nothing",
+        "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+        "num_qubits": 96,
+        "protocol_deviation": "Acquisition 4 was omitted after its binary deadline outcome became invariant. This early-stop rule was added after observing acquisition 3.",
+        "provider_execution_timing_available": false,
+        "provider_job_ids": [
+          "bea679c8-5167-4504-8d62-a9bd24c3f5f9",
+          "8eb1fabf-fc21-4c0c-9ea2-0139e49fd9ab",
+          "80994d00-fbf9-48fc-b718-bf3d8ab530bc"
+        ],
+        "scope": "commanded phase restoration under native QPU noise; no provider-private calibration access",
+        "seed": 881723051,
+        "shots_per_acquisition": 2048,
+        "simulator": false
+      },
+      "provider": "OpenQuantum"
+    },
+    "results": {
+      "acquisitions_to_contract": 0,
+      "contract_success": false,
+      "controller_float_words_per_channel": 1.0,
+      "controller_mutable_state_bytes": 384,
+      "host_update_seconds": 0.0013387229992076755,
+      "local_monitor_plus_actuation_values_per_cycle": 96,
+      "minimal_sufficient_cold_start_candidate": false,
+      "monitor_values_per_acquisition": 48,
+      "payload_quality": 0.7623799641927084,
+      "projected_acquisition_latency_seconds": 0.0001,
+      "projected_time_to_contract_seconds": 0.0,
+      "qsc_code_commit": "b403d556bc833a16d57ba98fbcff7fd807b2ac6d",
+      "qsc_git_worktree_dirty": false,
+      "score": {
+        "uncertainty": null,
+        "value": 0.0
+      },
+      "simulator_runtime_seconds": 0.0,
+      "total_quantum_executions_to_usable": 0,
+      "traffic_scalars_to_contract": 288,
+      "width": 48
+    },
+    "suite_id": null,
+    "timestamp": "2026-08-14T21:06:57.869251+00:00"
+  },
+  {
+    "app_version": "qsc-bench-1.0.0",
+    "job_type": "QSC-Bench Cold Start",
+    "platform": {
+      "device": "Cepheus-1-108Q",
+      "device_metadata": {
+        "controlled_channels": 48,
+        "controller": "retained_residual",
+        "execution_mode": "client_orchestrated_sequential_direct_qpu_jobs",
+        "num_qubits": 96,
+        "protocol_deviation": null,
+        "provider_execution_timing_available": false,
+        "provider_job_ids": [
+          "149cf53a-a509-4b6d-b34a-ead4f38fc83f",
+          "fe19b56a-af4d-4ef0-8f5e-bb05eda45fc2",
+          "d35853a9-b75d-49f1-a1c9-a3a855c637d5",
+          "deabeac2-7ed3-416f-a27b-fea0da4c3f82"
+        ],
+        "scope": "commanded phase restoration under native QPU noise; no provider-private calibration access",
+        "seed": 881723051,
+        "shots_per_acquisition": 2048,
+        "simulator": false
+      },
+      "provider": "OpenQuantum"
+    },
+    "results": {
+      "acquisitions_to_contract": 4,
+      "contract_success": true,
+      "controller_float_words_per_channel": 6.0,
+      "controller_mutable_state_bytes": 2304,
+      "host_update_seconds": 0.0039156340644694865,
+      "local_monitor_plus_actuation_values_per_cycle": 96,
+      "minimal_sufficient_cold_start_candidate": true,
+      "monitor_values_per_acquisition": 48,
+      "payload_quality": 0.9045003255208334,
+      "projected_acquisition_latency_seconds": 0.0001,
+      "projected_time_to_contract_seconds": 0.004315634064469487,
+      "qsc_code_commit": "b403d556bc833a16d57ba98fbcff7fd807b2ac6d",
+      "qsc_git_worktree_dirty": false,
+      "score": {
+        "uncertainty": null,
+        "value": 0.25
+      },
+      "simulator_runtime_seconds": 0.0,
+      "total_quantum_executions_to_usable": 4,
+      "traffic_scalars_to_contract": 384,
+      "width": 48
+    },
+    "suite_id": null,
+    "timestamp": "2026-08-14T21:06:57.869251+00:00"
+  }
+]

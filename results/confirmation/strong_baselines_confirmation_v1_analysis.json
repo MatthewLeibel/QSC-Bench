@@ -1,0 +1,1521 @@
+{
+  "artifact": "QSC-Bench frozen campaign analysis",
+  "class_level_result": "FAIL_OR_INCONCLUSIVE",
+  "controllers": [
+    {
+      "controller": "anderson_residual",
+      "metadata": {
+        "acquisition_depth_class": "O(1)",
+        "commissioned": false,
+        "discarded_probe_acquisitions": false,
+        "host_arithmetic_class": "O(kn + k^3), linear in n for fixed k",
+        "host_state_class": "O(kn), bounded O(1) per channel for fixed k",
+        "information_access": "one component-resolved vector/acquisition",
+        "minimal_sufficient_cold_start_candidate": true,
+        "name": "anderson_residual",
+        "ranked": true,
+        "resource_class_note": "Candidate minimal-sufficient member with a fixed retained history; larger constants than diagonal retained laws but no superlinear width term.",
+        "retained_configuration": true,
+        "state_class": "O(k) float words/channel for fixed window k"
+      },
+      "predeclared_tests": {
+        "alpha_upper_equivalence_margin": false,
+        "at_least_minimum_widths": true,
+        "paired_seed_count": true,
+        "payload_valid_at_entry": true,
+        "resource_class_candidate": true,
+        "success_wilson_lower_bound": false
+      },
+      "resource_scaling": {
+        "commissioning_acquisitions_power_law_exponent": null,
+        "median_commissioning_acquisitions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "median_state_bytes": [
+          512.0,
+          1024.0,
+          2048.0,
+          4096.0,
+          8192.0,
+          16384.0
+        ],
+        "median_state_bytes_per_channel": [
+          128.0,
+          128.0,
+          128.0,
+          128.0,
+          128.0,
+          128.0
+        ],
+        "median_total_host_seconds": [
+          0.00394710514228791,
+          0.003428649593843147,
+          0.003985505521995947,
+          0.003985159506555647,
+          0.003588528517866507,
+          0.004031696036690846
+        ],
+        "median_wall_runtime_seconds": [
+          0.1124121539760381,
+          0.1028521285043098,
+          0.10978075698949397,
+          0.11337040696525946,
+          0.10203756700502709,
+          0.11061090350267477
+        ],
+        "runtime_semantics": "Measured Python/Aer-or-analytic implementation time on this Mac; not a physical-device latency and not a machine-independent operation count",
+        "state_bytes_per_channel_max_to_min_ratio": 1.0,
+        "state_bytes_power_law_exponent": 1.0000000000000002,
+        "total_host_seconds_power_law_exponent": 0.01000257451817618,
+        "wall_runtime_power_law_exponent": -0.002986198068959582,
+        "widths": [
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ]
+      },
+      "scaling": {
+        "acquisitions_per_doubling": 0.028571428571429455,
+        "acquisitions_per_doubling_ci95": [
+          -0.342857142857142,
+          0.48571428571428643
+        ],
+        "all_seed_count": 30,
+        "alpha": 0.0036709603424122657,
+        "alpha_ci95": [
+          -0.04160292176247677,
+          0.06479533379659035
+        ],
+        "complete_successful_paired_seed_count": 28,
+        "declared_widths": [
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ],
+        "excluded_seed_count": 2,
+        "fit_semantics": "log(A)=log(c)+alpha*log(n), using width medians over seeds that succeeded at every declared width; failures are reported separately"
+      },
+      "supports_bounded_depth_with_payload_over_tested_range": false,
+      "width_cells": [
+        {
+          "acquisitions_successes_only": {
+            "median": 11.0,
+            "q1": 9.0,
+            "q3": 15.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 11.0,
+            "restricted_mean_acquisitions_to_budget": 16.76666666666669,
+            "survival_at_budget": 0.0
+          },
+          "failures": 0,
+          "median_acquisitions_bootstrap_ci95": [
+            10.0,
+            14.0
+          ],
+          "median_controller_state_bytes": 512.0,
+          "median_host_update_seconds": 0.00394710514228791,
+          "payload_margin": {
+            "median": 0.036612548828125036,
+            "q1": 0.035529174804687536,
+            "q3": 0.038382568359375036
+          },
+          "runs": 30,
+          "success_rate": 1.0,
+          "success_rate_wilson_ci95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ],
+          "successes": 30,
+          "width": 4
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 12.0,
+            "q1": 9.0,
+            "q3": 13.5
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 12.0,
+            "restricted_mean_acquisitions_to_budget": 25.133333333333294,
+            "survival_at_budget": 0.0666666666666667
+          },
+          "failures": 2,
+          "median_acquisitions_bootstrap_ci95": [
+            9.5,
+            13.0
+          ],
+          "median_controller_state_bytes": 1024.0,
+          "median_host_update_seconds": 0.003428649593843147,
+          "payload_margin": {
+            "median": 0.036109008789062536,
+            "q1": 0.034598388671875036,
+            "q3": 0.037909545898437536
+          },
+          "runs": 30,
+          "success_rate": 0.9333333333333333,
+          "success_rate_wilson_ci95": [
+            0.7867654163738308,
+            0.9815229762087295
+          ],
+          "successes": 28,
+          "width": 8
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 11.0,
+            "q1": 10.0,
+            "q3": 14.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 11.0,
+            "restricted_mean_acquisitions_to_budget": 12.733333333333329,
+            "survival_at_budget": 0.0
+          },
+          "failures": 0,
+          "median_acquisitions_bootstrap_ci95": [
+            10.0,
+            12.0
+          ],
+          "median_controller_state_bytes": 2048.0,
+          "median_host_update_seconds": 0.003985505521995947,
+          "payload_margin": {
+            "median": 0.035231628417968786,
+            "q1": 0.034758605957031286,
+            "q3": 0.03653244018554691
+          },
+          "runs": 30,
+          "success_rate": 1.0,
+          "success_rate_wilson_ci95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ],
+          "successes": 30,
+          "width": 16
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 12.5,
+            "q1": 10.25,
+            "q3": 14.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 13.0,
+            "restricted_mean_acquisitions_to_budget": 13.899999999999993,
+            "survival_at_budget": 0.0
+          },
+          "failures": 0,
+          "median_acquisitions_bootstrap_ci95": [
+            11.0,
+            14.0
+          ],
+          "median_controller_state_bytes": 4096.0,
+          "median_host_update_seconds": 0.003985159506555647,
+          "payload_margin": {
+            "median": 0.03524307250976566,
+            "q1": 0.03426460266113285,
+            "q3": 0.035918273925781286
+          },
+          "runs": 30,
+          "success_rate": 1.0,
+          "success_rate_wilson_ci95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ],
+          "successes": 30,
+          "width": 32
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 11.5,
+            "q1": 11.0,
+            "q3": 14.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 11.0,
+            "restricted_mean_acquisitions_to_budget": 12.366666666666667,
+            "survival_at_budget": 0.0
+          },
+          "failures": 0,
+          "median_acquisitions_bootstrap_ci95": [
+            11.0,
+            13.0
+          ],
+          "median_controller_state_bytes": 8192.0,
+          "median_host_update_seconds": 0.003588528517866507,
+          "payload_margin": {
+            "median": 0.03497604370117191,
+            "q1": 0.03358749389648441,
+            "q3": 0.0354929351806641
+          },
+          "runs": 30,
+          "success_rate": 1.0,
+          "success_rate_wilson_ci95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ],
+          "successes": 30,
+          "width": 64
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 11.5,
+            "q1": 10.25,
+            "q3": 12.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 11.0,
+            "restricted_mean_acquisitions_to_budget": 11.499999999999998,
+            "survival_at_budget": 0.0
+          },
+          "failures": 0,
+          "median_acquisitions_bootstrap_ci95": [
+            11.0,
+            12.0
+          ],
+          "median_controller_state_bytes": 16384.0,
+          "median_host_update_seconds": 0.004031696036690846,
+          "payload_margin": {
+            "median": 0.03528408050537113,
+            "q1": 0.03450254440307621,
+            "q3": 0.0357370758056641
+          },
+          "runs": 30,
+          "success_rate": 1.0,
+          "success_rate_wilson_ci95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ],
+          "successes": 30,
+          "width": 128
+        }
+      ]
+    },
+    {
+      "controller": "dense_fd",
+      "metadata": {
+        "acquisition_depth_class": "O(n) commissioning",
+        "commissioned": true,
+        "discarded_probe_acquisitions": true,
+        "host_arithmetic_class": "O(n^3) dense solve as implemented",
+        "host_state_class": "O(n^2)",
+        "information_access": "component vectors from n+1 sequential commissioning acquisitions",
+        "minimal_sufficient_cold_start_candidate": false,
+        "name": "dense_fd",
+        "ranked": true,
+        "resource_class_note": "Out of class on acquisition depth, retained model state, and host solve cost.",
+        "retained_configuration": false,
+        "state_class": "O(n^2) controller state"
+      },
+      "predeclared_tests": {
+        "alpha_upper_equivalence_margin": false,
+        "at_least_minimum_widths": true,
+        "paired_seed_count": false,
+        "payload_valid_at_entry": false,
+        "resource_class_candidate": false,
+        "success_wilson_lower_bound": false
+      },
+      "resource_scaling": {
+        "commissioning_acquisitions_power_law_exponent": 0.941735871872743,
+        "median_commissioning_acquisitions": [
+          5.0,
+          9.0,
+          17.0,
+          33.0,
+          65.0,
+          129.0
+        ],
+        "median_state_bytes": [
+          160.0,
+          576.0,
+          2176.0,
+          8448.0,
+          33280.0,
+          132096.0
+        ],
+        "median_state_bytes_per_channel": [
+          40.0,
+          72.0,
+          136.0,
+          264.0,
+          520.0,
+          1032.0
+        ],
+        "median_total_host_seconds": [
+          0.002419743948848918,
+          0.0032555295038037,
+          0.03414385544601828,
+          0.03838463043211959,
+          0.04112489806720987,
+          0.05211817487725057
+        ],
+        "median_wall_runtime_seconds": [
+          0.10938535298919305,
+          0.11104728648206219,
+          0.24767705801059492,
+          0.2690026905038394,
+          0.2729938964766916,
+          0.29767298250226304
+        ],
+        "runtime_semantics": "Measured Python/Aer-or-analytic implementation time on this Mac; not a physical-device latency and not a machine-independent operation count",
+        "state_bytes_per_channel_max_to_min_ratio": 25.8,
+        "state_bytes_power_law_exponent": 1.9417358718727438,
+        "total_host_seconds_power_law_exponent": 0.9511528017779198,
+        "wall_runtime_power_law_exponent": 0.3209653601695042,
+        "widths": [
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ]
+      },
+      "scaling": {
+        "acquisitions_per_doubling": null,
+        "acquisitions_per_doubling_ci95": [
+          null,
+          null
+        ],
+        "all_seed_count": 30,
+        "alpha": null,
+        "alpha_ci95": [
+          null,
+          null
+        ],
+        "complete_successful_paired_seed_count": 0,
+        "declared_widths": [
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ],
+        "excluded_seed_count": 30,
+        "fit_semantics": "log(A)=log(c)+alpha*log(n), using width medians over seeds that succeeded at every declared width; failures are reported separately"
+      },
+      "supports_bounded_depth_with_payload_over_tested_range": false,
+      "width_cells": [
+        {
+          "acquisitions_successes_only": {
+            "median": 13.0,
+            "q1": 12.0,
+            "q3": 17.25
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 14.0,
+            "restricted_mean_acquisitions_to_budget": 26.199999999999974,
+            "survival_at_budget": 0.0666666666666667
+          },
+          "failures": 2,
+          "median_acquisitions_bootstrap_ci95": [
+            12.0,
+            15.5
+          ],
+          "median_controller_state_bytes": 160.0,
+          "median_host_update_seconds": 0.002419743948848918,
+          "payload_margin": {
+            "median": 0.036917724609375036,
+            "q1": 0.035040893554687536,
+            "q3": 0.038962402343750036
+          },
+          "runs": 30,
+          "success_rate": 0.9333333333333333,
+          "success_rate_wilson_ci95": [
+            0.7867654163738308,
+            0.9815229762087295
+          ],
+          "successes": 28,
+          "width": 4
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 21.0,
+            "q1": 19.0,
+            "q3": 26.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 21.0,
+            "restricted_mean_acquisitions_to_budget": 53.666666666666636,
+            "survival_at_budget": 0.16666666666666674
+          },
+          "failures": 5,
+          "median_acquisitions_bootstrap_ci95": [
+            20.0,
+            26.0
+          ],
+          "median_controller_state_bytes": 576.0,
+          "median_host_update_seconds": 0.0032555295038037,
+          "payload_margin": {
+            "median": 0.036337890625000036,
+            "q1": 0.034781494140625036,
+            "q3": 0.037894287109375036
+          },
+          "runs": 30,
+          "success_rate": 0.8333333333333334,
+          "success_rate_wilson_ci95": [
+            0.6643564949358398,
+            0.9266345762815145
+          ],
+          "successes": 25,
+          "width": 8
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 52.0,
+            "q1": 44.5,
+            "q3": 64.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": null,
+            "restricted_mean_acquisitions_to_budget": 153.13333333333352,
+            "survival_at_budget": 0.7666666666666667
+          },
+          "failures": 23,
+          "median_acquisitions_bootstrap_ci95": [
+            41.0,
+            73.0
+          ],
+          "median_controller_state_bytes": 2176.0,
+          "median_host_update_seconds": 0.03414385544601828,
+          "payload_margin": {
+            "median": 0.035758056640625036,
+            "q1": 0.035704650878906286,
+            "q3": 0.036162414550781286
+          },
+          "runs": 30,
+          "success_rate": 0.23333333333333334,
+          "success_rate_wilson_ci95": [
+            0.11792388144489496,
+            0.40928326158122164
+          ],
+          "successes": 7,
+          "width": 16
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": null,
+            "q1": null,
+            "q3": null
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": null,
+            "restricted_mean_acquisitions_to_budget": 180.0,
+            "survival_at_budget": 1.0
+          },
+          "failures": 30,
+          "median_acquisitions_bootstrap_ci95": [
+            null,
+            null
+          ],
+          "median_controller_state_bytes": 8448.0,
+          "median_host_update_seconds": 0.03838463043211959,
+          "payload_margin": {
+            "median": null,
+            "q1": null,
+            "q3": null
+          },
+          "runs": 30,
+          "success_rate": 0.0,
+          "success_rate_wilson_ci95": [
+            0.0,
+            0.11351339317396876
+          ],
+          "successes": 0,
+          "width": 32
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": null,
+            "q1": null,
+            "q3": null
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": null,
+            "restricted_mean_acquisitions_to_budget": 180.0,
+            "survival_at_budget": 1.0
+          },
+          "failures": 30,
+          "median_acquisitions_bootstrap_ci95": [
+            null,
+            null
+          ],
+          "median_controller_state_bytes": 33280.0,
+          "median_host_update_seconds": 0.04112489806720987,
+          "payload_margin": {
+            "median": null,
+            "q1": null,
+            "q3": null
+          },
+          "runs": 30,
+          "success_rate": 0.0,
+          "success_rate_wilson_ci95": [
+            0.0,
+            0.11351339317396876
+          ],
+          "successes": 0,
+          "width": 64
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": null,
+            "q1": null,
+            "q3": null
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": null,
+            "restricted_mean_acquisitions_to_budget": 180.0,
+            "survival_at_budget": 1.0
+          },
+          "failures": 30,
+          "median_acquisitions_bootstrap_ci95": [
+            null,
+            null
+          ],
+          "median_controller_state_bytes": 132096.0,
+          "median_host_update_seconds": 0.05211817487725057,
+          "payload_margin": {
+            "median": null,
+            "q1": null,
+            "q3": null
+          },
+          "runs": 30,
+          "success_rate": 0.0,
+          "success_rate_wilson_ci95": [
+            0.0,
+            0.11351339317396876
+          ],
+          "successes": 0,
+          "width": 128
+        }
+      ]
+    },
+    {
+      "controller": "full_broyden",
+      "metadata": {
+        "acquisition_depth_class": "O(1)",
+        "commissioned": false,
+        "discarded_probe_acquisitions": false,
+        "host_arithmetic_class": "O(n^3) direct regularized solve as implemented",
+        "host_state_class": "O(n^2)",
+        "information_access": "one component-resolved vector/acquisition",
+        "minimal_sufficient_cold_start_candidate": false,
+        "name": "full_broyden",
+        "ranked": true,
+        "resource_class_note": "Retains ordinary acquisitions but re-imports a dense model and solve. This is distinct from the in-class diagonal retained secant controller.",
+        "retained_configuration": true,
+        "state_class": "O(n^2) dense Jacobian plus O(n) vectors"
+      },
+      "predeclared_tests": {
+        "alpha_upper_equivalence_margin": false,
+        "at_least_minimum_widths": true,
+        "paired_seed_count": false,
+        "payload_valid_at_entry": true,
+        "resource_class_candidate": false,
+        "success_wilson_lower_bound": false
+      },
+      "resource_scaling": {
+        "commissioning_acquisitions_power_law_exponent": null,
+        "median_commissioning_acquisitions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "median_state_bytes": [
+          224.0,
+          704.0,
+          2432.0,
+          8960.0,
+          34304.0,
+          134144.0
+        ],
+        "median_state_bytes_per_channel": [
+          56.0,
+          88.0,
+          152.0,
+          280.0,
+          536.0,
+          1048.0
+        ],
+        "median_total_host_seconds": [
+          0.0024807450245134532,
+          0.00262233053217642,
+          0.003085190517595038,
+          0.006245830445550382,
+          0.07018641728791408,
+          0.21058768380316906
+        ],
+        "median_wall_runtime_seconds": [
+          0.1025027209543623,
+          0.09873473798506893,
+          0.10728142847074196,
+          0.12240499249310233,
+          0.27547144950949587,
+          0.486704370501684
+        ],
+        "runtime_semantics": "Measured Python/Aer-or-analytic implementation time on this Mac; not a physical-device latency and not a machine-independent operation count",
+        "state_bytes_per_channel_max_to_min_ratio": 18.714285714285715,
+        "state_bytes_power_law_exponent": 1.8523333890389158,
+        "total_host_seconds_power_law_exponent": 1.3509104009512987,
+        "wall_runtime_power_law_exponent": 0.45337140221653216,
+        "widths": [
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ]
+      },
+      "scaling": {
+        "acquisitions_per_doubling": null,
+        "acquisitions_per_doubling_ci95": [
+          null,
+          null
+        ],
+        "all_seed_count": 30,
+        "alpha": null,
+        "alpha_ci95": [
+          null,
+          null
+        ],
+        "complete_successful_paired_seed_count": 0,
+        "declared_widths": [
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ],
+        "excluded_seed_count": 30,
+        "fit_semantics": "log(A)=log(c)+alpha*log(n), using width medians over seeds that succeeded at every declared width; failures are reported separately"
+      },
+      "supports_bounded_depth_with_payload_over_tested_range": false,
+      "width_cells": [
+        {
+          "acquisitions_successes_only": {
+            "median": 9.0,
+            "q1": 8.0,
+            "q3": 13.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 9.0,
+            "restricted_mean_acquisitions_to_budget": 10.266666666666666,
+            "survival_at_budget": 0.0
+          },
+          "failures": 0,
+          "median_acquisitions_bootstrap_ci95": [
+            8.0,
+            12.5
+          ],
+          "median_controller_state_bytes": 224.0,
+          "median_host_update_seconds": 0.0024807450245134532,
+          "payload_margin": {
+            "median": 0.037680664062500036,
+            "q1": 0.036185302734375036,
+            "q3": 0.038764038085937536
+          },
+          "runs": 30,
+          "success_rate": 1.0,
+          "success_rate_wilson_ci95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ],
+          "successes": 30,
+          "width": 4
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 10.0,
+            "q1": 8.0,
+            "q3": 12.5
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 10.0,
+            "restricted_mean_acquisitions_to_budget": 27.46666666666681,
+            "survival_at_budget": 0.10000000000000002
+          },
+          "failures": 3,
+          "median_acquisitions_bootstrap_ci95": [
+            8.0,
+            12.0
+          ],
+          "median_controller_state_bytes": 704.0,
+          "median_host_update_seconds": 0.00262233053217642,
+          "payload_margin": {
+            "median": 0.037924804687500036,
+            "q1": 0.036261596679687536,
+            "q3": 0.038870849609375036
+          },
+          "runs": 30,
+          "success_rate": 0.9,
+          "success_rate_wilson_ci95": [
+            0.7437891742081593,
+            0.9654001112526658
+          ],
+          "successes": 27,
+          "width": 8
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 11.0,
+            "q1": 9.25,
+            "q3": 15.75
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 12.0,
+            "restricted_mean_acquisitions_to_budget": 40.0,
+            "survival_at_budget": 0.13333333333333336
+          },
+          "failures": 4,
+          "median_acquisitions_bootstrap_ci95": [
+            10.0,
+            14.0
+          ],
+          "median_controller_state_bytes": 2432.0,
+          "median_host_update_seconds": 0.003085190517595038,
+          "payload_margin": {
+            "median": 0.036452331542968786,
+            "q1": 0.034483947753906286,
+            "q3": 0.03765396118164066
+          },
+          "runs": 30,
+          "success_rate": 0.8666666666666667,
+          "success_rate_wilson_ci95": [
+            0.703186733179637,
+            0.9469034451594526
+          ],
+          "successes": 26,
+          "width": 16
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 15.0,
+            "q1": 13.0,
+            "q3": 19.5
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 17.0,
+            "restricted_mean_acquisitions_to_budget": 58.733333333333334,
+            "survival_at_budget": 0.2333333333333334
+          },
+          "failures": 7,
+          "median_acquisitions_bootstrap_ci95": [
+            14.0,
+            17.0
+          ],
+          "median_controller_state_bytes": 8960.0,
+          "median_host_update_seconds": 0.006245830445550382,
+          "payload_margin": {
+            "median": 0.036894836425781286,
+            "q1": 0.03210739135742191,
+            "q3": 0.03793624877929691
+          },
+          "runs": 30,
+          "success_rate": 0.7666666666666667,
+          "success_rate_wilson_ci95": [
+            0.5907167384187784,
+            0.8820761185551049
+          ],
+          "successes": 23,
+          "width": 32
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 24.0,
+            "q1": 13.0,
+            "q3": 33.25
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": null,
+            "restricted_mean_acquisitions_to_budget": 120.33333333333306,
+            "survival_at_budget": 0.6000000000000001
+          },
+          "failures": 18,
+          "median_acquisitions_bootstrap_ci95": [
+            13.0,
+            33.5
+          ],
+          "median_controller_state_bytes": 34304.0,
+          "median_host_update_seconds": 0.07018641728791408,
+          "payload_margin": {
+            "median": 0.028618850708007848,
+            "q1": 0.024710693359375036,
+            "q3": 0.03374294281005863
+          },
+          "runs": 30,
+          "success_rate": 0.4,
+          "success_rate_wilson_ci95": [
+            0.24590628116801852,
+            0.5767963974667752
+          ],
+          "successes": 12,
+          "width": 64
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 64.0,
+            "q1": 64.0,
+            "q3": 64.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": null,
+            "restricted_mean_acquisitions_to_budget": 176.13333333333355,
+            "survival_at_budget": 0.9666666666666667
+          },
+          "failures": 29,
+          "median_acquisitions_bootstrap_ci95": [
+            64.0,
+            64.0
+          ],
+          "median_controller_state_bytes": 134144.0,
+          "median_host_update_seconds": 0.21058768380316906,
+          "payload_margin": {
+            "median": 0.03159812927246097,
+            "q1": 0.03159812927246097,
+            "q3": 0.03159812927246097
+          },
+          "runs": 30,
+          "success_rate": 0.03333333333333333,
+          "success_rate_wilson_ci95": [
+            0.005908590381612455,
+            0.16670390991409173
+          ],
+          "successes": 1,
+          "width": 128
+        }
+      ]
+    },
+    {
+      "controller": "oracle",
+      "metadata": {
+        "acquisition_depth_class": "O(1)",
+        "commissioned": false,
+        "discarded_probe_acquisitions": false,
+        "host_arithmetic_class": "O(n)",
+        "host_state_class": "hidden plant state supplied by evaluator",
+        "information_access": "hidden drift, actuator polarity, and gain",
+        "minimal_sufficient_cold_start_candidate": false,
+        "name": "oracle",
+        "ranked": false,
+        "resource_class_note": "Unranked information-access lower bound, not a realizable controller.",
+        "retained_configuration": true,
+        "state_class": "unranked lower bound"
+      },
+      "predeclared_tests": {
+        "alpha_upper_equivalence_margin": true,
+        "at_least_minimum_widths": true,
+        "paired_seed_count": true,
+        "payload_valid_at_entry": true,
+        "resource_class_candidate": false,
+        "success_wilson_lower_bound": true
+      },
+      "resource_scaling": {
+        "commissioning_acquisitions_power_law_exponent": null,
+        "median_commissioning_acquisitions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "median_state_bytes": [
+          32.0,
+          64.0,
+          128.0,
+          256.0,
+          512.0,
+          1024.0
+        ],
+        "median_state_bytes_per_channel": [
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+        ],
+        "median_total_host_seconds": [
+          0.0001030465355142951,
+          9.283702820539474e-05,
+          9.910401422530413e-05,
+          9.344250429421663e-05,
+          9.745953138917685e-05,
+          0.0001022020005621016
+        ],
+        "median_wall_runtime_seconds": [
+          0.09828299650689587,
+          0.08627074299147353,
+          0.09587569598807022,
+          0.09458110749255866,
+          0.09269728447543457,
+          0.09797192600672133
+        ],
+        "runtime_semantics": "Measured Python/Aer-or-analytic implementation time on this Mac; not a physical-device latency and not a machine-independent operation count",
+        "state_bytes_per_channel_max_to_min_ratio": 1.0,
+        "state_bytes_power_law_exponent": 1.0000000000000002,
+        "total_host_seconds_power_law_exponent": 0.0018880415237978096,
+        "wall_runtime_power_law_exponent": 0.007671050460307758,
+        "widths": [
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ]
+      },
+      "scaling": {
+        "acquisitions_per_doubling": 3.055409801724583e-16,
+        "acquisitions_per_doubling_ci95": [
+          3.055409801724583e-16,
+          3.055409801724583e-16
+        ],
+        "all_seed_count": 30,
+        "alpha": 3.210359782122096e-17,
+        "alpha_ci95": [
+          3.210359782122096e-17,
+          3.210359782122096e-17
+        ],
+        "complete_successful_paired_seed_count": 30,
+        "declared_widths": [
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ],
+        "excluded_seed_count": 0,
+        "fit_semantics": "log(A)=log(c)+alpha*log(n), using width medians over seeds that succeeded at every declared width; failures are reported separately"
+      },
+      "supports_bounded_depth_with_payload_over_tested_range": false,
+      "width_cells": [
+        {
+          "acquisitions_successes_only": {
+            "median": 3.0,
+            "q1": 3.0,
+            "q3": 3.75
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 3.0,
+            "restricted_mean_acquisitions_to_budget": 3.5,
+            "survival_at_budget": 0.0
+          },
+          "failures": 0,
+          "median_acquisitions_bootstrap_ci95": [
+            3.0,
+            3.0
+          ],
+          "median_controller_state_bytes": 32.0,
+          "median_host_update_seconds": 0.0001030465355142951,
+          "payload_margin": {
+            "median": 0.040457763671875036,
+            "q1": 0.039343872070312536,
+            "q3": 0.041312255859375036
+          },
+          "runs": 30,
+          "success_rate": 1.0,
+          "success_rate_wilson_ci95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ],
+          "successes": 30,
+          "width": 4
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 3.0,
+            "q1": 3.0,
+            "q3": 3.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 3.0,
+            "restricted_mean_acquisitions_to_budget": 3.3333333333333335,
+            "survival_at_budget": 0.0
+          },
+          "failures": 0,
+          "median_acquisitions_bootstrap_ci95": [
+            3.0,
+            3.0
+          ],
+          "median_controller_state_bytes": 64.0,
+          "median_host_update_seconds": 9.283702820539474e-05,
+          "payload_margin": {
+            "median": 0.040335693359375036,
+            "q1": 0.039526977539062536,
+            "q3": 0.041441955566406286
+          },
+          "runs": 30,
+          "success_rate": 1.0,
+          "success_rate_wilson_ci95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ],
+          "successes": 30,
+          "width": 8
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 3.0,
+            "q1": 3.0,
+            "q3": 3.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 3.0,
+            "restricted_mean_acquisitions_to_budget": 3.0,
+            "survival_at_budget": 0.0
+          },
+          "failures": 0,
+          "median_acquisitions_bootstrap_ci95": [
+            3.0,
+            3.0
+          ],
+          "median_controller_state_bytes": 128.0,
+          "median_host_update_seconds": 9.910401422530413e-05,
+          "payload_margin": {
+            "median": 0.039984741210937536,
+            "q1": 0.03951553344726566,
+            "q3": 0.040320434570312536
+          },
+          "runs": 30,
+          "success_rate": 1.0,
+          "success_rate_wilson_ci95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ],
+          "successes": 30,
+          "width": 16
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 3.0,
+            "q1": 3.0,
+            "q3": 3.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 3.0,
+            "restricted_mean_acquisitions_to_budget": 3.0,
+            "survival_at_budget": 0.0
+          },
+          "failures": 0,
+          "median_acquisitions_bootstrap_ci95": [
+            3.0,
+            3.0
+          ],
+          "median_controller_state_bytes": 256.0,
+          "median_host_update_seconds": 9.344250429421663e-05,
+          "payload_margin": {
+            "median": 0.039809265136718786,
+            "q1": 0.03952507019042972,
+            "q3": 0.04030899047851566
+          },
+          "runs": 30,
+          "success_rate": 1.0,
+          "success_rate_wilson_ci95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ],
+          "successes": 30,
+          "width": 32
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 3.0,
+            "q1": 3.0,
+            "q3": 3.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 3.0,
+            "restricted_mean_acquisitions_to_budget": 3.0,
+            "survival_at_budget": 0.0
+          },
+          "failures": 0,
+          "median_acquisitions_bootstrap_ci95": [
+            3.0,
+            3.0
+          ],
+          "median_controller_state_bytes": 512.0,
+          "median_host_update_seconds": 9.745953138917685e-05,
+          "payload_margin": {
+            "median": 0.039992370605468786,
+            "q1": 0.03981307983398441,
+            "q3": 0.04020408630371097
+          },
+          "runs": 30,
+          "success_rate": 1.0,
+          "success_rate_wilson_ci95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ],
+          "successes": 30,
+          "width": 64
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 3.0,
+            "q1": 3.0,
+            "q3": 3.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 3.0,
+            "restricted_mean_acquisitions_to_budget": 3.0,
+            "survival_at_budget": 0.0
+          },
+          "failures": 0,
+          "median_acquisitions_bootstrap_ci95": [
+            3.0,
+            3.0
+          ],
+          "median_controller_state_bytes": 1024.0,
+          "median_host_update_seconds": 0.0001022020005621016,
+          "payload_margin": {
+            "median": 0.04001335144042972,
+            "q1": 0.03982547760009769,
+            "q3": 0.04015211105346683
+          },
+          "runs": 30,
+          "success_rate": 1.0,
+          "success_rate_wilson_ci95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ],
+          "successes": 30,
+          "width": 128
+        }
+      ]
+    },
+    {
+      "controller": "retained_residual",
+      "metadata": {
+        "acquisition_depth_class": "O(1)",
+        "commissioned": false,
+        "discarded_probe_acquisitions": false,
+        "host_arithmetic_class": "O(n)",
+        "host_state_class": "O(n) total; O(1) per channel",
+        "information_access": "one component-resolved vector/acquisition",
+        "minimal_sufficient_cold_start_candidate": true,
+        "name": "retained_residual",
+        "ranked": true,
+        "resource_class_note": "Candidate member of the manuscript's minimal-sufficient class: one retained full-vector update, no separate commissioning sweep.",
+        "retained_configuration": true,
+        "state_class": "six float words/channel plus immutable one-bit ID sign"
+      },
+      "predeclared_tests": {
+        "alpha_upper_equivalence_margin": false,
+        "at_least_minimum_widths": true,
+        "paired_seed_count": true,
+        "payload_valid_at_entry": true,
+        "resource_class_candidate": true,
+        "success_wilson_lower_bound": false
+      },
+      "resource_scaling": {
+        "commissioning_acquisitions_power_law_exponent": null,
+        "median_commissioning_acquisitions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "median_state_bytes": [
+          192.0,
+          384.0,
+          768.0,
+          1536.0,
+          3072.0,
+          6144.0
+        ],
+        "median_state_bytes_per_channel": [
+          48.0,
+          48.0,
+          48.0,
+          48.0,
+          48.0,
+          48.0
+        ],
+        "median_total_host_seconds": [
+          0.0016299650014843792,
+          0.00181413849350065,
+          0.001573665940668434,
+          0.00167965647415258,
+          0.001683365524513647,
+          0.001931080041686073
+        ],
+        "median_wall_runtime_seconds": [
+          0.10123351751826704,
+          0.09577254499890842,
+          0.1005301910045091,
+          0.09775938800885342,
+          0.09692706598434597,
+          0.10268885450204834
+        ],
+        "runtime_semantics": "Measured Python/Aer-or-analytic implementation time on this Mac; not a physical-device latency and not a machine-independent operation count",
+        "state_bytes_per_channel_max_to_min_ratio": 1.0,
+        "state_bytes_power_law_exponent": 1.0000000000000004,
+        "total_host_seconds_power_law_exponent": 0.028373240151589627,
+        "wall_runtime_power_law_exponent": 0.003271528901213665,
+        "widths": [
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ]
+      },
+      "scaling": {
+        "acquisitions_per_doubling": 0.3000000000000005,
+        "acquisitions_per_doubling_ci95": [
+          -0.0857142857142853,
+          0.5714285714285721
+        ],
+        "all_seed_count": 30,
+        "alpha": 0.04113065022089353,
+        "alpha_ci95": [
+          -0.010759789892902358,
+          0.07868548833972455
+        ],
+        "complete_successful_paired_seed_count": 28,
+        "declared_widths": [
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ],
+        "excluded_seed_count": 2,
+        "fit_semantics": "log(A)=log(c)+alpha*log(n), using width medians over seeds that succeeded at every declared width; failures are reported separately"
+      },
+      "supports_bounded_depth_with_payload_over_tested_range": false,
+      "width_cells": [
+        {
+          "acquisitions_successes_only": {
+            "median": 10.0,
+            "q1": 8.0,
+            "q3": 13.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 10.0,
+            "restricted_mean_acquisitions_to_budget": 11.499999999999996,
+            "survival_at_budget": 0.0
+          },
+          "failures": 0,
+          "median_acquisitions_bootstrap_ci95": [
+            9.0,
+            12.0
+          ],
+          "median_controller_state_bytes": 192.0,
+          "median_host_update_seconds": 0.0016299650014843792,
+          "payload_margin": {
+            "median": 0.037406005859375036,
+            "q1": 0.036246337890625036,
+            "q3": 0.038764038085937536
+          },
+          "runs": 30,
+          "success_rate": 1.0,
+          "success_rate_wilson_ci95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ],
+          "successes": 30,
+          "width": 4
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 11.5,
+            "q1": 9.75,
+            "q3": 13.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 12.0,
+            "restricted_mean_acquisitions_to_budget": 22.833333333333293,
+            "survival_at_budget": 0.0666666666666667
+          },
+          "failures": 2,
+          "median_acquisitions_bootstrap_ci95": [
+            10.0,
+            12.5
+          ],
+          "median_controller_state_bytes": 384.0,
+          "median_host_update_seconds": 0.00181413849350065,
+          "payload_margin": {
+            "median": 0.037604370117187536,
+            "q1": 0.035979309082031286,
+            "q3": 0.038611450195312536
+          },
+          "runs": 30,
+          "success_rate": 0.9333333333333333,
+          "success_rate_wilson_ci95": [
+            0.7867654163738308,
+            0.9815229762087295
+          ],
+          "successes": 28,
+          "width": 8
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 11.5,
+            "q1": 10.0,
+            "q3": 13.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 11.0,
+            "restricted_mean_acquisitions_to_budget": 12.53333333333333,
+            "survival_at_budget": 0.0
+          },
+          "failures": 0,
+          "median_acquisitions_bootstrap_ci95": [
+            11.0,
+            13.0
+          ],
+          "median_controller_state_bytes": 768.0,
+          "median_host_update_seconds": 0.001573665940668434,
+          "payload_margin": {
+            "median": 0.036315002441406286,
+            "q1": 0.03547958374023441,
+            "q3": 0.03739456176757816
+          },
+          "runs": 30,
+          "success_rate": 1.0,
+          "success_rate_wilson_ci95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ],
+          "successes": 30,
+          "width": 16
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 12.0,
+            "q1": 11.0,
+            "q3": 13.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 12.0,
+            "restricted_mean_acquisitions_to_budget": 12.266666666666666,
+            "survival_at_budget": 0.0
+          },
+          "failures": 0,
+          "median_acquisitions_bootstrap_ci95": [
+            11.0,
+            13.0
+          ],
+          "median_controller_state_bytes": 1536.0,
+          "median_host_update_seconds": 0.00167965647415258,
+          "payload_margin": {
+            "median": 0.03602890014648441,
+            "q1": 0.035086669921875036,
+            "q3": 0.037207641601562536
+          },
+          "runs": 30,
+          "success_rate": 1.0,
+          "success_rate_wilson_ci95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ],
+          "successes": 30,
+          "width": 32
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 11.5,
+            "q1": 11.0,
+            "q3": 13.0
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 11.0,
+            "restricted_mean_acquisitions_to_budget": 11.833333333333332,
+            "survival_at_budget": 0.0
+          },
+          "failures": 0,
+          "median_acquisitions_bootstrap_ci95": [
+            11.0,
+            13.0
+          ],
+          "median_controller_state_bytes": 3072.0,
+          "median_host_update_seconds": 0.001683365524513647,
+          "payload_margin": {
+            "median": 0.03570846557617191,
+            "q1": 0.03420642852783207,
+            "q3": 0.036673583984375036
+          },
+          "runs": 30,
+          "success_rate": 1.0,
+          "success_rate_wilson_ci95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ],
+          "successes": 30,
+          "width": 64
+        },
+        {
+          "acquisitions_successes_only": {
+            "median": 11.5,
+            "q1": 11.0,
+            "q3": 12.75
+          },
+          "censored_time_to_event": {
+            "kaplan_meier_median_acquisitions": 11.0,
+            "restricted_mean_acquisitions_to_budget": 12.2,
+            "survival_at_budget": 0.0
+          },
+          "failures": 0,
+          "median_acquisitions_bootstrap_ci95": [
+            11.0,
+            12.0
+          ],
+          "median_controller_state_bytes": 6144.0,
+          "median_host_update_seconds": 0.001931080041686073,
+          "payload_margin": {
+            "median": 0.03426651000976566,
+            "q1": 0.031282463073730504,
+            "q3": 0.03565601348876957
+          },
+          "runs": 30,
+          "success_rate": 1.0,
+          "success_rate_wilson_ci95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ],
+          "successes": 30,
+          "width": 128
+        }
+      ]
+    }
+  ],
+  "qualifying_controllers": [],
+  "source_config_sha256": "c562000307bc0286913f4cc0fcb59618a2bbac5e463ce5a76df4e7e5988aa310",
+  "source_git_commit": "945705d8a55f06e68e85a496607b55c1c2f01b2b",
+  "source_git_worktree_dirty": false,
+  "source_protocol_version": "1.0.0-local-freeze",
+  "source_result_label": "FROZEN CONFIRMATION",
+  "statistical_contract": {
+    "alpha_upper_margin": 0.05,
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 20260814,
+    "claim_scope": "finite-range empirical support; no finite campaign proves asymptotic O(1)",
+    "minimum_complete_successful_paired_seeds": 20,
+    "minimum_width_count": 4,
+    "success_wilson_lower_margin": 0.85
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "benchmark_name": "QSC-Bench Cold Start",
+  "protocol_version": "1.0.0-local-freeze",
+  "development_run": false,
+  "widths": [4, 8, 16, 32, 64, 128],
+  "seeds": [1239900679, 1573996, 1558604323, 1280968996, 946144272, 1536741766, 2015248058, 1062974352, 317314755, 1833476299, 1883236474, 812473704, 1612189033, 1990616316, 195957893, 561759483, 295370387, 2134251794, 1411606814, 2130388698, 305030663, 484958000, 668379286, 2091457751, 427837642, 1523209647, 1177627976, 822056531, 445399178, 1242705187],
+  "shots": 512,
+  "reference_shots": 4096,
+  "latency_seconds": [0.000001, 0.00001, 0.0001, 0.001, 0.1],
+  "plant": {
+    "backend": "analytic_ring",
+    "coupling_radians": 0.15,
+    "nominal_angle_low": 1.30,
+    "nominal_angle_high": 1.80,
+    "analysis_tilt_radians": 0.40,
+    "gain_low": 0.50,
+    "gain_high": 1.20,
+    "simulator_method": "automatic",
+    "payload_kind": "local_mirror",
+    "payload_error_amplification": 3.0,
+    "noise": {
+      "one_qubit_depolarizing": 0.0,
+      "two_qubit_depolarizing": 0.0,
+      "readout_flip": 0.005
+    },
+    "drift": {
+      "initial_shock_rms": 0.45,
+      "fast_sigma": 0.002,
+      "fast_reversion": 0.05,
+      "slow_sigma": 0.0005,
+      "common_mode_fraction": 0.0
+    }
+  },
+  "contract": {
+    "monitor_rmse_tolerance": 0.035,
+    "consecutive_acquisitions": 3,
+    "payload_drop_tolerance": 0.04,
+    "max_monitor_acquisitions": 180
+  },
+  "controllers": {
+    "names": ["retained_residual", "anderson_residual", "full_broyden", "dense_fd", "oracle"],
+    "include_oracle_in_ranking": false
+  }
+}
